@@ -1,5 +1,5 @@
 export const BUSINESS = {
-  name: 'LondonFix Glazing',
+  name: 'BuilderFix Glazing',
   tagline: 'London\'s Trusted Glazing & Glass Specialists',
   phone: '07385 823063',
   whatsapp: '447385823063',
@@ -38,7 +38,7 @@ export const BUSINESS = {
 }
 
 export const SITE_CONFIG = {
-  url: 'https://londonfix.co.uk',
+  url: 'https://builderfix.co.uk',
   name: BUSINESS.name,
   description: 'Professional glazing and glass installation services across London. Double glazing, window replacement, emergency glass repair, bi-fold doors and more. Free written quotes. Call today.',
   locale: 'en_GB',

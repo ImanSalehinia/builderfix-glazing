@@ -87,7 +87,7 @@ export default function ServicesPage() {
           </h1>
           <p className="text-xl text-slate-500 leading-relaxed mb-8">
             From a single cracked pane to a full walk-on glass floor installation —
-            LondonFix Glazing covers every glass and glazing need across London and Surrey.
+            BuilderFix Glazing covers every glass and glazing need across London and Surrey.
           </p>
           <div className="flex flex-wrap justify-center gap-3 text-sm">
             {['Building Regs Compliant', 'Free Written Quotes', 'Same-Day Available', '24/7 Emergency', 'Fixed Price'].map(item => (

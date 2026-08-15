@@ -4,7 +4,7 @@ import { Phone, MessageCircle } from 'lucide-react'
 import { BUSINESS } from '@/data/business'
 import { formatPhoneForHref, formatWhatsAppHref } from '@/lib/utils'
 
-const GENERAL_WHATSAPP_MSG = `Hi LondonFix Glazing 👋
+const GENERAL_WHATSAPP_MSG = `Hi BuilderFix Glazing 👋
 
 I found your website and I'd like a free quote.
 

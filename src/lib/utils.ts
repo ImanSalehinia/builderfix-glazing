@@ -40,7 +40,7 @@ export function formatWhatsAppHref(phone: string, message?: string): string {
 }
 
 export function buildWhatsAppMessage(serviceTitle: string): string {
-  return `Hi LondonFix Glazing 👋
+  return `Hi BuilderFix Glazing 👋
 
 I'd like a free quote for: *${serviceTitle}*
 

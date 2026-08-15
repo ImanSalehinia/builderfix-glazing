@@ -18,7 +18,7 @@ export default function HeroSection({
       {/* Background image */}
       <Image
         src="https://images.unsplash.com/photo-1609214776366-38e385f6e265?auto=format&fit=crop&w=1920&q=80"
-        alt="Structural glass floor installation by LondonFix Glazing"
+        alt="Structural glass floor installation by BuilderFix Glazing"
         fill
         priority
         className="object-cover object-center"

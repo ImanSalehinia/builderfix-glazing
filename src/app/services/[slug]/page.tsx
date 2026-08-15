@@ -78,7 +78,7 @@ export default async function ServicePage({ params }: Params) {
       <section className="relative overflow-hidden text-white py-16 lg:py-24">
         <Image
           src={CATEGORY_IMAGES[service.category] ?? CATEGORY_IMAGES['window-installation']}
-          alt={`${service.title} - LondonFix Glazing`}
+          alt={`${service.title} - BuilderFix Glazing`}
           fill
           priority
           className="object-cover object-center"

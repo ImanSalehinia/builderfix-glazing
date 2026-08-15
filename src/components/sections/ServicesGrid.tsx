@@ -61,7 +61,7 @@ export default function ServicesGrid() {
           </h2>
           <p className="text-slate-500 text-lg">
             From emergency glass repair to dramatic walk-on glass floors and bi-fold doors —
-            LondonFix Glazing covers every glazing and glass installation need across London.
+            BuilderFix Glazing covers every glazing and glass installation need across London.
           </p>
         </div>
 

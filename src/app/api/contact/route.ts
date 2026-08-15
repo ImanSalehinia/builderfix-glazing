@@ -20,7 +20,7 @@ export async function POST(request: Request) {
     }
 
     await resend.emails.send({
-      from: 'LondonFix Glazing <onboarding@resend.dev>',
+      from: 'BuilderFix Glazing <onboarding@resend.dev>',
       to: TO_EMAIL,
       replyTo: email,
       subject: `New Quote Request — ${service} — ${postcode}`,
@@ -28,7 +28,7 @@ export async function POST(request: Request) {
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #1e293b;">
           <div style="background: #0f2442; padding: 24px 32px; border-radius: 12px 12px 0 0;">
             <h1 style="color: #fff; margin: 0; font-size: 20px;">New Quote Request</h1>
-            <p style="color: #94a3b8; margin: 4px 0 0; font-size: 14px;">LondonFix Glazing — londonfix.co.uk</p>
+            <p style="color: #94a3b8; margin: 4px 0 0; font-size: 14px;">BuilderFix Glazing — builderfix.co.uk</p>
           </div>
 
           <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-top: none; padding: 32px; border-radius: 0 0 12px 12px;">
@@ -85,7 +85,7 @@ export async function POST(request: Request) {
 
           </div>
           <p style="text-align: center; font-size: 12px; color: #94a3b8; margin-top: 16px;">
-            LondonFix Glazing · londonfix.co.uk · Reply to this email to contact the customer directly.
+            BuilderFix Glazing · builderfix.co.uk · Reply to this email to contact the customer directly.
           </p>
         </div>
       `,

@@ -76,7 +76,7 @@ export default function TrustSection() {
           </h2>
           <p className="text-slate-500 text-lg">
             When it comes to glass, precision and expertise matter. Here is why London homeowners,
-            landlords, and businesses choose LondonFix Glazing — and come back every time.
+            landlords, and businesses choose BuilderFix Glazing — and come back every time.
           </p>
         </div>
 
