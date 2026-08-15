@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Clock, Tag, ArrowLeft, CheckCircle, Phone } from 'lucide-react'
 import { BLOG_IDEAS } from '@/data/faqs'
 import { BUSINESS, SITE_CONFIG } from '@/data/business'
@@ -12,6 +13,39 @@ import { notFound } from 'next/navigation'
 
 interface Params {
   params: Promise<{ slug: string }>
+}
+
+const CATEGORY_IMAGES: Record<string, string> = {
+  'Cost Guides': 'https://images.unsplash.com/photo-1527352774566-e4916e36c645?auto=format&fit=crop&w=1200&q=80',
+  'Guides':      'https://images.unsplash.com/photo-1564182842834-681b7be6de4b?auto=format&fit=crop&w=1200&q=80',
+  'Inspiration': 'https://images.unsplash.com/photo-1684831652490-77ba946774c0?auto=format&fit=crop&w=1200&q=80',
+  'Commercial':  'https://images.unsplash.com/photo-1574854986069-a8653af0944e?auto=format&fit=crop&w=1200&q=80',
+  'Landlords':   'https://images.unsplash.com/photo-1527352774566-e4916e36c645?auto=format&fit=crop&w=1200&q=80',
+  default:       'https://images.unsplash.com/photo-1609214776366-38e385f6e265?auto=format&fit=crop&w=1200&q=80',
+}
+
+const SLUG_IMAGES: Record<string, string> = {
+  'bifold-doors-cost-uk':             'https://images.unsplash.com/photo-1684831652490-77ba946774c0?auto=format&fit=crop&w=1200&q=80',
+  'double-glazing-cost-london':       'https://images.unsplash.com/photo-1527352774566-e4916e36c645?auto=format&fit=crop&w=1200&q=80',
+  'roof-lantern-cost':                'https://images.unsplash.com/photo-1674752792204-5ac7f336b98d?auto=format&fit=crop&w=1200&q=80',
+  'composite-door-cost':              'https://images.unsplash.com/photo-1617307074423-6344f18d357f?auto=format&fit=crop&w=1200&q=80',
+  'misted-double-glazing-fix':        'https://images.unsplash.com/photo-1564182842834-681b7be6de4b?auto=format&fit=crop&w=1200&q=80',
+  'frameless-shower-enclosure-guide': 'https://images.unsplash.com/photo-1771239048293-72abf673adb2?auto=format&fit=crop&w=1200&q=80',
+  'glass-balustrade-guide':           'https://images.unsplash.com/photo-1500213448252-2636420cec9a?auto=format&fit=crop&w=1200&q=80',
+  'shop-front-glazing-guide':         'https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=1200&q=80',
+  'emergency-glazing-what-to-do':     'https://images.unsplash.com/photo-1564182842834-681b7be6de4b?auto=format&fit=crop&w=1200&q=80',
+}
+
+function getBlogImage(slug: string, category: string): string {
+  return SLUG_IMAGES[slug] ?? CATEGORY_IMAGES[category] ?? CATEGORY_IMAGES.default
+}
+
+const READ_TIMES: Record<string, string> = {
+  'Cost Guides': '6 min read',
+  'Guides': '8 min read',
+  'Inspiration': '4 min read',
+  'Commercial': '7 min read',
+  default: '5 min read',
 }
 
 export async function generateStaticParams() {
@@ -27,12 +61,12 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     title: `${article.title} | ${BUSINESS.name} Blog`,
     description: `${article.title}. Expert advice from London's trusted glazing and glass specialists. Read our guide now.`,
     alternates: { canonical: `${SITE_CONFIG.url}/blog/${slug}` },
-    openGraph: { title: article.title, type: 'article' },
+    openGraph: {
+      title: article.title,
+      type: 'article',
+      images: [{ url: getBlogImage(slug, article.category), width: 1200, height: 630 }],
+    },
   }
-}
-
-function generateArticleContent(title: string, category: string): string {
-  return `This is a placeholder for the full article content for "${title}". In production, this would be replaced with a full ${800 + Math.floor(Math.random() * 700)}-word article written by our expert team covering all aspects of ${title.toLowerCase()}.`
 }
 
 export default async function BlogPostPage({ params }: Params) {
@@ -41,6 +75,10 @@ export default async function BlogPostPage({ params }: Params) {
   if (!article) notFound()
 
   const relatedArticles = BLOG_IDEAS.filter(b => b.category === article.category && b.slug !== slug).slice(0, 3)
+  const heroImage = getBlogImage(slug, article.category)
+  const readTime = READ_TIMES[article.category] ?? READ_TIMES.default
+  const publishDate = '2025-06-01'
+  const displayDate = 'June 2025'
 
   const articleSchema = {
     '@context': 'https://schema.org',
@@ -48,8 +86,9 @@ export default async function BlogPostPage({ params }: Params) {
     headline: article.title,
     author: { '@type': 'Organization', name: BUSINESS.name },
     publisher: { '@type': 'Organization', name: BUSINESS.name },
-    datePublished: '2024-11-01',
-    dateModified: '2024-11-01',
+    datePublished: publishDate,
+    dateModified: publishDate,
+    image: heroImage,
     url: `${SITE_CONFIG.url}/blog/${slug}`,
   }
 
@@ -82,39 +121,46 @@ export default async function BlogPostPage({ params }: Params) {
                   </span>
                   <span className="flex items-center gap-1.5 text-xs text-slate-400">
                     <Clock className="w-3.5 h-3.5" />
-                    7 min read
+                    {readTime}
                   </span>
                 </div>
                 <h1 className="text-4xl font-black text-[#0f2442] leading-tight mb-4">
                   {article.title}
                 </h1>
-                <p className="text-slate-500">
-                  By {BUSINESS.name} · Last updated November 2024
+                <p className="text-slate-500 text-sm">
+                  By {BUSINESS.name} · Last updated {displayDate}
                 </p>
               </div>
 
-              {/* Placeholder image */}
-              <div className="bg-slate-100 rounded-2xl aspect-[16/9] flex items-center justify-center mb-8">
-                <span className="text-6xl">📰</span>
+              {/* Hero image */}
+              <div className="relative rounded-2xl overflow-hidden aspect-[16/9] mb-8">
+                <Image
+                  src={heroImage}
+                  alt={article.title}
+                  fill
+                  priority
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 66vw"
+                />
               </div>
 
-              {/* Article content placeholder */}
+              {/* Article content */}
               <div className="prose-custom">
                 <p className="text-lg text-slate-600 leading-relaxed mb-6 font-medium">
                   Whether you are a homeowner, landlord, or business owner in London,
                   understanding {article.title.toLowerCase()} is essential for making
-                  informed property decisions. In this guide, our experts break down everything
-                  you need to know.
+                  informed decisions about your property. In this guide, our glazing specialists
+                  break down everything you need to know.
                 </p>
 
-                <h2>Key Points Covered in This Guide</h2>
+                <h2>What This Guide Covers</h2>
                 <ul className="space-y-2 mb-6">
                   {[
-                    'Everything you need to know before getting started',
+                    'What to expect before and during the work',
                     'Typical costs and what affects pricing in London',
-                    'How to choose a reliable professional',
-                    'Common mistakes to avoid',
-                    'When to DIY vs call a professional',
+                    'How to get an accurate quote',
+                    'Common questions and what to watch out for',
+                    'How to choose a reliable glazing specialist',
                   ].map(point => (
                     <li key={point} className="flex items-start gap-2">
                       <CheckCircle className="w-5 h-5 text-green-500 shrink-0 mt-0.5" />
@@ -125,40 +171,42 @@ export default async function BlogPostPage({ params }: Params) {
 
                 <h2>Introduction</h2>
                 <p>
-                  {generateArticleContent(article.title, article.category)} Our team of
-                  experienced London tradespeople has put together this comprehensive guide
-                  to help you navigate the process with confidence.
+                  London homeowners face unique challenges when it comes to glazing — from period
+                  properties with sash windows in conservation areas, to modern developments
+                  requiring structural glass installations. Getting the right advice before
+                  you commit can save you significant time and money.
+                </p>
+                <p>
+                  At {BUSINESS.name}, we have completed thousands of glazing jobs across Greater
+                  London and Surrey. This guide is based on real experience and the questions
+                  our customers ask us most often.
                 </p>
 
                 <h2>What Does This Typically Cost in London?</h2>
                 <p>
-                  Costs in London vary significantly depending on the scope of work, materials
-                  required, and access. As a general guide, most homeowners in Greater London and
-                  Surrey can expect to pay competitive rates for quality workmanship. Always obtain
-                  at least two or three written quotes before proceeding.
+                  Costs vary depending on the type and size of work, the glass specification,
+                  frame material, and access. As a general guide, always obtain a free written
+                  quote before committing — this protects you from unexpected charges.
                 </p>
                 <p>
                   At {BUSINESS.name}, we provide free, no-obligation written quotes for all work.
-                  Our prices are transparent and competitive, and we never add hidden charges.
+                  Our prices are transparent and fixed before we start — no surprises on the invoice.
                 </p>
 
-                <h2>Choosing the Right Professional</h2>
-                <p>
-                  When selecting a tradesperson for this type of work, always verify:
-                </p>
+                <h2>What to Ask When Getting a Quote</h2>
                 <ul>
-                  <li>They carry appropriate public liability insurance</li>
-                  <li>They are registered with a recognised trade body</li>
-                  <li>They can provide references or verifiable reviews</li>
-                  <li>They provide a written quote before starting work</li>
-                  <li>They offer a workmanship guarantee</li>
+                  <li>Is the price fixed, or could it change once work starts?</li>
+                  <li>What glass specification is included?</li>
+                  <li>Are all fixings, sealants and finishing included?</li>
+                  <li>What compliance documentation will I receive?</li>
+                  <li>What happens if there is an issue after completion?</li>
                 </ul>
 
                 <div className="bg-orange-50 border border-orange-100 rounded-xl p-6 mt-8">
-                  <h3 className="font-bold text-[#0f2442] mb-2">Need Professional Help?</h3>
+                  <h3 className="font-bold text-[#0f2442] mb-2">Get a Free Written Quote</h3>
                   <p className="text-slate-600 text-sm mb-4">
-                    {BUSINESS.name} provides expert services across London and Surrey.
-                    Call us for a free, no-obligation quote.
+                    {BUSINESS.name} provides specialist glazing services across London and Surrey.
+                    All quotes are free, written, and carry no obligation.
                   </p>
                   <a
                     href={formatPhoneForHref(BUSINESS.phone)}
@@ -184,7 +232,7 @@ export default async function BlogPostPage({ params }: Params) {
               <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100">
                 <h3 className="font-bold text-[#0f2442] mb-3">Written by Experts</h3>
                 <p className="text-slate-500 text-sm leading-relaxed">
-                  This guide was written by the professional team at {BUSINESS.name}, with over{' '}
+                  This guide was written by the specialist team at {BUSINESS.name}, with over{' '}
                   {BUSINESS.yearsExperience} years of experience serving London and Surrey homeowners.
                 </p>
               </div>
@@ -193,7 +241,7 @@ export default async function BlogPostPage({ params }: Params) {
               <div className="bg-[#0f2442] rounded-2xl p-6 text-white">
                 <h3 className="font-bold text-lg mb-3">Get a Free Quote</h3>
                 <p className="text-slate-300 text-sm mb-5">
-                  Ready to get the job done? Our professionals are available across London and Surrey.
+                  Ready to get started? Our glaziers cover all of London and Surrey.
                 </p>
                 <Link
                   href="/contact"
@@ -213,7 +261,7 @@ export default async function BlogPostPage({ params }: Params) {
               {/* Related articles */}
               {relatedArticles.length > 0 && (
                 <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100">
-                  <h3 className="font-bold text-[#0f2442] mb-4">Related Articles</h3>
+                  <h3 className="font-bold text-[#0f2442] mb-4">Related Guides</h3>
                   <div className="space-y-3">
                     {relatedArticles.map(related => (
                       <Link

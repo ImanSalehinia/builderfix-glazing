@@ -3,7 +3,7 @@ export const BUSINESS = {
   tagline: 'London\'s Trusted Glazing & Glass Specialists',
   phone: '07385 823063',
   whatsapp: '447385823063',
-  email: 'iman_salehinia68@yahoo.com',
+  email: 'salehinia.i@gmail.com',
   address: {
     street: 'Brentford',
     city: 'London',
@@ -40,7 +40,7 @@ export const BUSINESS = {
 export const SITE_CONFIG = {
   url: 'https://londonfix.co.uk',
   name: BUSINESS.name,
-  description: 'Professional glazing and glass installation services across London. Double glazing, window replacement, emergency glass repair, bi-fold doors and more. Fully insured. Call today for a free quote.',
+  description: 'Professional glazing and glass installation services across London. Double glazing, window replacement, emergency glass repair, bi-fold doors and more. Free written quotes. Call today.',
   locale: 'en_GB',
   currency: 'GBP',
 }

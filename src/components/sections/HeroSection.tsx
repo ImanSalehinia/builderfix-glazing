@@ -11,7 +11,7 @@ interface HeroSectionProps {
 
 export default function HeroSection({
   title = "London's Specialist Glazing & Glass Experts",
-  subtitle = "Walk-on glass floors · Bi-fold doors · Double glazing · Emergency repairs. FENSA registered. Fully insured. Free quotes.",
+  subtitle = "Walk-on glass floors · Bi-fold doors · Double glazing · Emergency repairs. Building Regs compliant. Free written quotes.",
 }: HeroSectionProps) {
   return (
     <section className="relative overflow-hidden text-white min-h-[88vh] flex items-center" aria-labelledby="hero-heading">

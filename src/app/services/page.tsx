@@ -24,63 +24,53 @@ const CATEGORY_ICONS: Record<string, React.ReactNode> = {
   'emergency':           <AlertTriangle className="w-5 h-5" />,
 }
 
-// Verified Unsplash image URLs per service (grouped by type for unverified ones)
-const W  = 'https://images.unsplash.com/photo-1527352774566-e4916e36c645?auto=format&fit=crop&w=600&q=70' // window
-const R  = 'https://images.unsplash.com/photo-1741947837536-9a8779380a2d?auto=format&fit=crop&w=600&q=70' // repair / window open
-const D  = 'https://images.unsplash.com/photo-1684831652490-77ba946774c0?auto=format&fit=crop&w=600&q=70' // bifold/glass door
-const CD = 'https://images.unsplash.com/photo-1617307074423-6344f18d357f?auto=format&fit=crop&w=600&q=70' // composite door
-const SK = 'https://images.unsplash.com/photo-1674752792204-5ac7f336b98d?auto=format&fit=crop&w=600&q=70' // skylight / roof lantern
-const GF = 'https://images.unsplash.com/photo-1609214776366-38e385f6e265?auto=format&fit=crop&w=600&q=70' // glass floor
-const ST = 'https://images.unsplash.com/photo-1500213448252-2636420cec9a?auto=format&fit=crop&w=600&q=70' // staircase / balustrade
-const SH = 'https://images.unsplash.com/photo-1771239048293-72abf673adb2?auto=format&fit=crop&w=600&q=70' // shower
-const CO = 'https://images.unsplash.com/photo-1574854986069-a8653af0944e?auto=format&fit=crop&w=600&q=70' // commercial glass
-const SF = 'https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=600&q=70' // shop front
-const EM = 'https://images.unsplash.com/photo-1564182842834-681b7be6de4b?auto=format&fit=crop&w=600&q=70' // emergency / glazier
+const q = '?auto=format&fit=crop&w=600&q=70'
+const u = (id: string) => `https://images.unsplash.com/photo-${id}${q}`
 
 const SERVICE_IMAGES: Record<string, string> = {
   // Window installation
-  'double-glazing':          W,
-  'upvc-windows':            W,
-  'aluminium-windows':       W,
-  'sash-windows':            R,
-  'secondary-glazing':       W,
-  'bay-windows':             W,
+  'double-glazing':          u('1527352774566-e4916e36c645'), // window exterior
+  'upvc-windows':            u('1558618666-fcd25c85cd64'),    // white uPVC house
+  'aluminium-windows':       u('1486325212027-8081e485255e'), // slim frame modern window
+  'sash-windows':            u('1741947837536-9a8779380a2d'), // sash / period window
+  'secondary-glazing':       u('1493809842364-78817add7ffb'), // interior window light
+  'bay-windows':             u('1564013799919-ab600027ffc6'), // bay window exterior
   // Glass repair
-  'broken-window-repair':    R,
-  'sealed-unit-replacement': R,
-  'glass-replacement':       EM,
-  'window-repair':           R,
+  'broken-window-repair':    u('1564182842834-681b7be6de4b'), // glazier repairing
+  'sealed-unit-replacement': u('1584824486516-0f5d3a3f8e4a'), // misty sealed unit
+  'glass-replacement':       u('1600585152220-90363fe7e115'), // glass panel install
+  'window-repair':           u('1504307651254-35680f356dfd'), // tradesperson window
   // Doors
-  'composite-doors':         CD,
-  'bifold-doors':            D,
-  'patio-doors':             D,
-  'french-doors':            D,
-  'door-glass-replacement':  CD,
+  'composite-doors':         u('1617307074423-6344f18d357f'), // composite front door
+  'bifold-doors':            u('1684831652490-77ba946774c0'), // bifold open to garden
+  'patio-doors':             u('1600596542815-0281ded34c24'), // patio sliding door
+  'french-doors':            u('1600607687939-ce8a6c25118c'), // french doors room
+  'door-glass-replacement':  u('1549517045-bc93de630367'), // door glass panel
   // Roof glazing
-  'roof-lanterns':           SK,
-  'velux-windows':           SK,
-  'conservatory':            SK,
-  'flat-roof-lights':        SK,
+  'roof-lanterns':           u('1674752792204-5ac7f336b98d'), // roof lantern
+  'velux-windows':           u('1558618042-9cae3b2a8bcc'),    // velux roof window
+  'conservatory':            u('1600566752355-35792bedcfea'), // conservatory interior
+  'flat-roof-lights':        u('1609214776366-38e385f6e265'), // flat glass roof light
   // Walk-on glass
-  'walk-on-glass-floors':    GF,
-  'glass-staircases':        ST,
-  'glass-mezzanine':         GF,
-  'juliet-balcony':          CO,
+  'walk-on-glass-floors':    u('1609214776366-38e385f6e265'), // structural glass floor
+  'glass-staircases':        u('1500213448252-2636420cec9a'), // glass staircase
+  'glass-mezzanine':         u('1486406146926-c627a92ad1ab'), // mezzanine glass level
+  'juliet-balcony':          u('1600585154340-be6161a56a0c'), // juliet balcony exterior
   // Specialist glass
-  'shower-enclosures':       SH,
-  'glass-balustrades':       ST,
-  'glass-splashbacks':       SH,
-  'mirror-installation':     SH,
-  'frosted-glass':           W,
+  'shower-enclosures':       u('1771239048293-72abf673adb2'), // frameless shower
+  'glass-balustrades':       u('1573496799652-408c2ac9fe98'), // glass balustrade terrace
+  'glass-splashbacks':       u('1556909114-f6e7ad7d3136'),    // kitchen splashback
+  'mirror-installation':     u('1578662996442-48f60103fc96'), // large mirror interior
+  'frosted-glass':           u('1516069677996-f2d53e0e7b72'), // frosted glass privacy
   // Commercial
-  'shop-fronts':             SF,
-  'office-glazing':          CO,
-  'curtain-walling':         CO,
-  'commercial-glass-repair': EM,
+  'shop-fronts':             u('1528698827591-e19ccd7bc23d'), // glass shop front
+  'office-glazing':          u('1574854986069-a8653af0944e'), // office glass partition
+  'curtain-walling':         u('1477959858617-67f85cf4f1df'), // curtain wall building
+  'commercial-glass-repair': u('1504307651254-35680f356dfd'), // commercial repair
   // Emergency
-  'emergency-glazing':       EM,
-  'emergency-boarding':      EM,
-  'break-in-repair':         EM,
+  'emergency-glazing':       u('1564182842834-681b7be6de4b'), // glazier emergency
+  'emergency-boarding':      u('1504307651254-35680f356dfd'), // boarding up
+  'break-in-repair':         u('1600585152220-90363fe7e115'), // glass repair after break-in
 }
 
 export default function ServicesPage() {
@@ -100,7 +90,7 @@ export default function ServicesPage() {
             LondonFix Glazing covers every glass and glazing need across London and Surrey.
           </p>
           <div className="flex flex-wrap justify-center gap-3 text-sm">
-            {['FENSA Registered', 'Fully Insured', 'Free Quotes', 'Same-Day Available', '12-Month Guarantee'].map(item => (
+            {['Building Regs Compliant', 'Free Written Quotes', 'Same-Day Available', '24/7 Emergency', 'Fixed Price'].map(item => (
               <span key={item} className="flex items-center gap-1.5 bg-white border border-slate-100 rounded-full px-4 py-1.5 text-slate-600 font-medium">
                 <CheckCircle className="w-3.5 h-3.5 text-green-500" />
                 {item}

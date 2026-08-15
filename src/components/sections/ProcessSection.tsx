@@ -26,7 +26,7 @@ const STEPS = [
     step: '04',
     icon: Star,
     title: 'Guaranteed & Certified',
-    description: 'You receive your FENSA certificate, guarantee documentation, and a follow-up to make sure you\'re completely satisfied.',
+    description: 'You receive all compliance documentation, a follow-up call to make sure you\'re completely satisfied, and a written confirmation of what was done.',
     colour: 'bg-purple-50 text-purple-600',
   },
 ]

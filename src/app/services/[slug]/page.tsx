@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 
   return {
     title: `${service.title} in London & Surrey | ${BUSINESS.name}`,
-    description: `${service.shortDescription} Fully insured, ${service.priceRange}. Call ${BUSINESS.phone} or book online for a free quote.`,
+    description: `${service.shortDescription} From ${service.priceRange}. Free written quote. Call ${BUSINESS.phone} or book online.`,
     keywords: service.keywords,
     alternates: { canonical: `${SITE_CONFIG.url}/services/${slug}` },
     openGraph: {
@@ -182,9 +182,9 @@ export default async function ServicePage({ params }: Params) {
               exactly what you will pay before any work begins.
             </p>
             <p className="text-slate-600 leading-relaxed mb-6">
-              All our professionals are fully insured, qualified in their trade, and experienced
-              in working across London and Surrey. We pride ourselves on punctuality, cleanliness,
-              and leaving your property in a better condition than we found it.
+              Our glaziers are qualified, experienced professionals working across London and Surrey.
+              We pride ourselves on punctuality, cleanliness, and leaving your property in a
+              better condition than we found it.
             </p>
 
             <h3 className="text-2xl font-bold text-[#0f2442] mt-8 mb-4">

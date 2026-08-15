@@ -60,10 +60,7 @@ export default function Header() {
       <div className="bg-[#0f2442] text-white text-sm py-2 hidden md:block">
         <div className="container-custom flex justify-between items-center">
           <div className="flex items-center gap-6">
-            <span className="flex items-center gap-1.5">
-              <span className="text-orange-400">★★★★★</span>
-              <span className="text-slate-300">{BUSINESS.googleReviews.rating} rating from {BUSINESS.googleReviews.count}+ reviews</span>
-            </span>
+            <span className="text-slate-300">Building Regs Compliant · Free Written Quotes</span>
             <span className="text-slate-300">|</span>
             <span className="text-slate-300">Emergency 24/7 Available</span>
           </div>

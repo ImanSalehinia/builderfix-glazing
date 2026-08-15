@@ -40,7 +40,7 @@ export default function AreasPage() {
             Specialist glazing across London and Surrey. From Mayfair penthouses to Richmond riverside homes — same expert team, same high standard.
           </p>
           <div className="flex flex-wrap justify-center gap-3 text-sm">
-            {['Emergency 24/7', 'FENSA Registered', 'Free quotes', 'Same-day available'].map(item => (
+            {['Emergency 24/7', 'Building Regs Compliant', 'Free quotes', 'Same-day available'].map(item => (
               <span key={item} className="flex items-center gap-1.5 bg-white border border-slate-100 rounded-full px-4 py-1.5 text-slate-600 font-medium">
                 <CheckCircle className="w-3.5 h-3.5 text-green-500" />
                 {item}

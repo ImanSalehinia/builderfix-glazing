@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { CheckCircle, Award, Users, Star, ArrowRight } from 'lucide-react'
+import { CheckCircle, Users, Star, ArrowRight } from 'lucide-react'
 import { BUSINESS, SITE_CONFIG } from '@/data/business'
 import CTASection from '@/components/sections/CTASection'
 import Breadcrumbs from '@/components/seo/Breadcrumbs'
@@ -107,24 +107,6 @@ export default function AboutPage() {
                 </div>
                 <h3 className="font-bold text-[#0f2442] text-lg mb-3">{value.title}</h3>
                 <p className="text-slate-500 text-sm leading-relaxed">{value.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Accreditations */}
-      <section className="section-padding bg-white">
-        <div className="container-custom">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl font-black text-[#0f2442] mb-4">Accredited & Trusted</h2>
-            <p className="text-slate-500">Our credentials give you complete peace of mind.</p>
-          </div>
-          <div className="flex flex-wrap justify-center gap-4">
-            {BUSINESS.accreditations.map(acc => (
-              <div key={acc} className="flex items-center gap-3 bg-slate-50 border border-slate-200 rounded-xl px-6 py-4">
-                <Award className="w-6 h-6 text-orange-500" />
-                <span className="font-semibold text-slate-700">{acc}</span>
               </div>
             ))}
           </div>

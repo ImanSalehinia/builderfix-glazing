@@ -120,16 +120,13 @@ export default function TrustSection() {
           </div>
         </div>
 
-        {/* Accreditations */}
+        {/* Promise strip */}
         <div className="border-t border-slate-100 pt-10">
-          <p className="text-center text-sm font-semibold text-slate-400 mb-6 uppercase tracking-wider">
-            Accredited & Trusted By
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            {BUSINESS.accreditations.map(acc => (
-              <div key={acc} className="flex items-center gap-2 bg-slate-50 border border-slate-200 rounded-xl px-5 py-3">
+          <div className="flex flex-wrap justify-center gap-6">
+            {['Free written quote', 'Fixed price agreed upfront', 'No hidden charges', 'No obligation to proceed'].map(item => (
+              <div key={item} className="flex items-center gap-2 bg-slate-50 border border-slate-200 rounded-xl px-5 py-3">
                 <CheckCircle className="w-5 h-5 text-green-500" />
-                <span className="font-semibold text-sm text-slate-700">{acc}</span>
+                <span className="font-semibold text-sm text-slate-700">{item}</span>
               </div>
             ))}
           </div>

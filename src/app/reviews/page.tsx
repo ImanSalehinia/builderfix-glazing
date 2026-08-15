@@ -46,18 +46,25 @@ export default function ReviewsPage() {
           <p className="text-slate-500 text-lg mb-8">
             Based on <strong>{BUSINESS.googleReviews.count}+</strong> verified customer reviews on Google
           </p>
-          <a
-            href={BUSINESS.googleReviews.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-white border border-slate-200 hover:border-orange-300 text-slate-700 font-semibold px-8 py-4 rounded-xl transition-colors shadow-sm"
-          >
-            <Star className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-            Read Our Google Reviews
-            <ExternalLink className="w-4 h-4" />
-          </a>
+          {BUSINESS.googleReviews.url ? (
+            <a
+              href={BUSINESS.googleReviews.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-white border border-slate-200 hover:border-orange-300 text-slate-700 font-semibold px-8 py-4 rounded-xl transition-colors shadow-sm"
+            >
+              <Star className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+              Read Our Google Reviews
+              <ExternalLink className="w-4 h-4" />
+            </a>
+          ) : (
+            <div className="inline-flex items-center gap-2 bg-slate-50 border border-slate-200 text-slate-500 font-semibold px-8 py-4 rounded-xl">
+              <Star className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+              Google Reviews page coming soon
+            </div>
+          )}
           <p className="text-slate-400 text-sm mt-6">
-            More reviews coming soon as we grow our online presence.
+            Our Google Business profile is being set up. Reviews will be linked here shortly.
           </p>
         </div>
       </section>
