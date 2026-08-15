@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { Phone, MessageCircle, CheckCircle, Star } from 'lucide-react'
+import { Phone, MessageCircle, CheckCircle } from 'lucide-react'
 import { BUSINESS } from '@/data/business'
 import { formatPhoneForHref, formatWhatsAppHref } from '@/lib/utils'
 
@@ -10,8 +10,8 @@ interface HeroSectionProps {
 }
 
 export default function HeroSection({
-  title,
-  subtitle = "Walk-on glass floors · Bi-fold doors · Double glazing · Emergency repairs",
+  title = "London's Specialist Glazing & Glass Experts",
+  subtitle = "Walk-on glass floors · Bi-fold doors · Double glazing · Emergency repairs. Building Regs compliant. Free written quotes.",
 }: HeroSectionProps) {
   return (
     <section className="relative overflow-hidden text-white min-h-[88vh] flex items-center" aria-labelledby="hero-heading">
@@ -25,37 +25,20 @@ export default function HeroSection({
         sizes="100vw"
       />
 
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0a1a30]/75 via-[#0f2442]/65 to-[#0f2442]/90" />
+      {/* Overlay — darker at bottom for text legibility */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#0f2442]/70 via-[#0f2442]/60 to-[#0f2442]/85" />
 
       <div className="relative z-10 container-custom py-24 lg:py-32 w-full">
-        <div className="max-w-4xl mx-auto text-center">
-
-          {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-400/30 text-orange-300 text-sm font-semibold px-4 py-1.5 rounded-full mb-8 backdrop-blur-sm">
-            <Star className="w-3.5 h-3.5 fill-orange-400 text-orange-400" />
-            London&apos;s Trusted Glazing Specialists
-          </div>
+        <div className="max-w-3xl mx-auto text-center">
 
           {/* Heading */}
-          {title ? (
-            <h1 id="hero-heading" className="font-[family-name:var(--font-montserrat)] text-4xl sm:text-6xl lg:text-7xl font-black text-white leading-[1.08] mb-6 tracking-tight">
-              {title}
-            </h1>
-          ) : (
-            <h1 id="hero-heading" className="font-[family-name:var(--font-montserrat)] text-4xl sm:text-6xl lg:text-7xl font-black text-white leading-[1.08] mb-6 tracking-tight">
-              London&apos;s Specialist<br />
-              <span className="text-orange-400">Glazing &amp; Glass</span><br />
-              Experts
-            </h1>
-          )}
+          <h1 id="hero-heading" className="font-[family-name:var(--font-dm-sans)] text-4xl sm:text-5xl lg:text-7xl font-black text-white leading-[1.05] mb-6 tracking-tight">
+            {title}
+          </h1>
 
           {/* Subtitle */}
-          <p className="text-lg sm:text-xl text-slate-300 leading-relaxed mb-3 max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-slate-200 leading-relaxed mb-10 max-w-2xl mx-auto">
             {subtitle}
-          </p>
-          <p className="text-base text-slate-400 mb-10">
-            Building Regs compliant &nbsp;·&nbsp; Free written quotes
           </p>
 
           {/* CTA buttons */}

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter, Montserrat } from 'next/font/google'
+import { Inter, DM_Sans } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
@@ -14,11 +14,10 @@ const inter = Inter({
   display: 'swap',
 })
 
-const montserrat = Montserrat({
+const dmSans = DM_Sans({
   subsets: ['latin'],
-  variable: '--font-montserrat',
+  variable: '--font-dm-sans',
   display: 'swap',
-  weight: ['700', '800', '900'],
 })
 
 export const metadata: Metadata = {
@@ -62,7 +61,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const schemas = [generateOrganizationSchema(), generateLocalBusinessSchema(), generateWebsiteSchema()]
 
   return (
-    <html lang="en-GB" className={`${inter.variable} ${montserrat.variable}`}>
+    <html lang="en-GB" className={`${inter.variable} ${dmSans.variable}`}>
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <meta name="theme-color" content="#0f2442" />
