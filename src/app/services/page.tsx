@@ -48,7 +48,7 @@ const SERVICE_IMAGES: Record<string, string> = {
   'door-glass-replacement':  u('1549517045-bc93de630367'), // door glass panel
   // Roof glazing
   'roof-lanterns':           u('1674752792204-5ac7f336b98d'), // roof lantern
-  'velux-windows':           u('1558618042-9cae3b2a8bcc'),    // velux roof window
+  'velux-windows':           u('1674752792204-5ac7f336b98d'), // velux / roof window
   'conservatory':            u('1600566752355-35792bedcfea'), // conservatory interior
   'flat-roof-lights':        u('1609214776366-38e385f6e265'), // flat glass roof light
   // Walk-on glass
@@ -61,7 +61,7 @@ const SERVICE_IMAGES: Record<string, string> = {
   'glass-balustrades':       u('1573496799652-408c2ac9fe98'), // glass balustrade terrace
   'glass-splashbacks':       u('1556909114-f6e7ad7d3136'),    // kitchen splashback
   'mirror-installation':     u('1578662996442-48f60103fc96'), // large mirror interior
-  'frosted-glass':           u('1516069677996-f2d53e0e7b72'), // frosted glass privacy
+  'frosted-glass':           u('1741947837536-9a8779380a2d'), // glazier / frosted window
   // Commercial
   'shop-fronts':             u('1528698827591-e19ccd7bc23d'), // glass shop front
   'office-glazing':          u('1574854986069-a8653af0944e'), // office glass partition

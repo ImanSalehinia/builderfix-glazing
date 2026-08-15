@@ -28,6 +28,16 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   return {
     title: `Glazing Specialist ${location.name} | Glass Repairs ${location.name} | ${BUSINESS.name}`,
     description: `Professional glazing and glass specialist services in ${location.name}, ${location.county}. ${location.responseTime} response time. Free written quote. Call ${BUSINESS.phone}.`,
+    keywords: [
+      `glazing ${location.name}`,
+      `glazier ${location.name}`,
+      `double glazing ${location.name}`,
+      `window replacement ${location.name}`,
+      `emergency glazing ${location.name}`,
+      `glass repair ${location.name}`,
+      `bifold doors ${location.name}`,
+      `glazing specialist ${location.county}`,
+    ],
     alternates: { canonical: `${SITE_CONFIG.url}/areas/${slug}` },
     openGraph: {
       title: `Glazing & Glass Specialists in ${location.name}`,

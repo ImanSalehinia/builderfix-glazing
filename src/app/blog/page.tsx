@@ -8,7 +8,7 @@ import Breadcrumbs from '@/components/seo/Breadcrumbs'
 import CTASection from '@/components/sections/CTASection'
 
 export const metadata: Metadata = {
-  title: `Blog | Glazing & Glass Guides for London Homeowners | ${BUSINESS.name}`,
+  title: `Glazing Guides & Glass Advice for London Homeowners | ${BUSINESS.name} Blog`,
   description: `Expert guides, cost breakdowns, and glazing advice for London homeowners and landlords. Double glazing costs, window types, bi-fold doors, emergency glass repair and more.`,
   alternates: { canonical: `${SITE_CONFIG.url}/blog` },
 }

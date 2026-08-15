@@ -21,20 +21,13 @@ export function generateOrganizationSchema() {
       addressCountry: 'GB',
     },
     sameAs: Object.values(BUSINESS.social).filter(Boolean),
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: BUSINESS.googleReviews.rating,
-      reviewCount: BUSINESS.googleReviews.count,
-      bestRating: 5,
-      worstRating: 1,
-    },
   }
 }
 
 export function generateLocalBusinessSchema() {
-  return {
+  const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
-    '@type': 'HomeAndConstructionBusiness',
+    '@type': ['LocalBusiness', 'HomeAndConstructionBusiness'],
     name: BUSINESS.name,
     image: `${SITE_CONFIG.url}/images/og-image.jpg`,
     url: SITE_CONFIG.url,
@@ -50,8 +43,8 @@ export function generateLocalBusinessSchema() {
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: '51.3604',
-      longitude: '-0.1954',
+      latitude: '51.4048',
+      longitude: '-0.3209',
     },
     openingHoursSpecification: [
       {
@@ -76,20 +69,22 @@ export function generateLocalBusinessSchema() {
     priceRange: '££',
     currenciesAccepted: 'GBP',
     paymentAccepted: 'Cash, Credit Card, Bank Transfer',
-    areaServed: {
-      '@type': 'GeoCircle',
-      geoMidpoint: { '@type': 'GeoCoordinates', latitude: '51.3604', longitude: '-0.1954' },
-      geoRadius: '40000',
-    },
-    aggregateRating: {
+    areaServed: BUSINESS.primaryAreas.map(area => ({ '@type': 'City', name: area })),
+    knowsAbout: ['Double Glazing', 'Glass Installation', 'Window Replacement', 'Bi-fold Doors', 'Emergency Glazing', 'Glass Balustrades', 'Walk-on Glass Floors'],
+    foundingDate: BUSINESS.founded.toString(),
+  }
+
+  // Only include aggregateRating if we have a real Google Business URL
+  if (BUSINESS.googleReviews.url) {
+    schema.aggregateRating = {
       '@type': 'AggregateRating',
       ratingValue: BUSINESS.googleReviews.rating,
       reviewCount: BUSINESS.googleReviews.count,
       bestRating: 5,
-    },
-    founder: { '@type': 'Person', name: BUSINESS.name },
-    foundingDate: BUSINESS.founded.toString(),
+    }
   }
+
+  return schema
 }
 
 export function generateServiceSchema(service: Service) {
@@ -102,14 +97,16 @@ export function generateServiceSchema(service: Service) {
       '@type': 'LocalBusiness',
       name: BUSINESS.name,
       telephone: BUSINESS.phone,
+      url: SITE_CONFIG.url,
     },
-    areaServed: 'London, Surrey',
+    areaServed: ['London', 'Surrey', 'Greater London'],
     url: `${SITE_CONFIG.url}/services/${service.slug}`,
     serviceType: service.title,
     offers: {
       '@type': 'Offer',
-      price: service.priceRange,
+      description: service.priceRange,
       priceCurrency: 'GBP',
+      availability: 'https://schema.org/InStock',
     },
   }
 }
@@ -169,10 +166,12 @@ export function generateWebsiteSchema() {
     '@type': 'WebSite',
     name: BUSINESS.name,
     url: SITE_CONFIG.url,
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: { '@type': 'EntryPoint', urlTemplate: `${SITE_CONFIG.url}/search?q={search_term_string}` },
-      'query-input': 'required name=search_term_string',
+    description: SITE_CONFIG.description,
+    inLanguage: 'en-GB',
+    publisher: {
+      '@type': 'Organization',
+      name: BUSINESS.name,
+      url: SITE_CONFIG.url,
     },
   }
 }

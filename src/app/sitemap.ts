@@ -23,11 +23,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/terms-conditions`, lastModified: now, changeFrequency: 'yearly', priority: 0.2 },
   ]
 
+  const HIGH_PRIORITY_SERVICES = [
+    'emergency-glazing', 'double-glazing', 'sealed-unit-replacement',
+    'bifold-doors', 'composite-doors', 'walk-on-glass-floors', 'glass-balustrades',
+  ]
+
   const servicePages: MetadataRoute.Sitemap = SERVICES.map(service => ({
     url: `${baseUrl}/services/${service.slug}`,
     lastModified: now,
-    changeFrequency: 'monthly',
-    priority: 0.8,
+    changeFrequency: 'monthly' as const,
+    priority: HIGH_PRIORITY_SERVICES.includes(service.slug) ? 0.9 : 0.75,
   }))
 
   const locationPages: MetadataRoute.Sitemap = LOCATIONS.map(location => ({
