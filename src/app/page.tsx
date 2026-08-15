@@ -1,69 +1,89 @@
-import Image from "next/image";
+import type { Metadata } from 'next'
+import HeroSection from '@/components/sections/HeroSection'
+import ServicesGrid from '@/components/sections/ServicesGrid'
+import TrustSection from '@/components/sections/TrustSection'
+import ProcessSection from '@/components/sections/ProcessSection'
+import CTASection from '@/components/sections/CTASection'
+import FAQSection from '@/components/sections/FAQSection'
+import { GENERAL_FAQS } from '@/data/faqs'
+import { BUSINESS, SITE_CONFIG } from '@/data/business'
+import { LOCATIONS } from '@/data/locations'
+import Link from 'next/link'
+import { MapPin, ArrowRight } from 'lucide-react'
 
-export default function Home() {
+export const metadata: Metadata = {
+  title: `${BUSINESS.name} | Glazing & Glass Specialists London`,
+  description: 'Professional glazing and glass installation services across London and Surrey. Double glazing, window replacement, emergency glass repair, bi-fold doors and more. Call today for a free quote.',
+  alternates: { canonical: SITE_CONFIG.url },
+}
+
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <>
+      <HeroSection />
+
+      {/* Areas ticker */}
+      <div className="bg-[#0f2442] py-3 overflow-x-auto scrollbar-none">
+        <div className="container-custom">
+          <div className="flex items-center gap-3 whitespace-nowrap text-sm">
+            <span className="text-orange-400 font-semibold flex items-center gap-1.5 shrink-0">
+              <MapPin className="w-4 h-4" />
+              We Cover:
+            </span>
+            {LOCATIONS.slice(0, 14).map((loc, i) => (
+              <span key={loc.slug} className="flex items-center gap-3">
+                <Link href={`/areas/${loc.slug}`} className="text-slate-300 hover:text-white transition-colors">
+                  {loc.name}
+                </Link>
+                {i < 13 && <span className="text-slate-600">·</span>}
+              </span>
+            ))}
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </div>
+
+      <ServicesGrid />
+      <TrustSection />
+      <ProcessSection />
+
+      {/* Areas section */}
+      <section className="section-padding bg-white">
+        <div className="container-custom">
+          <div className="text-center max-w-2xl mx-auto mb-12">
+            <p className="badge-primary mb-4">Areas We Cover</p>
+            <h2 className="text-4xl font-black text-[#0f2442] mb-4">
+              Serving London &amp; Surrey
+            </h2>
+            <p className="text-slate-500 text-lg">
+              Based in South London, we cover a wide area including the following locations.
+              Don&apos;t see yours? Call us — we likely cover you too.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 mb-8">
+            {LOCATIONS.map(location => (
+              <Link
+                key={location.slug}
+                href={`/areas/${location.slug}`}
+                className="flex items-center gap-2 p-4 bg-slate-50 border border-slate-100 rounded-xl hover:border-orange-200 hover:bg-orange-50 transition-all group"
+              >
+                <MapPin className="w-4 h-4 text-orange-400 shrink-0" />
+                <div>
+                  <div className="text-sm font-semibold text-slate-700 group-hover:text-[#0f2442]">{location.name}</div>
+                  <div className="text-xs text-slate-400">{location.county}</div>
+                </div>
+              </Link>
+            ))}
+          </div>
+          <div className="text-center">
+            <Link href="/areas" className="inline-flex items-center gap-2 text-orange-600 hover:text-orange-700 font-semibold transition-colors">
+              View all areas <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
         </div>
-      </main>
-    </div>
-  );
+      </section>
+
+      <FAQSection faqs={GENERAL_FAQS.slice(0, 8)} />
+      <CTASection />
+    </>
+  )
 }

@@ -2,25 +2,163 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0f172a;
+  --primary: #0f2442;
+  --primary-light: #1a3a6b;
+  --accent: #f97316;
+  --radius: 0.75rem;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .container-custom {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .container-custom {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+
+  .section-padding {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  @media (max-width: 768px) {
+    .section-padding {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, #0f2442, #f97316);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .hero-gradient {
+    background: linear-gradient(135deg, #0f2442 0%, #1a3a6b 60%, #0f2442 100%);
+  }
+
+  .card-hover {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+  }
+
+  .star-rating { color: #f59e0b; }
+
+  .sticky-phone {
+    position: fixed;
+    bottom: 5.5rem;
+    right: 1.5rem;
+    z-index: 50;
+    background-color: #0f2442;
+    color: white;
+    padding: 1rem;
+    border-radius: 50%;
+    box-shadow: 0 4px 20px rgba(15, 36, 66, 0.4);
+    transition: transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sticky-phone:hover { transform: scale(1.1); }
+
+  .sticky-whatsapp {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    z-index: 50;
+    background-color: #25d366;
+    color: white;
+    padding: 1rem;
+    border-radius: 50%;
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+    transition: transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sticky-whatsapp:hover { transform: scale(1.1); }
+
+  .badge-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    background-color: rgba(249, 115, 22, 0.1);
+    color: #c2410c;
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 0.25rem 0.875rem;
+    border-radius: 9999px;
+    border: 1px solid rgba(249, 115, 22, 0.2);
+  }
+
+  .badge-success {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    background-color: rgba(22, 163, 74, 0.1);
+    color: #15803d;
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 0.25rem 0.875rem;
+    border-radius: 9999px;
+    border: 1px solid rgba(22, 163, 74, 0.2);
+  }
+
+  /* Blog prose */
+  .prose-custom h2 { margin-top: 2rem; margin-bottom: 1rem; font-size: 1.75rem; color: #0f2442; }
+  .prose-custom h3 { margin-top: 1.5rem; margin-bottom: 0.75rem; color: #1e293b; }
+  .prose-custom p { margin-bottom: 1.25rem; color: #475569; line-height: 1.8; }
+  .prose-custom ul, .prose-custom ol { margin-bottom: 1.25rem; padding-left: 1.5rem; }
+  .prose-custom li { margin-bottom: 0.5rem; color: #475569; line-height: 1.8; }
+  .prose-custom strong { color: #1e293b; }
 }
