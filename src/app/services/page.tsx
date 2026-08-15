@@ -133,7 +133,7 @@ export default function ServicesPage() {
                       {/* Image */}
                       <div className="relative h-36 overflow-hidden">
                         <Image
-                          src={SERVICE_IMAGES[service.slug] ?? W}
+                          src={SERVICE_IMAGES[service.slug] ?? u('1527352774566-e4916e36c645')}
                           alt={service.title}
                           fill
                           className="object-cover group-hover:scale-105 transition-transform duration-500"

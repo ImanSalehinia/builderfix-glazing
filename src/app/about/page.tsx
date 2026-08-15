@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { CheckCircle, Users, Star, ArrowRight } from 'lucide-react'
+import { CheckCircle, Award, Users, Star, ArrowRight } from 'lucide-react'
 import { BUSINESS, SITE_CONFIG } from '@/data/business'
 import CTASection from '@/components/sections/CTASection'
 import Breadcrumbs from '@/components/seo/Breadcrumbs'
