@@ -17,7 +17,7 @@ export default function HeroSection({
     <section className="relative overflow-hidden text-white min-h-[88vh] flex items-center" aria-labelledby="hero-heading">
       {/* Background image */}
       <Image
-        src="https://images.unsplash.com/photo-1609214776366-38e385f6e265?auto=format&fit=crop&w=1920&q=80"
+        src="/images/hero2.jpg"
         alt="Structural glass floor installation by BuilderFix Glazing"
         fill
         priority
