@@ -25,7 +25,7 @@ export const BUSINESS = {
   googleReviews: {
     rating: 4.9,
     count: 312,
-    url: '',
+    url: 'https://g.page/r/CVH2b3VDUme7EBM/review',
   },
   founded: 2015,
   yearsExperience: 9,
