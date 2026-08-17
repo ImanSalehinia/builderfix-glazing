@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Clock, Tag, ArrowLeft, CheckCircle, Phone } from 'lucide-react'
 import { BLOG_IDEAS } from '@/data/faqs'
+import { BLOG_META } from '@/data/blog-meta'
 import { BUSINESS, SITE_CONFIG } from '@/data/business'
 import Breadcrumbs from '@/components/seo/Breadcrumbs'
 import CTASection from '@/components/sections/CTASection'
@@ -57,9 +58,10 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const article = BLOG_IDEAS.find(b => b.slug === slug)
   if (!article) return {}
 
+  const meta = BLOG_META[slug]
   return {
     title: `${article.title} | ${BUSINESS.name} Blog`,
-    description: `${article.title}. Expert advice from London's trusted glazing and glass specialists. Read our guide now.`,
+    description: meta?.description ?? `${article.title}. Expert glazing advice from London's trusted glass specialists. Free quotes across London & Surrey.`,
     alternates: { canonical: `${SITE_CONFIG.url}/blog/${slug}` },
     openGraph: {
       title: article.title,
@@ -74,6 +76,7 @@ export default async function BlogPostPage({ params }: Params) {
   const article = BLOG_IDEAS.find(b => b.slug === slug)
   if (!article) notFound()
 
+  const meta = BLOG_META[slug]
   const relatedArticles = BLOG_IDEAS.filter(b => b.category === article.category && b.slug !== slug).slice(0, 3)
   const heroImage = getBlogImage(slug, article.category)
   const readTime = READ_TIMES[article.category] ?? READ_TIMES.default
@@ -147,21 +150,18 @@ export default async function BlogPostPage({ params }: Params) {
               {/* Article content */}
               <div className="prose-custom">
                 <p className="text-lg text-slate-600 leading-relaxed mb-6 font-medium">
-                  Whether you are a homeowner, landlord, or business owner in London,
-                  understanding {article.title.toLowerCase()} is essential for making
-                  informed decisions about your property. In this guide, our glazing specialists
-                  break down everything you need to know.
+                  {meta?.intro ?? `Whether you are a homeowner, landlord, or business owner in London, understanding ${article.title.toLowerCase()} is essential for making informed decisions about your property. In this guide, our glazing specialists break down everything you need to know.`}
                 </p>
 
                 <h2>What This Guide Covers</h2>
                 <ul className="space-y-2 mb-6">
-                  {[
+                  {(meta?.keyPoints ?? [
                     'What to expect before and during the work',
                     'Typical costs and what affects pricing in London',
                     'How to get an accurate quote',
                     'Common questions and what to watch out for',
                     'How to choose a reliable glazing specialist',
-                  ].map(point => (
+                  ]).map(point => (
                     <li key={point} className="flex items-start gap-2">
                       <CheckCircle className="w-5 h-5 text-green-500 shrink-0 mt-0.5" />
                       <span className="text-slate-600">{point}</span>
@@ -178,9 +178,15 @@ export default async function BlogPostPage({ params }: Params) {
                 </p>
                 <p>
                   At {BUSINESS.name}, we have completed thousands of glazing jobs across Greater
-                  London and Surrey. This guide is based on real experience and the questions
-                  our customers ask us most often.
+                  London and Surrey — from emergency repairs in Kensington and Chelsea, to bespoke
+                  walk-on glass installations in Mayfair and Belgravia. This guide is based on
+                  real experience and the questions our customers ask us most often.
                 </p>
+                {meta?.locationNote && (
+                  <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 text-sm text-slate-600">
+                    <strong className="text-[#0f2442]">Coverage note: </strong>{meta.locationNote}
+                  </div>
+                )}
 
                 <h2>What Does This Typically Cost in London?</h2>
                 <p>

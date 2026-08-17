@@ -52,7 +52,7 @@ export const GENERAL_FAQS: FAQ[] = [
 ]
 
 export const BLOG_IDEAS = [
-  { slug: 'double-glazing-cost-london', title: 'How Much Does Double Glazing Cost in London in 2024?', category: 'Cost Guides' },
+  { slug: 'double-glazing-cost-london', title: 'How Much Does Double Glazing Cost in London in 2025?', category: 'Cost Guides' },
   { slug: 'bifold-doors-cost-uk', title: 'Bi-fold Door Cost UK: Complete Price Guide', category: 'Cost Guides' },
   { slug: 'roof-lantern-cost', title: 'Roof Lantern Cost: What to Expect in London', category: 'Cost Guides' },
   { slug: 'composite-door-cost', title: 'How Much Does a Composite Door Cost in the UK?', category: 'Cost Guides' },
@@ -102,4 +102,16 @@ export const BLOG_IDEAS = [
   { slug: 'skylight-installation-guide', title: 'Skylight Installation: What to Expect from Survey to Completion', category: 'Guides' },
   { slug: 'window-energy-ratings', title: 'Window Energy Ratings Explained: A, B, C and What They Mean', category: 'Guides' },
   { slug: 'break-in-glass-repair', title: 'Glass Repair After a Break-In: What to Do First', category: 'Guides' },
+  { slug: 'walk-on-glass-floor-cost-london', title: 'Walk-On Glass Floor Cost London 2025: Complete Price Guide', category: 'Cost Guides' },
+  { slug: 'frameless-bifold-doors-london', title: 'Frameless Bi-fold Doors London: Costs, Styles & Top Installers 2025', category: 'Cost Guides' },
+  { slug: 'acoustic-secondary-glazing-london', title: 'Acoustic Secondary Glazing London: Reduce Street Noise by Up to 54dB', category: 'Guides' },
+  { slug: 'aluminium-windows-cost-london', title: 'Aluminium Windows Cost London 2025: What You\'ll Really Pay', category: 'Cost Guides' },
+  { slug: 'glazing-kensington-chelsea', title: 'Glazing in Kensington & Chelsea: What Homeowners Need to Know', category: 'Guides' },
+  { slug: 'luxury-glazing-london-townhouses', title: 'Luxury Glazing for London Townhouses: Walk-On Glass, Bifolds & More', category: 'Inspiration' },
+  { slug: 'sash-windows-mayfair-belgravia', title: 'Sash Window Restoration in Mayfair & Belgravia: A Heritage Guide', category: 'Guides' },
+  { slug: 'triple-glazing-london-2025', title: 'Triple Glazing London 2025: Is the Extra Cost Worth It?', category: 'Cost Guides' },
+  { slug: 'emergency-glazier-london-24-7', title: '24/7 Emergency Glazier London: What to Expect and What It Costs', category: 'Guides' },
+  { slug: 'glass-balustrade-cost-london', title: 'Glass Balustrade Cost London 2025: Prices for Stairs, Decks & Terraces', category: 'Cost Guides' },
+  { slug: 'bifold-doors-kensington-chelsea', title: 'Bi-fold Doors in Kensington & Chelsea: Planning, Costs & Installation', category: 'Guides' },
+  { slug: 'roof-lantern-extension-london', title: 'Roof Lanterns for London Kitchen Extensions: Cost & Design Guide', category: 'Cost Guides' },
 ]
