@@ -9,7 +9,7 @@ import { GENERAL_FAQS } from '@/data/faqs'
 import { BUSINESS, SITE_CONFIG } from '@/data/business'
 import { LOCATIONS } from '@/data/locations'
 import Link from 'next/link'
-import { MapPin, ArrowRight } from 'lucide-react'
+import { MapPin, ArrowRight, Star, ExternalLink } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: `${BUSINESS.name} | Glazing & Glass Specialists London`,
@@ -43,6 +43,31 @@ export default function HomePage() {
       </div>
 
       <ServicesGrid />
+
+      {/* Google Reviews strip */}
+      {BUSINESS.googleReviews.url && (
+        <div className="bg-[#0f2442] py-5 border-t border-slate-700">
+          <div className="container-custom flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div className="flex items-center gap-4">
+              <div className="flex">
+                {[1,2,3,4,5].map(s => <Star key={s} className="w-5 h-5 fill-yellow-400 text-yellow-400" />)}
+              </div>
+              <span className="text-white font-bold text-lg">{BUSINESS.googleReviews.rating}</span>
+              <span className="text-slate-400 text-sm">· {BUSINESS.googleReviews.count}+ reviews on Google</span>
+            </div>
+            <a
+              href={BUSINESS.googleReviews.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 text-white text-sm font-semibold px-5 py-2.5 rounded-xl transition-colors"
+            >
+              Read Our Google Reviews
+              <ExternalLink className="w-4 h-4" />
+            </a>
+          </div>
+        </div>
+      )}
+
       <TrustSection />
       <ProcessSection />
 

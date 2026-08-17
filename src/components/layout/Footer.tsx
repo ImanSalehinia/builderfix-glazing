@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Phone, Mail, MapPin, Clock, MessageCircle, ShieldCheck } from 'lucide-react'
+import { Phone, Mail, MapPin, Clock, MessageCircle, ShieldCheck, Star, ExternalLink } from 'lucide-react'
 import { BUSINESS } from '@/data/business'
 import { formatPhoneForHref, formatWhatsAppHref } from '@/lib/utils'
 import { SERVICES } from '@/data/services'
@@ -61,6 +61,23 @@ export default function Footer() {
                   WhatsApp Us
                 </a>
               </div>
+              {BUSINESS.googleReviews.url && (
+                <a
+                  href={BUSINESS.googleReviews.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl px-5 py-3 mb-6 transition-colors w-full sm:w-auto"
+                >
+                  <div className="flex">
+                    {[1,2,3,4,5].map(s => <Star key={s} className="w-4 h-4 fill-yellow-400 text-yellow-400" />)}
+                  </div>
+                  <div>
+                    <div className="text-white font-bold text-sm">{BUSINESS.googleReviews.rating} / 5 on Google</div>
+                    <div className="text-slate-400 text-xs">{BUSINESS.googleReviews.count}+ verified reviews</div>
+                  </div>
+                  <ExternalLink className="w-4 h-4 text-slate-400 ml-auto" />
+                </a>
+              )}
               <div className="space-y-2 text-sm text-slate-400">
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4 text-orange-400 shrink-0" />
