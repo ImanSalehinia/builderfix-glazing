@@ -11,6 +11,15 @@ import { LOCATIONS } from '@/data/locations'
 import Link from 'next/link'
 import { MapPin, ArrowRight, Star, ExternalLink } from 'lucide-react'
 
+const PREMIUM_SLUGS = [
+  'chelsea', 'kensington', 'knightsbridge', 'mayfair', 'belgravia',
+  'notting-hill', 'holland-park', 'marylebone', 'bayswater',
+  'hampstead', 'primrose-hill', 'highgate', 'st-johns-wood',
+  'richmond', 'kew', 'twickenham', 'teddington', 'barnes',
+  'wimbledon', 'putney', 'fulham', 'battersea', 'clapham',
+  'dulwich', 'chiswick', 'kingston-upon-thames', 'islington', 'central-london',
+]
+
 export const metadata: Metadata = {
   title: `${BUSINESS.name} | Glazing & Glass Specialists London`,
   description: 'Professional glazing and glass installation services across London and Surrey. Double glazing, window replacement, emergency glass repair, bi-fold doors and more. Call today for a free quote.',
@@ -18,6 +27,10 @@ export const metadata: Metadata = {
 }
 
 export default function HomePage() {
+  const premiumLocations = PREMIUM_SLUGS
+    .map(slug => LOCATIONS.find(l => l.slug === slug))
+    .filter(Boolean) as typeof LOCATIONS
+
   return (
     <>
       <HeroSection />
@@ -30,12 +43,12 @@ export default function HomePage() {
               <MapPin className="w-4 h-4" />
               We Cover:
             </span>
-            {LOCATIONS.slice(0, 14).map((loc, i) => (
+            {premiumLocations.slice(0, 16).map((loc, i) => (
               <span key={loc.slug} className="flex items-center gap-3">
                 <Link href={`/areas/${loc.slug}`} className="text-slate-300 hover:text-white transition-colors">
                   {loc.name}
                 </Link>
-                {i < 13 && <span className="text-slate-600">·</span>}
+                {i < 15 && <span className="text-slate-600">·</span>}
               </span>
             ))}
           </div>
@@ -85,7 +98,7 @@ export default function HomePage() {
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 mb-8">
-            {LOCATIONS.map(location => (
+            {premiumLocations.map(location => (
               <Link
                 key={location.slug}
                 href={`/areas/${location.slug}`}
