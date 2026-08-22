@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { ArrowRight, CheckCircle } from 'lucide-react'
+import { sendGAEvent } from '@next/third-parties/google'
 
 function validateEmail(value: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value.trim())
@@ -75,6 +76,10 @@ export default function QuickQuoteForm() {
       })
       if (!res.ok) throw new Error('Failed')
       setSubmitted(true)
+      sendGAEvent('event', 'generate_lead', {
+        event_category: 'quote_form',
+        event_label: (form.elements.namedItem('service') as HTMLSelectElement).value || 'not_specified',
+      })
     } catch {
       setError('Something went wrong. Please call us directly.')
     } finally {

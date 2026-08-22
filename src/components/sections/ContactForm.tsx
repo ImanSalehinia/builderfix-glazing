@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { useSearchParams } from 'next/navigation'
 import { Phone, MessageCircle, Send, CheckCircle } from 'lucide-react'
+import { sendGAEvent } from '@next/third-parties/google'
 import { BUSINESS } from '@/data/business'
 import { formatPhoneForHref, formatWhatsAppHref, buildWhatsAppMessage, buildContactMessage } from '@/lib/utils'
 import { SERVICES } from '@/data/services'
@@ -91,6 +92,10 @@ export default function ContactForm() {
       })
       if (!res.ok) throw new Error('Failed')
       setSubmitted(true)
+      sendGAEvent('event', 'generate_lead', {
+        event_category: 'contact_form',
+        event_label: data.service || 'not_specified',
+      })
     } catch {
       setError('Something went wrong. Please call us directly or try again.')
     } finally {
