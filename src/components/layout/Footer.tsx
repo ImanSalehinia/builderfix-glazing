@@ -12,15 +12,15 @@ const FOOTER_SERVICES = [
 ]
 
 const FOOTER_AREAS = [
+  { name: 'Brentford', slug: 'brentford' },
+  { name: 'Richmond', slug: 'richmond' },
   { name: 'Chelsea', slug: 'chelsea' },
   { name: 'Kensington', slug: 'kensington' },
-  { name: 'Richmond', slug: 'richmond' },
-  { name: 'Wimbledon', slug: 'wimbledon' },
-  { name: 'Fulham', slug: 'fulham' },
   { name: 'Chiswick', slug: 'chiswick' },
-  { name: 'Putney', slug: 'putney' },
+  { name: 'Wimbledon', slug: 'wimbledon' },
   { name: 'Notting Hill', slug: 'notting-hill' },
   { name: 'Hampstead', slug: 'hampstead' },
+  { name: 'Fulham', slug: 'fulham' },
   { name: 'Kingston', slug: 'kingston-upon-thames' },
 ]
 
