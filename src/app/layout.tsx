@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter, DM_Sans } from 'next/font/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
 import './globals.css'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
@@ -76,6 +77,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
         <StickyButtons />
       </body>
+      <GoogleAnalytics gaId="G-JYQNN0CLR6" />
     </html>
   )
 }
