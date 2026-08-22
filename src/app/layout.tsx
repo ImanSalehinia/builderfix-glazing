@@ -63,6 +63,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en-GB" className={`${inter.variable} ${dmSans.variable}`}>
       <head>
+        <link rel="icon" href="/images/logo-bf.svg" type="image/svg+xml" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <meta name="theme-color" content="#0f2442" />
         <meta name="geo.region" content="GB-ENG" />

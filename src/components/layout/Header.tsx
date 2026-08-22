@@ -27,13 +27,14 @@ const NAV_ITEMS = [
     label: 'Areas',
     href: '/areas',
     children: [
-      { label: 'London', href: '/areas/london' },
-      { label: 'Sutton', href: '/areas/sutton' },
-      { label: 'Croydon', href: '/areas/croydon' },
-      { label: 'Kingston', href: '/areas/kingston-upon-thames' },
-      { label: 'Wimbledon', href: '/areas/wimbledon' },
+      { label: 'Chelsea', href: '/areas/chelsea' },
+      { label: 'Kensington', href: '/areas/kensington' },
+      { label: 'Mayfair', href: '/areas/mayfair' },
+      { label: 'Notting Hill', href: '/areas/notting-hill' },
+      { label: 'Hampstead', href: '/areas/hampstead' },
       { label: 'Richmond', href: '/areas/richmond' },
-      { label: 'Epsom', href: '/areas/epsom' },
+      { label: 'Wimbledon', href: '/areas/wimbledon' },
+      { label: 'Chiswick', href: '/areas/chiswick' },
       { label: 'View All Areas →', href: '/areas' },
     ],
   },
@@ -80,9 +81,7 @@ export default function Header() {
         <div className="container-custom flex items-center justify-between py-4">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 bg-[#0f2442] rounded-lg flex items-center justify-center shrink-0">
-              <span className="text-orange-400 font-black text-sm">LF</span>
-            </div>
+            <img src="/images/logo-bf.svg" alt="BuilderFix Glazing" width={40} height={40} className="shrink-0" />
             <div className="hidden sm:block">
               <div className="font-black text-[#0f2442] text-lg leading-tight">{BUSINESS.name}</div>
               <div className="text-xs text-slate-500 leading-tight">Glazing & Glass Specialists</div>

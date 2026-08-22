@@ -110,9 +110,7 @@ export default function Footer() {
           {/* Company info */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-black text-sm">LF</span>
-              </div>
+              <img src="/images/logo-bf.svg" alt="BuilderFix Glazing" width={40} height={40} />
               <div className="font-black text-white text-lg leading-tight">{BUSINESS.name}</div>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-5">
