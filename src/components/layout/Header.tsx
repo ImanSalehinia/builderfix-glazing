@@ -38,7 +38,6 @@ const NAV_ITEMS = [
       { label: 'View All Areas →', href: '/areas' },
     ],
   },
-  { label: 'Gallery', href: '/gallery' },
   { label: 'Reviews', href: '/reviews' },
   { label: 'Blog', href: '/blog' },
   { label: 'Contact', href: '/contact' },
