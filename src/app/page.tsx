@@ -66,7 +66,7 @@ export default function HomePage() {
                 {[1,2,3,4,5].map(s => <Star key={s} className="w-5 h-5 fill-yellow-400 text-yellow-400" />)}
               </div>
               <span className="text-white font-bold text-lg">{BUSINESS.googleReviews.rating}</span>
-              <span className="text-slate-400 text-sm">· {BUSINESS.googleReviews.count}+ reviews on Google</span>
+              <span className="text-slate-400 text-sm">· on Google</span>
             </div>
             <a
               href={BUSINESS.googleReviews.url}

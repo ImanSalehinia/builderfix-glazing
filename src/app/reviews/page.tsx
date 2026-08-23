@@ -19,7 +19,6 @@ const reviewSchema = {
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: BUSINESS.googleReviews.rating,
-    reviewCount: BUSINESS.googleReviews.count,
     bestRating: 5,
     worstRating: 1,
   },
@@ -44,7 +43,7 @@ export default function ReviewsPage() {
             <span className="text-5xl font-black text-[#0f2442]">{BUSINESS.googleReviews.rating}</span>
           </div>
           <p className="text-slate-500 text-lg mb-8">
-            Based on <strong>{BUSINESS.googleReviews.count}+</strong> verified customer reviews on Google
+            Our Google rating — leave your own review below
           </p>
           {BUSINESS.googleReviews.url ? (
             <a

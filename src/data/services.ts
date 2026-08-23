@@ -377,7 +377,7 @@ export const SERVICES: Service[] = [
       'Secured by Design approved options',
       'A-rated energy efficiency',
       'Low maintenance – never warps or swells',
-      '10-year guarantee',
+      'Manufacturer warranty included',
     ],
     priceRange: 'From £900 fitted',
     duration: '1 day',

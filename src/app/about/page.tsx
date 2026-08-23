@@ -7,7 +7,7 @@ import Breadcrumbs from '@/components/seo/Breadcrumbs'
 
 export const metadata: Metadata = {
   title: `About Us | ${BUSINESS.name}`,
-  description: `Learn about ${BUSINESS.name} — London's trusted glazing and glass specialists since ${BUSINESS.founded}. Over ${BUSINESS.yearsExperience} years of experience, ${BUSINESS.projectsCompleted.toLocaleString()}+ jobs completed.`,
+  description: `Learn about ${BUSINESS.name} — London's trusted glazing and glass specialists. Building Regulations compliant, fully insured, free written quotes.`,
   alternates: { canonical: `${SITE_CONFIG.url}/about` },
 }
 
@@ -34,8 +34,7 @@ export default function AboutPage() {
           </h1>
           <p className="text-xl text-slate-300 leading-relaxed">
             We are London&apos;s trusted glazing and glass specialists.
-            For over {BUSINESS.yearsExperience} years, we have been helping homeowners,
-            landlords, and businesses across the capital with all their glazing needs.
+            We help homeowners, landlords, and businesses across the capital with all their glazing needs.
           </p>
         </div>
       </section>
@@ -51,9 +50,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-5 text-slate-600 leading-relaxed">
                 <p>
-                  {BUSINESS.name} was founded in {BUSINESS.founded} with a simple but powerful
-                  vision: to provide the kind of professional, honest, and high-quality glazing
-                  service that London homeowners truly deserve.
+                  {BUSINESS.name} was built on a simple but powerful vision: to provide the kind of professional, honest, and high-quality glazing service that London homeowners truly deserve.
                 </p>
                 <p>
                   Over the years, we have grown from a small team of trusted glaziers into a
@@ -73,10 +70,10 @@ export default function AboutPage() {
             {/* Stats */}
             <div className="grid grid-cols-2 gap-6">
               {[
-                { value: `${BUSINESS.yearsExperience}+`, label: 'Years in Business', colour: 'bg-blue-50 text-blue-700' },
-                { value: `${(BUSINESS.projectsCompleted / 1000).toFixed(0)}k+`, label: 'Jobs Completed', colour: 'bg-orange-50 text-orange-700' },
+                { value: 'Free', label: 'Written Quotes', colour: 'bg-blue-50 text-blue-700' },
+                { value: '24/7', label: 'Emergency Cover', colour: 'bg-orange-50 text-orange-700' },
                 { value: `${BUSINESS.googleReviews.rating}★`, label: 'Google Rating', colour: 'bg-yellow-50 text-yellow-700' },
-                { value: `${BUSINESS.googleReviews.count}+`, label: 'Verified Reviews', colour: 'bg-green-50 text-green-700' },
+                { value: '£5M', label: 'Public Liability', colour: 'bg-green-50 text-green-700' },
               ].map(stat => (
                 <div key={stat.label} className={`${stat.colour} rounded-2xl p-6 text-center`}>
                   <div className="text-5xl font-black mb-2">{stat.value}</div>

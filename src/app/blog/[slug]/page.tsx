@@ -238,8 +238,7 @@ export default async function BlogPostPage({ params }: Params) {
               <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100">
                 <h3 className="font-bold text-[#0f2442] mb-3">Written by Experts</h3>
                 <p className="text-slate-500 text-sm leading-relaxed">
-                  This guide was written by the specialist team at {BUSINESS.name}, with over{' '}
-                  {BUSINESS.yearsExperience} years of experience serving London and Surrey homeowners.
+                  This guide was written by the specialist team at {BUSINESS.name}, glazing and glass installation experts serving London and Surrey.
                 </p>
               </div>
 

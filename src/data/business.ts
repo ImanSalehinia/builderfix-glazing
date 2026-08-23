@@ -24,12 +24,8 @@ export const BUSINESS = {
   },
   googleReviews: {
     rating: 4.9,
-    count: 312,
     url: 'https://g.page/r/CVH2b3VDUme7EBM/review',
   },
-  founded: 2015,
-  yearsExperience: 9,
-  projectsCompleted: 5000,
   accreditations: [],
   primaryAreas: [
     'London', 'Brentford', 'Ealing', 'Hounslow',

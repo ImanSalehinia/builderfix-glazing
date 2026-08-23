@@ -71,7 +71,6 @@ export function generateLocalBusinessSchema() {
     paymentAccepted: 'Cash, Credit Card, Bank Transfer',
     areaServed: BUSINESS.primaryAreas.map(area => ({ '@type': 'City', name: area })),
     knowsAbout: ['Double Glazing', 'Glass Installation', 'Window Replacement', 'Bi-fold Doors', 'Emergency Glazing', 'Glass Balustrades', 'Walk-on Glass Floors'],
-    foundingDate: BUSINESS.founded.toString(),
   }
 
   // Only include aggregateRating if we have a real Google Business URL
@@ -79,7 +78,6 @@ export function generateLocalBusinessSchema() {
     schema.aggregateRating = {
       '@type': 'AggregateRating',
       ratingValue: BUSINESS.googleReviews.rating,
-      reviewCount: BUSINESS.googleReviews.count,
       bestRating: 5,
     }
   }

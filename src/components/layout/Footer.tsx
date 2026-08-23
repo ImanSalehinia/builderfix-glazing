@@ -73,7 +73,7 @@ export default function Footer() {
                   </div>
                   <div>
                     <div className="text-white font-bold text-sm">{BUSINESS.googleReviews.rating} / 5 on Google</div>
-                    <div className="text-slate-400 text-xs">{BUSINESS.googleReviews.count}+ verified reviews</div>
+                    <div className="text-slate-400 text-xs">Leave us a review</div>
                   </div>
                   <ExternalLink className="w-4 h-4 text-slate-400 ml-auto" />
                 </a>
@@ -115,7 +115,7 @@ export default function Footer() {
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-5">
               London&apos;s specialist glazing and glass installation company. Building Regulations compliant,
-              serving London and Surrey since {BUSINESS.founded}.
+              serving London and Surrey.
             </p>
             <div className="flex items-start gap-2 text-sm">
               <MapPin className="w-4 h-4 text-orange-400 mt-0.5 shrink-0" />

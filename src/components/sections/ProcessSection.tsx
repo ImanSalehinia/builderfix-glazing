@@ -25,8 +25,8 @@ const STEPS = [
   {
     step: '04',
     icon: Star,
-    title: 'Guaranteed & Certified',
-    description: 'You receive all compliance documentation, a follow-up call to make sure you\'re completely satisfied, and a written confirmation of what was done.',
+    title: 'Certified & Insured',
+    description: 'You receive all compliance documentation and a written confirmation of work completed. We are fully insured with public liability cover on every job.',
     colour: 'bg-purple-50 text-purple-600',
   },
 ]

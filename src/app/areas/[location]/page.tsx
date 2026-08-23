@@ -65,7 +65,7 @@ export default async function LocationPage({ params }: Params) {
     },
     {
       question: `Are you local glazing specialists in ${location.name}?`,
-      answer: `We are based in West London and have served the ${location.name} area for over ${BUSINESS.yearsExperience} years. Our glaziers are familiar with the local area and the typical property types found in ${location.name}.`,
+      answer: `We are based in West London and regularly serve the ${location.name} area. Our glaziers are familiar with the local area and the typical property types found in ${location.name}.`,
     },
     {
       question: `What glazing services do you offer in ${location.name}?`,
@@ -181,11 +181,10 @@ export default async function LocationPage({ params }: Params) {
               or an emergency call-out, our team of qualified glaziers is ready to help.
             </p>
             <p className="text-slate-600 leading-relaxed mb-6">
-              We have been serving the {location.name} area for over {BUSINESS.yearsExperience} years,
-              building a reputation for quality glazing, honest pricing, and genuine reliability.
-              Our glaziers understand the types of properties in {location.name} — from
-              Victorian sash windows to modern aluminium systems — and bring the right skills and materials
-              for every job.
+              We serve the {location.name} area regularly, building a reputation for quality glazing,
+              honest pricing, and genuine reliability. Our glaziers understand the types of properties
+              in {location.name} — from Victorian sash windows to modern aluminium systems — and bring
+              the right skills and materials for every job.
             </p>
 
             {location.landmarks.length > 0 && (

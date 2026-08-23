@@ -58,11 +58,12 @@ export default function TermsPage() {
             </section>
 
             <section>
-              <h2>5. Workmanship Guarantee</h2>
+              <h2>5. Insurance &amp; Workmanship</h2>
               <p>
-                All workmanship is guaranteed for a minimum of 12 months from the date of completion.
-                This guarantee covers defects in our work but does not cover damage caused by third
-                parties, general wear and tear, or misuse. Materials are subject to the manufacturer&apos;s warranty.
+                We carry public liability insurance on every job. All work is carried out by qualified,
+                insured glaziers to current Building Regulations standards. Any defects in our workmanship
+                reported within a reasonable period will be investigated and, where we are at fault,
+                rectified at no additional charge. Materials are subject to the relevant manufacturer&apos;s warranty.
               </p>
             </section>
 

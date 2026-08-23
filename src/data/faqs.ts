@@ -26,8 +26,8 @@ export const GENERAL_FAQS: FAQ[] = [
     answer: 'We do not charge a call-out fee for standard bookings. Emergency call-outs outside normal hours carry a small supplement, which we always advise you of before confirming.',
   },
   {
-    question: 'What guarantee do you provide?',
-    answer: 'Window and door frames come with a manufacturer-backed guarantee. For all other work, we stand behind our craftsmanship — ask us for details when we provide your free quote.',
+    question: 'Are you insured?',
+    answer: 'Yes. We carry full public liability insurance on every job. All work is completed by qualified, insured glaziers to current UK Building Regulations standards. Materials are covered by the relevant manufacturer warranty.',
   },
   {
     question: 'Do I need planning permission for new windows or doors?',

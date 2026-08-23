@@ -17,6 +17,8 @@ export default function TestimonialsSection({
 }: TestimonialsSectionProps) {
   const displayed = TESTIMONIALS.slice(0, limit)
 
+  if (displayed.length === 0) return null
+
   return (
     <section className="section-padding bg-slate-50" aria-labelledby="reviews-heading">
       <div className="container-custom">
@@ -32,7 +34,7 @@ export default function TestimonialsSection({
               ))}
             </div>
             <span className="text-2xl font-black text-[#0f2442]">4.9</span>
-            <span className="text-slate-500">from 312+ reviews on Google</span>
+            <span className="text-slate-500">on Google</span>
           </div>
           <p className="text-slate-500 text-lg">
             Real reviews from real customers across London and Surrey. Every review is verified

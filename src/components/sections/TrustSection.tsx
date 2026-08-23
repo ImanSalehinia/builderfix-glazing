@@ -104,14 +104,14 @@ export default function TrustSection() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0f2442]/80 to-transparent flex items-center">
             <div className="px-10">
-              <p className="text-white text-2xl font-black mb-1">Trusted by 2,000+ London homeowners</p>
+              <p className="text-white text-2xl font-black mb-1">Fully insured — public liability covered on every job</p>
               <p className="text-slate-300 text-base">Free written quote — no obligation to proceed</p>
             </div>
           </div>
           {/* Brand badge — simulates logo on worker uniform */}
           <div className="absolute bottom-4 right-6 flex items-center gap-2 bg-[#0f2442]/90 backdrop-blur-sm border border-orange-400/40 rounded-xl px-4 py-2.5 shadow-xl">
             <div className="w-7 h-7 bg-orange-500 rounded-lg flex items-center justify-center shrink-0">
-              <span className="text-white font-black text-xs">LF</span>
+              <span className="text-white font-black text-xs">BF</span>
             </div>
             <div className="leading-tight">
               <p className="text-white font-black text-sm">{BUSINESS.name}</p>
