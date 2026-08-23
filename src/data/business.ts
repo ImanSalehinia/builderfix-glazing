@@ -23,7 +23,7 @@ export const BUSINESS = {
     linkedin: '',
   },
   googleReviews: {
-    rating: 4.9,
+    rating: 5,
     url: 'https://g.page/r/CVH2b3VDUme7EBM/review',
   },
   accreditations: [],
