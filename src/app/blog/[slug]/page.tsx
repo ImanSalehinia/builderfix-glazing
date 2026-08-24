@@ -21,20 +21,20 @@ const CATEGORY_IMAGES: Record<string, string> = {
   'Guides':      'https://images.unsplash.com/photo-1564182842834-681b7be6de4b?auto=format&fit=crop&w=1200&q=80',
   'Inspiration': 'https://images.unsplash.com/photo-1684831652490-77ba946774c0?auto=format&fit=crop&w=1200&q=80',
   'Commercial':  'https://images.unsplash.com/photo-1574854986069-a8653af0944e?auto=format&fit=crop&w=1200&q=80',
-  'Landlords':   'https://images.unsplash.com/photo-1527352774566-e4916e36c645?auto=format&fit=crop&w=1200&q=80',
+  'Landlords':   'https://images.unsplash.com/photo-jJnZg7vBfMs?auto=format&fit=crop&w=1200&q=80',
   default:       'https://images.unsplash.com/photo-1609214776366-38e385f6e265?auto=format&fit=crop&w=1200&q=80',
 }
 
 const SLUG_IMAGES: Record<string, string> = {
-  'bifold-doors-cost-uk':             'https://images.unsplash.com/photo-1684831652490-77ba946774c0?auto=format&fit=crop&w=1200&q=80',
-  'double-glazing-cost-london':       'https://images.unsplash.com/photo-1527352774566-e4916e36c645?auto=format&fit=crop&w=1200&q=80',
+  'bifold-doors-cost-uk':             'https://images.unsplash.com/photo-XQvF5WkM6Ro?auto=format&fit=crop&w=1200&q=80',
+  'double-glazing-cost-london':       'https://images.unsplash.com/photo-4gRNmhGzYZE?auto=format&fit=crop&w=1200&q=80',
   'roof-lantern-cost':                'https://images.unsplash.com/photo-1674752792204-5ac7f336b98d?auto=format&fit=crop&w=1200&q=80',
   'composite-door-cost':              'https://images.unsplash.com/photo-1617307074423-6344f18d357f?auto=format&fit=crop&w=1200&q=80',
-  'misted-double-glazing-fix':        'https://images.unsplash.com/photo-1564182842834-681b7be6de4b?auto=format&fit=crop&w=1200&q=80',
+  'misted-double-glazing-fix':        'https://images.unsplash.com/photo-SW8sKEBvbts?auto=format&fit=crop&w=1200&q=80',
   'frameless-shower-enclosure-guide': 'https://images.unsplash.com/photo-1771239048293-72abf673adb2?auto=format&fit=crop&w=1200&q=80',
   'glass-balustrade-guide':           'https://images.unsplash.com/photo-1500213448252-2636420cec9a?auto=format&fit=crop&w=1200&q=80',
   'shop-front-glazing-guide':         'https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=1200&q=80',
-  'emergency-glazing-what-to-do':     'https://images.unsplash.com/photo-1564182842834-681b7be6de4b?auto=format&fit=crop&w=1200&q=80',
+  'emergency-glazing-what-to-do':     'https://images.unsplash.com/photo-NeK5dKVhnig?auto=format&fit=crop&w=1200&q=80',
 }
 
 function getBlogImage(slug: string, category: string): string {
