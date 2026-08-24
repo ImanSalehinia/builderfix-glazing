@@ -26,21 +26,81 @@ const CATEGORY_IMAGES: Record<string, string> = {
 }
 
 const SLUG_IMAGES: Record<string, string> = {
-  'bifold-doors-cost-uk':             'https://images.unsplash.com/photo-XQvF5WkM6Ro?auto=format&fit=crop&w=1200&q=80',
-  'double-glazing-cost-london':       'https://images.unsplash.com/photo-4gRNmhGzYZE?auto=format&fit=crop&w=1200&q=80',
-  'roof-lantern-cost':                'https://images.unsplash.com/photo-1674752792204-5ac7f336b98d?auto=format&fit=crop&w=1200&q=80',
-  'composite-door-cost':              'https://images.unsplash.com/photo-1617307074423-6344f18d357f?auto=format&fit=crop&w=1200&q=80',
-  'misted-double-glazing-fix':        'https://images.unsplash.com/photo-SW8sKEBvbts?auto=format&fit=crop&w=1200&q=80',
-  'frameless-shower-enclosure-guide': 'https://images.unsplash.com/photo-1771239048293-72abf673adb2?auto=format&fit=crop&w=1200&q=80',
-  'glass-balustrade-guide':           'https://images.unsplash.com/photo-1500213448252-2636420cec9a?auto=format&fit=crop&w=1200&q=80',
-  'shop-front-glazing-guide':         'https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=1200&q=80',
-  'emergency-glazing-what-to-do':     'https://images.unsplash.com/photo-NeK5dKVhnig?auto=format&fit=crop&w=1200&q=80',
-  'glazing-brentford':                'https://images.unsplash.com/photo-pYGnj4jrMDU?auto=format&fit=crop&w=1200&q=80',
-  'glazing-richmond':                 'https://images.unsplash.com/photo-Z2Jb1-ORRp8?auto=format&fit=crop&w=1200&q=80',
-  'glazing-ealing':                   'https://images.unsplash.com/photo-DrhYt-kAe9s?auto=format&fit=crop&w=1200&q=80',
-  'glazing-hampstead':                'https://images.unsplash.com/photo-Nc17eN7pXtI?auto=format&fit=crop&w=1200&q=80',
-  'glazing-chiswick':                 'https://images.unsplash.com/photo-WWB_n0uPgdQ?auto=format&fit=crop&w=1200&q=80',
-  'glazing-wimbledon':                'https://images.unsplash.com/photo-W9m2HnXKuHA?auto=format&fit=crop&w=1200&q=80',
+  // Cost Guides
+  'bifold-doors-cost-uk':                 'https://images.unsplash.com/photo-XQvF5WkM6Ro?auto=format&fit=crop&w=1200&q=80',
+  'double-glazing-cost-london':           'https://images.unsplash.com/photo-4gRNmhGzYZE?auto=format&fit=crop&w=1200&q=80',
+  'roof-lantern-cost':                    'https://images.unsplash.com/photo-1674752792204-5ac7f336b98d?auto=format&fit=crop&w=1200&q=80',
+  'composite-door-cost':                  'https://images.unsplash.com/photo-1617307074423-6344f18d357f?auto=format&fit=crop&w=1200&q=80',
+  'secondary-glazing-cost':               'https://images.unsplash.com/photo-T0iFfJw-rB0?auto=format&fit=crop&w=1200&q=80',
+  'walk-on-glass-floor-cost-london':      'https://images.unsplash.com/photo-A71hpMTGZ4I?auto=format&fit=crop&w=1200&q=80',
+  'frameless-bifold-doors-london':        'https://images.unsplash.com/photo-x1Py2nXR-wc?auto=format&fit=crop&w=1200&q=80',
+  'aluminium-windows-cost-london':        'https://images.unsplash.com/photo-dhjqildvJ6g?auto=format&fit=crop&w=1200&q=80',
+  // Guides — window types & replacement
+  'upvc-vs-aluminium-windows':            'https://images.unsplash.com/photo-XByiEt9pqgA?auto=format&fit=crop&w=1200&q=80',
+  'signs-need-new-windows':               'https://images.unsplash.com/photo-j47HwPsg66Y?auto=format&fit=crop&w=1200&q=80',
+  'sash-window-restoration-guide':        'https://images.unsplash.com/photo-F726gv5jDt8?auto=format&fit=crop&w=1200&q=80',
+  'window-replacement-process':           'https://images.unsplash.com/photo-IL87ecy6WT8?auto=format&fit=crop&w=1200&q=80',
+  'how-long-double-glazing-lasts':        'https://images.unsplash.com/photo-DqV7R-iU4-I?auto=format&fit=crop&w=1200&q=80',
+  'triple-glazing-worth-it':              'https://images.unsplash.com/photo-aWVVrEZVcqw?auto=format&fit=crop&w=1200&q=80',
+  'toughened-vs-laminated-glass':         'https://images.unsplash.com/photo-aK0EmfPuktA?auto=format&fit=crop&w=1200&q=80',
+  'window-energy-ratings':                'https://images.unsplash.com/photo-DI3MlpRdYeE?auto=format&fit=crop&w=1200&q=80',
+  'energy-efficient-windows-guide':       'https://images.unsplash.com/photo-j8FByWLB5lQ?auto=format&fit=crop&w=1200&q=80',
+  // Guides — doors
+  'bifold-vs-patio-doors':                'https://images.unsplash.com/photo-4_Dzj4pqbcg?auto=format&fit=crop&w=1200&q=80',
+  'aluminium-bifold-doors-maintenance':   'https://images.unsplash.com/photo-rntJIQ9gvVg?auto=format&fit=crop&w=1200&q=80',
+  // Guides — glass types & specialist
+  'misted-double-glazing-fix':            'https://images.unsplash.com/photo-SW8sKEBvbts?auto=format&fit=crop&w=1200&q=80',
+  'frameless-shower-enclosure-guide':     'https://images.unsplash.com/photo-1771239048293-72abf673adb2?auto=format&fit=crop&w=1200&q=80',
+  'glass-balustrade-guide':               'https://images.unsplash.com/photo-1500213448252-2636420cec9a?auto=format&fit=crop&w=1200&q=80',
+  'acoustic-secondary-glazing-london':    'https://images.unsplash.com/photo-HvoBextZN0I?auto=format&fit=crop&w=1200&q=80',
+  // Guides — noise, draught, condensation
+  'secondary-glazing-noise-reduction':    'https://images.unsplash.com/photo-n6pu9ZDOaN4?auto=format&fit=crop&w=1200&q=80',
+  'window-noise-reduction':               'https://images.unsplash.com/photo-T0GPl0ldpD8?auto=format&fit=crop&w=1200&q=80',
+  'window-draught-proofing':              'https://images.unsplash.com/photo-FvEbXZSGEP4?auto=format&fit=crop&w=1200&q=80',
+  'sash-window-draught-proofing':         'https://images.unsplash.com/photo-YkPd9vwm9Qo?auto=format&fit=crop&w=1200&q=80',
+  'window-condensation-causes':           'https://images.unsplash.com/photo-aJOslo_ZuWM?auto=format&fit=crop&w=1200&q=80',
+  // Guides — security & planning
+  'window-security-guide':                'https://images.unsplash.com/photo-Lexcm-6FHRU?auto=format&fit=crop&w=1200&q=80',
+  'anti-snap-locks-guide':                'https://images.unsplash.com/photo-0juktkOTkpU?auto=format&fit=crop&w=1200&q=80',
+  'window-handles-locks-upgrade':         'https://images.unsplash.com/photo-heXlOgQq8aE?auto=format&fit=crop&w=1200&q=80',
+  'window-fensa-certificate':             'https://images.unsplash.com/photo-URnyBZCnlIs?auto=format&fit=crop&w=1200&q=80',
+  'planning-permission-windows':          'https://images.unsplash.com/photo-fNxmdlYHRm8?auto=format&fit=crop&w=1200&q=80',
+  'break-in-glass-repair':                'https://images.unsplash.com/photo-jBmNAt2p8-s?auto=format&fit=crop&w=1200&q=80',
+  // Guides — skylights & roof
+  'velux-window-guide':                   'https://images.unsplash.com/photo-R0rfCIwggMU?auto=format&fit=crop&w=1200&q=80',
+  'flat-roof-light-guide':                'https://images.unsplash.com/photo-IA4y7QP7VXQ?auto=format&fit=crop&w=1200&q=80',
+  'skylight-installation-guide':          'https://images.unsplash.com/photo-EdED_M2P--4?auto=format&fit=crop&w=1200&q=80',
+  'roof-lantern-buying-guide':            'https://images.unsplash.com/photo-llshNCpxZhg?auto=format&fit=crop&w=1200&q=80',
+  'conservatory-roof-replacement-guide':  'https://images.unsplash.com/photo-fA6yu7rD4FY?auto=format&fit=crop&w=1200&q=80',
+  // Guides — heritage & conservation
+  'conservation-area-windows':            'https://images.unsplash.com/photo-wpxfpMhgrkM?auto=format&fit=crop&w=1200&q=80',
+  'london-victorian-windows':             'https://images.unsplash.com/photo-zhq1aM0RC4U?auto=format&fit=crop&w=1200&q=80',
+  'glazing-bars-guide':                   'https://images.unsplash.com/photo-2oTdNiBF7_M?auto=format&fit=crop&w=1200&q=80',
+  'glazing-kensington-chelsea':           'https://images.unsplash.com/photo-JG5cNEhSwvg?auto=format&fit=crop&w=1200&q=80',
+  // Guides — bathroom & kitchen
+  'best-glass-bathroom':                  'https://images.unsplash.com/photo-48mTwDzizqE?auto=format&fit=crop&w=1200&q=80',
+  'obscure-glass-bathroom':               'https://images.unsplash.com/photo-ycEKahEaO5U?auto=format&fit=crop&w=1200&q=80',
+  'glass-splashback-guide':               'https://images.unsplash.com/photo-DPUf9G_3Iyo?auto=format&fit=crop&w=1200&q=80',
+  // Guides — new build & commercial
+  'new-build-windows':                    'https://images.unsplash.com/photo-Wm8opOd-MDE?auto=format&fit=crop&w=1200&q=80',
+  'office-glass-partitions-guide':        'https://images.unsplash.com/photo-mzOIHBsoFbE?auto=format&fit=crop&w=1200&q=80',
+  'shop-front-glazing-guide':             'https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=1200&q=80',
+  'automatic-doors-guide':                'https://images.unsplash.com/photo-o17NlVxhe2E?auto=format&fit=crop&w=1200&q=80',
+  // Emergency
+  'emergency-glazing-what-to-do':         'https://images.unsplash.com/photo-NeK5dKVhnig?auto=format&fit=crop&w=1200&q=80',
+  // Inspiration
+  'glass-splashback-colours':             'https://images.unsplash.com/photo-cZgVpseeazg?auto=format&fit=crop&w=1200&q=80',
+  'bifold-door-ideas':                    'https://images.unsplash.com/photo-4vioYQ9Nn9Y?auto=format&fit=crop&w=1200&q=80',
+  'glass-staircase-ideas':                'https://images.unsplash.com/photo-j1PU4Buvqbs?auto=format&fit=crop&w=1200&q=80',
+  'luxury-glazing-london-townhouses':     'https://images.unsplash.com/photo-grKdVVUNmBs?auto=format&fit=crop&w=1200&q=80',
+  // Location area pages
+  'walk-on-glass-floors':                 'https://images.unsplash.com/photo-n2r6EVOE6ls?auto=format&fit=crop&w=1200&q=80',
+  'glazing-brentford':                    'https://images.unsplash.com/photo-pYGnj4jrMDU?auto=format&fit=crop&w=1200&q=80',
+  'glazing-richmond':                     'https://images.unsplash.com/photo-Z2Jb1-ORRp8?auto=format&fit=crop&w=1200&q=80',
+  'glazing-ealing':                       'https://images.unsplash.com/photo-DrhYt-kAe9s?auto=format&fit=crop&w=1200&q=80',
+  'glazing-hampstead':                    'https://images.unsplash.com/photo-Nc17eN7pXtI?auto=format&fit=crop&w=1200&q=80',
+  'glazing-chiswick':                     'https://images.unsplash.com/photo-WWB_n0uPgdQ?auto=format&fit=crop&w=1200&q=80',
+  'glazing-wimbledon':                    'https://images.unsplash.com/photo-W9m2HnXKuHA?auto=format&fit=crop&w=1200&q=80',
 }
 
 function getBlogImage(slug: string, category: string): string {
