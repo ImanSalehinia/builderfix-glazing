@@ -304,4 +304,82 @@ export const BLOG_META: Record<string, BlogMeta> = {
     ],
     locationNote: 'We install acoustic glazing solutions across London, with particular demand in Kensington, Notting Hill, Marylebone, Islington, Clapham, and Battersea.',
   },
+
+  'glazing-brentford': {
+    description: 'Glazing services in Brentford TW8: double glazing, window replacement, emergency glass repair and bifold doors from your local Brentford specialist.',
+    intro: 'As a glazing specialist based in Brentford, BuilderFix Glazing offers the fastest response times in TW8 and surrounding areas. Whether you need new double glazing, a replacement sealed unit, or emergency glass repair, our team is typically on-site within 30–60 minutes.',
+    keyPoints: [
+      'Fastest response in TW8 — our team is based in Brentford',
+      'Double glazing, sealed unit replacement and window repairs',
+      'Bifold and patio door installation for modern rear extensions',
+      'Emergency glazing available 24/7 across all TW8 postcodes',
+      'Free written quotes — no obligation, no call-out charge',
+    ],
+    locationNote: 'We cover all Brentford postcodes: TW8, and neighbouring areas including Ealing (W5), Chiswick (W4), Hounslow (TW3/TW4), Kew (TW9) and Isleworth (TW7).',
+  },
+
+  'glazing-richmond': {
+    description: 'Glazing in Richmond TW9: window replacement, double glazing, sash windows and emergency glass repair. Trusted local glaziers serving Richmond and Kew.',
+    intro: 'Richmond homeowners have some of the most discerning tastes in West London — from Victorian terraces near Richmond Green to modern riverside apartments along the Thames. BuilderFix Glazing provides glazing solutions to match every property type in TW9 and TW10.',
+    keyPoints: [
+      'Richmond properties often mix period sash windows with modern extension glazing',
+      'Conservation area guidance for Richmond\'s protected streets and the Green',
+      'Bifold and aluminium doors popular in Richmond\'s riverside and detached properties',
+      'Sash window double glazing available in period-sympathetic slim profiles',
+      'Response time to Richmond TW9: typically 30–50 minutes from our Brentford base',
+    ],
+    locationNote: 'We cover Richmond (TW9, TW10), Kew (TW9), Twickenham (TW1, TW2), Teddington (TW11) and all surrounding Richmond Borough postcodes.',
+  },
+
+  'glazing-ealing': {
+    description: 'Double glazing and window repair in Ealing W5: local glaziers for all property types. Bifold doors, sash windows, emergency glass repair across W5 and W13.',
+    intro: 'Ealing\'s mix of Edwardian terraces, 1930s semis, and modern new-builds creates a diverse glazing market — from sympathetic timber-effect frames in conservation areas to slim aluminium bifolds for contemporary rear extensions. BuilderFix Glazing covers all Ealing W5 and W13 postcodes.',
+    keyPoints: [
+      'Ealing properties span Victorian, Edwardian and 1930s styles — all require sympathetic glazing',
+      'Conservation area coverage in south Ealing, Pitshanger and Haven Green',
+      'uPVC, timber and aluminium frames available for all property types',
+      'Bifold and patio doors for rear and side-return extensions',
+      'Fast response from Brentford TW8 — typically 20–40 minutes to W5',
+    ],
+    locationNote: 'We cover all Ealing postcodes including W5, W13, and nearby areas: Southall (UB1/UB2), Hanwell (W7), Greenford (UB6), Northolt (UB5) and Acton (W3).',
+  },
+
+  'glazing-hampstead': {
+    description: 'Glazing in Hampstead NW3: specialist glaziers for period properties, sash windows, conservation areas and high-end architectural glass in NW3.',
+    intro: 'Hampstead is home to some of London\'s finest period properties — Georgian townhouses, Victorian villas, and Arts & Crafts houses that demand a glazier who understands heritage requirements. BuilderFix Glazing works regularly in NW3 and within the Hampstead Conservation Area.',
+    keyPoints: [
+      'Hampstead Conservation Area covers over half the village — specialist glazing required',
+      'Listed building glazing work undertaken with full compliance documentation',
+      'Sash window restoration and slim-profile double glazing for period properties',
+      'High-end architectural glass: walk-on floors, frameless balustrades, bifold doors',
+      'Discreet, quality-focused service suited to Hampstead\'s premium property market',
+    ],
+    locationNote: 'We cover Hampstead (NW3), Belsize Park (NW3), Golders Green (NW11), Highgate (N6), Primrose Hill (NW1), St John\'s Wood (NW8) and surrounding North London postcodes.',
+  },
+
+  'glazing-chiswick': {
+    description: 'Glazing in Chiswick W4: double glazing, window replacement, bifold doors and specialist glass. Local glaziers based nearby in Brentford serving W4 homeowners.',
+    intro: 'Chiswick\'s Victorian terraces, Edwardian semis, and Thames-side homes require glazing that balances period character with modern performance. BuilderFix Glazing is based in nearby Brentford and serves Chiswick W4 regularly — one of our most active areas.',
+    keyPoints: [
+      'Chiswick Conservation Area restrictions — we know the local planning rules',
+      'Bifold doors are a popular upgrade for Chiswick\'s rear garden extensions',
+      'Sash window double glazing for Chiswick\'s large Victorian terrace stock',
+      'Quick response from our Brentford base — typically 15–30 minutes to W4',
+      'Regular work in Strand-on-the-Green, Turnham Green and Bedford Park',
+    ],
+    locationNote: 'We serve Chiswick (W4), Gunnersbury, and neighbouring areas including Brentford (TW8), Acton (W3), Hammersmith (W6), Barnes (SW13) and Kew (TW9).',
+  },
+
+  'glazing-wimbledon': {
+    description: 'Glazing in Wimbledon SW19: double glazing, window replacement, bifold doors and emergency glass repair. Specialist glaziers covering SW19, SW20 and surrounding areas.',
+    intro: 'Wimbledon\'s desirable mix of Victorian and Edwardian properties, inter-war semis, and modern new-builds makes it one of South West London\'s busiest glazing markets. Whether you are in Wimbledon Village or near the town centre, BuilderFix Glazing serves the whole SW19 area.',
+    keyPoints: [
+      'Wimbledon Village properties often require period-sympathetic sash or casement styles',
+      'Bifold doors popular in Wimbledon for rear garden access in larger family homes',
+      'Conservation area guidance for Wimbledon Village and the Arthur Road area',
+      'Emergency glazing available 24/7 across SW19, SW20 and KT postcodes',
+      'Full range: windows, doors, glass balustrades, roof lanterns and emergency repairs',
+    ],
+    locationNote: 'We serve Wimbledon (SW19, SW20), Wimbledon Village, Raynes Park (SW20), Morden (SM4), New Malden (KT3) and all surrounding South West London postcodes.',
+  },
 }

@@ -114,4 +114,10 @@ export const BLOG_IDEAS = [
   { slug: 'glass-balustrade-cost-london', title: 'Glass Balustrade Cost London 2025: Prices for Stairs, Decks & Terraces', category: 'Cost Guides' },
   { slug: 'bifold-doors-kensington-chelsea', title: 'Bi-fold Doors in Kensington & Chelsea: Planning, Costs & Installation', category: 'Guides' },
   { slug: 'roof-lantern-extension-london', title: 'Roof Lanterns for London Kitchen Extensions: Cost & Design Guide', category: 'Cost Guides' },
+  { slug: 'glazing-brentford', title: 'Glazing Services in Brentford TW8: Local Glass & Window Specialists', category: 'Guides' },
+  { slug: 'glazing-richmond', title: 'Glazing in Richmond TW9: Window Replacement & Glass Specialists', category: 'Guides' },
+  { slug: 'glazing-ealing', title: 'Double Glazing & Window Repair Ealing W5: Local Glazing Specialists', category: 'Guides' },
+  { slug: 'glazing-hampstead', title: 'Glazing in Hampstead NW3: Heritage Windows & Specialist Glass', category: 'Guides' },
+  { slug: 'glazing-chiswick', title: 'Glazing in Chiswick W4: Windows, Bifold Doors & Glass Specialists', category: 'Guides' },
+  { slug: 'glazing-wimbledon', title: 'Glazing in Wimbledon SW19: Double Glazing & Window Specialists', category: 'Guides' },
 ]
