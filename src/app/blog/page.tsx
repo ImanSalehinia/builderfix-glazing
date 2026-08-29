@@ -25,37 +25,87 @@ const CATEGORY_IMAGES: Record<string, string> = {
 }
 
 const SLUG_IMAGES: Record<string, string> = {
-  // Real job photos — Velux & skylights
+  // ── Real job photos (our own photography) ────────────────────────────
+  'double-glazing-cost-london':           '/images/job-upvc-windows-london.jpg',
   'velux-window-guide':                   '/images/job-velux-inside-sky.jpg',
   'skylight-installation-guide':          '/images/job-velux-loft-bedroom.jpg',
   'flat-roof-light-guide':                '/images/job-flat-rooflights-rooftop.jpg',
   'roof-lantern-buying-guide':            '/images/job-flat-rooflight-dome.jpg',
-  'roof-lantern-cost':                    '/images/job-flat-rooflight-dome.jpg',
-  'conservatory-roof-replacement-guide':  '/images/job-glass-roof-commercial.jpg',
-  // Real job photos — windows & double glazing
-  'double-glazing-cost-london':           '/images/job-upvc-windows-london.jpg',
-  'upvc-vs-aluminium-windows':            '/images/job-upvc-windows-london.jpg',
-  'signs-need-new-windows':               '/images/job-upvc-windows-london.jpg',
-  'energy-efficient-windows-guide':       '/images/job-upvc-windows-london.jpg',
-  'how-long-double-glazing-lasts':        '/images/job-upvc-windows-london.jpg',
-  'window-energy-ratings':                '/images/job-upvc-windows-london.jpg',
-  'aluminium-windows-cost-london':        '/images/job-upvc-windows-london.jpg',
+  'roof-lantern-cost':                    '/images/job-flat-rooflight-aluminium.jpg',
+  'roof-lantern-extension-london':        '/images/job-flat-rooflight-install.jpg',
   'window-replacement-process':           '/images/job-team-velux-rooftop.jpg',
-  // Real job photos — commercial & glass roofs
-  'glazing-kensington-chelsea':           '/images/job-glass-roof-commercial.jpg',
-  'office-glass-partitions-guide':        '/images/job-glass-roof-commercial.jpg',
-  // Real job photos — local area pages
-  'glazing-brentford':                    '/images/job-team-velux-rooftop.jpg',
-  'glazing-richmond':                     '/images/job-velux-ceiling-view.jpg',
-  'glazing-chiswick':                     '/images/job-flat-rooflight-aluminium.jpg',
-  'glazing-ealing':                       '/images/job-upvc-windows-london.jpg',
-  'glazing-hampstead':                    '/images/job-upvc-windows-london.jpg',
-  'glazing-wimbledon':                    '/images/job-upvc-windows-london.jpg',
-  // Valid Unsplash photos (verified IDs)
-  'composite-door-cost':                  'https://images.unsplash.com/photo-1617307074423-6344f18d357f?auto=format&fit=crop&w=600&q=70',
-  'frameless-shower-enclosure-guide':     'https://images.unsplash.com/photo-1771239048293-72abf673adb2?auto=format&fit=crop&w=600&q=70',
-  'glass-balustrade-guide':               'https://images.unsplash.com/photo-1500213448252-2636420cec9a?auto=format&fit=crop&w=600&q=70',
-  'shop-front-glazing-guide':             'https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=600&q=70',
+  'conservatory-roof-replacement-guide':  '/images/job-glass-roof-commercial.jpg',
+  'glazing-hampstead':                    '/images/job-velux-ceiling-view.jpg',
+  // ── Windows & double glazing ──────────────────────────────────────────
+  'upvc-vs-aluminium-windows':            'https://images.unsplash.com/photo-AncfqZVyGB4?auto=format&fit=crop&w=600&q=70',
+  'signs-need-new-windows':               'https://images.unsplash.com/photo-Fd9tUmRBJzk?auto=format&fit=crop&w=600&q=70',
+  'energy-efficient-windows-guide':       'https://images.unsplash.com/photo-U8zsjmKA840?auto=format&fit=crop&w=600&q=70',
+  'how-long-double-glazing-lasts':        'https://images.unsplash.com/photo-QzcmBsPBlfE?auto=format&fit=crop&w=600&q=70',
+  'window-energy-ratings':                'https://images.unsplash.com/photo-ohh8ROaQSJg?auto=format&fit=crop&w=600&q=70',
+  'aluminium-windows-cost-london':        'https://images.unsplash.com/photo-Ubq4cQFYH6M?auto=format&fit=crop&w=600&q=70',
+  'toughened-vs-laminated-glass':         'https://images.unsplash.com/photo-LmxAakMMgVk?auto=format&fit=crop&w=600&q=70',
+  'triple-glazing-worth-it':              'https://images.unsplash.com/photo-DdxY0rZq5ao?auto=format&fit=crop&w=600&q=70',
+  'triple-glazing-london-2025':           'https://images.unsplash.com/photo-ZzAsUYP9kQw?auto=format&fit=crop&w=600&q=70',
+  'misted-double-glazing-fix':            'https://images.unsplash.com/photo-E8fXT092H5o?auto=format&fit=crop&w=600&q=70',
+  'window-condensation-causes':           'https://images.unsplash.com/photo-sHPLvExW9oQ?auto=format&fit=crop&w=600&q=70',
+  'new-build-windows':                    'https://images.unsplash.com/photo-awFiJ8yQLSQ?auto=format&fit=crop&w=600&q=70',
+  'window-noise-reduction':               'https://images.unsplash.com/photo-oRm2TfiHG0U?auto=format&fit=crop&w=600&q=70',
+  'acoustic-secondary-glazing-london':    'https://images.unsplash.com/photo-TsL2xUf9uOM?auto=format&fit=crop&w=600&q=70',
+  'secondary-glazing-cost':               'https://images.unsplash.com/photo-qyQE1KfBwA4?auto=format&fit=crop&w=600&q=70',
+  'secondary-glazing-noise-reduction':    'https://images.unsplash.com/photo-OTB3zBBBpSg?auto=format&fit=crop&w=600&q=70',
+  'frameless-bifold-doors-london':        'https://images.unsplash.com/photo-FecowCYyLcY?auto=format&fit=crop&w=600&q=70',
+  'landlord-window-obligations':          'https://images.unsplash.com/photo-Xa2ysnML9y0?auto=format&fit=crop&w=600&q=70',
+  // ── Bi-fold & patio doors ─────────────────────────────────────────────
+  'bifold-doors-cost-uk':                 'https://images.unsplash.com/photo-DOYyY1CWbz0?auto=format&fit=crop&w=600&q=70',
+  'bifold-vs-patio-doors':                'https://images.unsplash.com/photo-0urGOJxRcmk?auto=format&fit=crop&w=600&q=70',
+  'bifold-door-ideas':                    'https://images.unsplash.com/photo-QmiR1c9azJY?auto=format&fit=crop&w=600&q=70',
+  'aluminium-bifold-doors-maintenance':   'https://images.unsplash.com/photo-OIq-xpb0gbU?auto=format&fit=crop&w=600&q=70',
+  'bifold-doors-kensington-chelsea':      'https://images.unsplash.com/photo-et5Xymmpbbk?auto=format&fit=crop&w=600&q=70',
+  // ── Composite & front doors ───────────────────────────────────────────
+  'composite-door-cost':                  'https://images.unsplash.com/photo-oxvfnWJ32io?auto=format&fit=crop&w=600&q=70',
+  // ── Sash & Victorian / heritage windows ───────────────────────────────
+  'sash-window-restoration-guide':        'https://images.unsplash.com/photo-b5ApUwSn7VI?auto=format&fit=crop&w=600&q=70',
+  'sash-window-draught-proofing':         'https://images.unsplash.com/photo-7B7mZNZtKtc?auto=format&fit=crop&w=600&q=70',
+  'london-victorian-windows':             'https://images.unsplash.com/photo-TLy5giUzq_I?auto=format&fit=crop&w=600&q=70',
+  'conservation-area-windows':            'https://images.unsplash.com/photo-4XG64v4H8xY?auto=format&fit=crop&w=600&q=70',
+  'sash-windows-mayfair-belgravia':       'https://images.unsplash.com/photo-GzY8TSG9QdQ?auto=format&fit=crop&w=600&q=70',
+  'glazing-bars-guide':                   'https://images.unsplash.com/photo-MAtqHsVoNNg?auto=format&fit=crop&w=600&q=70',
+  // ── Security, locks & planning ────────────────────────────────────────
+  'window-fensa-certificate':             'https://images.unsplash.com/photo-KPHDEGh-SIY?auto=format&fit=crop&w=600&q=70',
+  'planning-permission-windows':          'https://images.unsplash.com/photo-nsdBZWoDO7Y?auto=format&fit=crop&w=600&q=70',
+  'window-draught-proofing':              'https://images.unsplash.com/photo-TR60oy_6CMM?auto=format&fit=crop&w=600&q=70',
+  'window-security-guide':                'https://images.unsplash.com/photo-Ibj4oa-Mw3U?auto=format&fit=crop&w=600&q=70',
+  'anti-snap-locks-guide':                'https://images.unsplash.com/photo-7PEPsadntDY?auto=format&fit=crop&w=600&q=70',
+  'window-handles-locks-upgrade':         'https://images.unsplash.com/photo-timI6B32HKg?auto=format&fit=crop&w=600&q=70',
+  'break-in-glass-repair':                'https://images.unsplash.com/photo-xXfw9BQeKxU?auto=format&fit=crop&w=600&q=70',
+  // ── Emergency glazing ─────────────────────────────────────────────────
+  'emergency-glazing-what-to-do':         'https://images.unsplash.com/photo-_esBifcu1CU?auto=format&fit=crop&w=600&q=70',
+  'emergency-glazier-london-24-7':        'https://images.unsplash.com/photo-NeK5dKVhnig?auto=format&fit=crop&w=600&q=70',
+  // ── Shower, bathroom & kitchen glass ─────────────────────────────────
+  'frameless-shower-enclosure-guide':     'https://images.unsplash.com/photo-rDSwQ_6XFUs?auto=format&fit=crop&w=600&q=70',
+  'best-glass-bathroom':                  'https://images.unsplash.com/photo-48mTwDzizqE?auto=format&fit=crop&w=600&q=70',
+  'obscure-glass-bathroom':               'https://images.unsplash.com/photo-g51F6-WYzyU?auto=format&fit=crop&w=600&q=70',
+  'glass-splashback-guide':               'https://images.unsplash.com/photo-IcxGHnqoy-Y?auto=format&fit=crop&w=600&q=70',
+  'glass-splashback-colours':             'https://images.unsplash.com/photo-thpj-Xk0Qjo?auto=format&fit=crop&w=600&q=70',
+  // ── Balustrade, staircase & walk-on glass ─────────────────────────────
+  'glass-balustrade-guide':               'https://images.unsplash.com/photo-n-ebvE52gJg?auto=format&fit=crop&w=600&q=70',
+  'glass-staircase-ideas':                'https://images.unsplash.com/photo-j1PU4Buvqbs?auto=format&fit=crop&w=600&q=70',
+  'glass-balustrade-cost-london':         'https://images.unsplash.com/photo-AIvKJfwMcd8?auto=format&fit=crop&w=600&q=70',
+  'walk-on-glass-floor-cost-london':      'https://images.unsplash.com/photo-A71hpMTGZ4I?auto=format&fit=crop&w=600&q=70',
+  // ── Commercial glazing ────────────────────────────────────────────────
+  'shop-front-glazing-guide':             'https://images.unsplash.com/photo-r7PA4LYaySo?auto=format&fit=crop&w=600&q=70',
+  'office-glass-partitions-guide':        'https://images.unsplash.com/photo-mzOIHBsoFbE?auto=format&fit=crop&w=600&q=70',
+  'automatic-doors-guide':                'https://images.unsplash.com/photo-tvJOR05xJ0o?auto=format&fit=crop&w=600&q=70',
+  // ── Luxury & inspiration ──────────────────────────────────────────────
+  'luxury-glazing-london-townhouses':     'https://images.unsplash.com/photo-irqcS2UsBbA?auto=format&fit=crop&w=600&q=70',
+  // ── Glass roof & lantern area articles ────────────────────────────────
+  'glazing-kensington-chelsea':           'https://images.unsplash.com/photo-EwIh1o0PpDI?auto=format&fit=crop&w=600&q=70',
+  // ── Local area pages ──────────────────────────────────────────────────
+  'glazing-brentford':                    'https://images.unsplash.com/photo-EAwV4grbzSc?auto=format&fit=crop&w=600&q=70',
+  'glazing-richmond':                     'https://images.unsplash.com/photo-Y9QFbo8Vxc0?auto=format&fit=crop&w=600&q=70',
+  'glazing-ealing':                       'https://images.unsplash.com/photo-d7dOlN9jF7g?auto=format&fit=crop&w=600&q=70',
+  'glazing-chiswick':                     'https://images.unsplash.com/photo-Ye8mxE9Vdcs?auto=format&fit=crop&w=600&q=70',
+  'glazing-wimbledon':                    'https://images.unsplash.com/photo-KZkokezFzp4?auto=format&fit=crop&w=600&q=70',
 }
 
 function getBlogImage(slug: string, category: string): string {
