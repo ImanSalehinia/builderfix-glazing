@@ -64,6 +64,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en-GB" className={`${inter.variable} ${dmSans.variable}`}>
       <head>
+        {/* Preload hero image so browser discovers it before JS runs — fixes LCP */}
+        <link
+          rel="preload"
+          as="image"
+          href="/images/hero2.jpg"
+          fetchPriority="high"
+        />
         <link rel="icon" href="/icon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/images/logo-bf.svg" />
         <meta name="theme-color" content="#0f2442" />
@@ -77,6 +84,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
         <StickyButtons />
       </body>
+      {/* Analytics deferred — loads after page is interactive to avoid blocking LCP */}
       <GoogleAnalytics gaId="G-JYQNN0CLR6" />
     </html>
   )
