@@ -78,7 +78,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £300 per window',
     duration: '1–3 days',
-    image: '/images/services/double-glazing.jpg',
+    image: '/images/job-upvc-windows-london.jpg',
     faqs: [
       {
         question: 'How much does double glazing cost in London?',
@@ -550,7 +550,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £500 per window',
     duration: '1–2 days',
-    image: '/images/services/velux.jpg',
+    image: '/images/job-velux-inside-sky.jpg',
     faqs: [
       {
         question: 'How much does a Velux window cost to install in London?',
@@ -602,7 +602,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £800 fitted',
     duration: '1–2 days',
-    image: '/images/services/flat-rooflights.jpg',
+    image: '/images/job-flat-rooflights-rooftop.jpg',
     faqs: [
       {
         question: 'Can a flat roof light be opened for ventilation?',
