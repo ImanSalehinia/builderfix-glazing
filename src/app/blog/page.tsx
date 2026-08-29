@@ -56,7 +56,7 @@ const SLUG_IMAGES: Record<string, string> = {
   'frameless-bifold-doors-london':        'https://images.unsplash.com/photo-1527270997612-014349a46e9c?auto=format&fit=crop&w=600&q=70',
   'landlord-window-obligations':          'https://images.unsplash.com/photo-1662561797374-04350672c032?auto=format&fit=crop&w=600&q=70',
   // ── Bi-fold & patio doors ─────────────────────────────────────────────
-  'bifold-doors-cost-uk':                 'https://images.unsplash.com/photo-1661895061354-bea49f08792f?auto=format&fit=crop&w=600&q=70',
+  'bifold-doors-cost-uk':                 'https://images.unsplash.com/photo-1684831652465-9e523949eef2?auto=format&fit=crop&w=600&q=70',
   'bifold-vs-patio-doors':                'https://images.unsplash.com/photo-1565261949232-3fcc78206c0c?auto=format&fit=crop&w=600&q=70',
   'bifold-door-ideas':                    'https://images.unsplash.com/photo-1566767937961-5fc54d085819?auto=format&fit=crop&w=600&q=70',
   'aluminium-bifold-doors-maintenance':   'https://images.unsplash.com/photo-1560598477-be1f9e036249?auto=format&fit=crop&w=600&q=70',
