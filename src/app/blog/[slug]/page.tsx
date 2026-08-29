@@ -103,6 +103,77 @@ const SLUG_IMAGES: Record<string, string> = {
   'glazing-wimbledon':                    'https://images.unsplash.com/photo-W9m2HnXKuHA?auto=format&fit=crop&w=1200&q=80',
 }
 
+const BLOG_SERVICE_LINKS: Record<string, { slug: string; title: string }[]> = {
+  'double-glazing-cost-london':           [{ slug: 'double-glazing', title: 'Double Glazing Installation' }, { slug: 'sealed-unit-replacement', title: 'Sealed Unit Replacement' }, { slug: 'upvc-windows', title: 'uPVC Windows' }],
+  'bifold-doors-cost-uk':                 [{ slug: 'bifold-doors', title: 'Bi-fold Doors' }, { slug: 'patio-doors', title: 'Patio Doors' }, { slug: 'french-doors', title: 'French Doors' }],
+  'roof-lantern-cost':                    [{ slug: 'roof-lanterns', title: 'Roof Lantern Installation' }, { slug: 'flat-roof-lights', title: 'Flat Roof Lights' }],
+  'composite-door-cost':                  [{ slug: 'composite-doors', title: 'Composite Doors' }, { slug: 'door-glass-replacement', title: 'Door Glass Replacement' }],
+  'secondary-glazing-cost':               [{ slug: 'secondary-glazing', title: 'Secondary Glazing' }],
+  'walk-on-glass-floor-cost-london':      [{ slug: 'walk-on-glass-floors', title: 'Walk-on Glass Floors' }, { slug: 'glass-staircases', title: 'Glass Staircases' }, { slug: 'glass-mezzanine', title: 'Glass Mezzanine Floors' }],
+  'frameless-bifold-doors-london':        [{ slug: 'bifold-doors', title: 'Bi-fold Doors' }, { slug: 'aluminium-windows', title: 'Aluminium Windows' }],
+  'aluminium-windows-cost-london':        [{ slug: 'aluminium-windows', title: 'Aluminium Windows' }, { slug: 'double-glazing', title: 'Double Glazing' }],
+  'triple-glazing-london-2025':           [{ slug: 'double-glazing', title: 'Double Glazing' }, { slug: 'upvc-windows', title: 'uPVC Windows' }, { slug: 'aluminium-windows', title: 'Aluminium Windows' }],
+  'glass-balustrade-cost-london':         [{ slug: 'glass-balustrades', title: 'Glass Balustrades' }, { slug: 'juliet-balcony', title: 'Juliet Balconies' }, { slug: 'glass-staircases', title: 'Glass Staircases' }],
+  'roof-lantern-extension-london':        [{ slug: 'roof-lanterns', title: 'Roof Lantern Installation' }, { slug: 'flat-roof-lights', title: 'Flat Roof Lights' }],
+  'upvc-vs-aluminium-windows':            [{ slug: 'upvc-windows', title: 'uPVC Windows' }, { slug: 'aluminium-windows', title: 'Aluminium Windows' }, { slug: 'double-glazing', title: 'Double Glazing' }],
+  'signs-need-new-windows':               [{ slug: 'double-glazing', title: 'Double Glazing' }, { slug: 'upvc-windows', title: 'uPVC Windows' }, { slug: 'window-repair', title: 'Window Repair' }],
+  'sash-window-restoration-guide':        [{ slug: 'sash-windows', title: 'Sash Window Restoration' }, { slug: 'secondary-glazing', title: 'Secondary Glazing' }],
+  'misted-double-glazing-fix':            [{ slug: 'sealed-unit-replacement', title: 'Sealed Unit Replacement' }, { slug: 'broken-window-repair', title: 'Broken Window Repair' }],
+  'bifold-vs-patio-doors':                [{ slug: 'bifold-doors', title: 'Bi-fold Doors' }, { slug: 'patio-doors', title: 'Patio Doors' }, { slug: 'french-doors', title: 'French Doors' }],
+  'energy-efficient-windows-guide':       [{ slug: 'double-glazing', title: 'Double Glazing' }, { slug: 'upvc-windows', title: 'uPVC Windows' }, { slug: 'aluminium-windows', title: 'Aluminium Windows' }],
+  'glass-splashback-guide':               [{ slug: 'glass-splashbacks', title: 'Glass Splashbacks' }],
+  'frameless-shower-enclosure-guide':     [{ slug: 'shower-enclosures', title: 'Shower Enclosure Installation' }, { slug: 'frosted-glass', title: 'Frosted & Privacy Glass' }],
+  'glass-balustrade-guide':               [{ slug: 'glass-balustrades', title: 'Glass Balustrades' }, { slug: 'juliet-balcony', title: 'Juliet Balconies' }],
+  'secondary-glazing-noise-reduction':    [{ slug: 'secondary-glazing', title: 'Secondary Glazing' }],
+  'conservation-area-windows':            [{ slug: 'sash-windows', title: 'Sash Window Restoration' }, { slug: 'secondary-glazing', title: 'Secondary Glazing' }],
+  'window-security-guide':                [{ slug: 'window-repair', title: 'Window Repair' }, { slug: 'composite-doors', title: 'Composite Doors' }],
+  'velux-window-guide':                   [{ slug: 'velux-windows', title: 'Velux & Roof Windows' }, { slug: 'flat-roof-lights', title: 'Flat Roof Lights' }],
+  'roof-lantern-buying-guide':            [{ slug: 'roof-lanterns', title: 'Roof Lantern Installation' }, { slug: 'flat-roof-lights', title: 'Flat Roof Lights' }],
+  'emergency-glazing-what-to-do':         [{ slug: 'emergency-glazing', title: 'Emergency Glazing 24/7' }, { slug: 'emergency-boarding', title: 'Emergency Boarding Up' }, { slug: 'break-in-repair', title: 'Break-In Repair' }],
+  'shop-front-glazing-guide':             [{ slug: 'shop-fronts', title: 'Shop Front Glazing' }, { slug: 'office-glazing', title: 'Office Glazing & Partitions' }, { slug: 'commercial-glass-repair', title: 'Commercial Glass Repair' }],
+  'office-glass-partitions-guide':        [{ slug: 'office-glazing', title: 'Office Glazing & Partitions' }, { slug: 'frosted-glass', title: 'Frosted & Decorative Glass' }],
+  'window-condensation-causes':           [{ slug: 'sealed-unit-replacement', title: 'Sealed Unit Replacement' }, { slug: 'double-glazing', title: 'Double Glazing' }],
+  'best-glass-bathroom':                  [{ slug: 'shower-enclosures', title: 'Shower Enclosures' }, { slug: 'frosted-glass', title: 'Frosted & Privacy Glass' }],
+  'toughened-vs-laminated-glass':         [{ slug: 'glass-replacement', title: 'Glass Replacement' }, { slug: 'glass-balustrades', title: 'Glass Balustrades' }, { slug: 'walk-on-glass-floors', title: 'Walk-on Glass Floors' }],
+  'window-fensa-certificate':             [{ slug: 'double-glazing', title: 'Double Glazing' }, { slug: 'upvc-windows', title: 'uPVC Windows' }],
+  'planning-permission-windows':          [{ slug: 'double-glazing', title: 'Double Glazing' }, { slug: 'sash-windows', title: 'Sash Windows' }],
+  'aluminium-bifold-doors-maintenance':   [{ slug: 'bifold-doors', title: 'Bi-fold Doors' }, { slug: 'window-repair', title: 'Window Repair' }],
+  'london-victorian-windows':             [{ slug: 'sash-windows', title: 'Sash Windows' }, { slug: 'secondary-glazing', title: 'Secondary Glazing' }, { slug: 'double-glazing', title: 'Double Glazing' }],
+  'triple-glazing-worth-it':              [{ slug: 'double-glazing', title: 'Double Glazing' }, { slug: 'upvc-windows', title: 'uPVC Windows' }, { slug: 'aluminium-windows', title: 'Aluminium Windows' }],
+  'window-replacement-process':           [{ slug: 'double-glazing', title: 'Double Glazing' }, { slug: 'upvc-windows', title: 'uPVC Windows' }, { slug: 'aluminium-windows', title: 'Aluminium Windows' }],
+  'glass-splashback-colours':             [{ slug: 'glass-splashbacks', title: 'Glass Splashbacks' }],
+  'bifold-door-ideas':                    [{ slug: 'bifold-doors', title: 'Bi-fold Doors' }, { slug: 'patio-doors', title: 'Patio Doors' }],
+  'conservatory-roof-replacement-guide':  [{ slug: 'conservatory', title: 'Conservatory Glazing' }, { slug: 'roof-lanterns', title: 'Roof Lanterns' }],
+  'window-draught-proofing':              [{ slug: 'sash-windows', title: 'Sash Windows' }, { slug: 'secondary-glazing', title: 'Secondary Glazing' }, { slug: 'window-repair', title: 'Window Repair' }],
+  'anti-snap-locks-guide':                [{ slug: 'window-repair', title: 'Window Repair' }, { slug: 'composite-doors', title: 'Composite Doors' }],
+  'flat-roof-light-guide':                [{ slug: 'flat-roof-lights', title: 'Flat Roof Lights' }, { slug: 'velux-windows', title: 'Velux Windows' }, { slug: 'roof-lanterns', title: 'Roof Lanterns' }],
+  'how-long-double-glazing-lasts':        [{ slug: 'sealed-unit-replacement', title: 'Sealed Unit Replacement' }, { slug: 'double-glazing', title: 'Double Glazing' }],
+  'window-noise-reduction':               [{ slug: 'secondary-glazing', title: 'Secondary Glazing' }, { slug: 'double-glazing', title: 'Double Glazing' }],
+  'glazing-bars-guide':                   [{ slug: 'sash-windows', title: 'Sash Windows' }, { slug: 'double-glazing', title: 'Double Glazing' }],
+  'new-build-windows':                    [{ slug: 'double-glazing', title: 'Double Glazing' }, { slug: 'aluminium-windows', title: 'Aluminium Windows' }, { slug: 'bifold-doors', title: 'Bi-fold Doors' }],
+  'glass-staircase-ideas':                [{ slug: 'glass-staircases', title: 'Glass Staircases' }, { slug: 'glass-balustrades', title: 'Glass Balustrades' }, { slug: 'walk-on-glass-floors', title: 'Walk-on Glass Floors' }],
+  'sash-window-draught-proofing':         [{ slug: 'sash-windows', title: 'Sash Windows' }, { slug: 'secondary-glazing', title: 'Secondary Glazing' }],
+  'window-handles-locks-upgrade':         [{ slug: 'window-repair', title: 'Window Repair' }, { slug: 'double-glazing', title: 'Double Glazing' }],
+  'automatic-doors-guide':                [{ slug: 'shop-fronts', title: 'Shop Front Glazing' }, { slug: 'office-glazing', title: 'Office Glazing' }],
+  'obscure-glass-bathroom':               [{ slug: 'frosted-glass', title: 'Frosted & Privacy Glass' }, { slug: 'shower-enclosures', title: 'Shower Enclosures' }],
+  'skylight-installation-guide':          [{ slug: 'flat-roof-lights', title: 'Flat Roof Lights' }, { slug: 'velux-windows', title: 'Velux Windows' }, { slug: 'roof-lanterns', title: 'Roof Lanterns' }],
+  'window-energy-ratings':                [{ slug: 'double-glazing', title: 'Double Glazing' }, { slug: 'upvc-windows', title: 'uPVC Windows' }, { slug: 'aluminium-windows', title: 'Aluminium Windows' }],
+  'break-in-glass-repair':                [{ slug: 'break-in-repair', title: 'Break-In Repair' }, { slug: 'emergency-glazing', title: 'Emergency Glazing 24/7' }],
+  'walk-on-glass-floors':                 [{ slug: 'walk-on-glass-floors', title: 'Walk-on Glass Floors' }, { slug: 'glass-staircases', title: 'Glass Staircases' }, { slug: 'glass-mezzanine', title: 'Glass Mezzanine Floors' }],
+  'acoustic-secondary-glazing-london':    [{ slug: 'secondary-glazing', title: 'Secondary Glazing' }],
+  'glazing-kensington-chelsea':           [{ slug: 'sash-windows', title: 'Sash Windows' }, { slug: 'secondary-glazing', title: 'Secondary Glazing' }, { slug: 'glass-balustrades', title: 'Glass Balustrades' }],
+  'luxury-glazing-london-townhouses':     [{ slug: 'walk-on-glass-floors', title: 'Walk-on Glass Floors' }, { slug: 'bifold-doors', title: 'Bi-fold Doors' }, { slug: 'glass-balustrades', title: 'Glass Balustrades' }],
+  'sash-windows-mayfair-belgravia':       [{ slug: 'sash-windows', title: 'Sash Windows' }, { slug: 'secondary-glazing', title: 'Secondary Glazing' }],
+  'emergency-glazier-london-24-7':        [{ slug: 'emergency-glazing', title: 'Emergency Glazing 24/7' }, { slug: 'break-in-repair', title: 'Break-In Repair' }, { slug: 'emergency-boarding', title: 'Emergency Boarding Up' }],
+  'bifold-doors-kensington-chelsea':      [{ slug: 'bifold-doors', title: 'Bi-fold Doors' }, { slug: 'aluminium-windows', title: 'Aluminium Windows' }],
+  'glazing-brentford':                    [{ slug: 'double-glazing', title: 'Double Glazing' }, { slug: 'emergency-glazing', title: 'Emergency Glazing' }, { slug: 'bifold-doors', title: 'Bi-fold Doors' }],
+  'glazing-richmond':                     [{ slug: 'double-glazing', title: 'Double Glazing' }, { slug: 'sash-windows', title: 'Sash Windows' }, { slug: 'bifold-doors', title: 'Bi-fold Doors' }],
+  'glazing-ealing':                       [{ slug: 'double-glazing', title: 'Double Glazing' }, { slug: 'sealed-unit-replacement', title: 'Sealed Unit Replacement' }, { slug: 'emergency-glazing', title: 'Emergency Glazing' }],
+  'glazing-hampstead':                    [{ slug: 'sash-windows', title: 'Sash Windows' }, { slug: 'secondary-glazing', title: 'Secondary Glazing' }, { slug: 'double-glazing', title: 'Double Glazing' }],
+  'glazing-chiswick':                     [{ slug: 'double-glazing', title: 'Double Glazing' }, { slug: 'bifold-doors', title: 'Bi-fold Doors' }, { slug: 'sash-windows', title: 'Sash Windows' }],
+  'glazing-wimbledon':                    [{ slug: 'double-glazing', title: 'Double Glazing' }, { slug: 'bifold-doors', title: 'Bi-fold Doors' }, { slug: 'emergency-glazing', title: 'Emergency Glazing' }],
+}
+
 function getBlogImage(slug: string, category: string): string {
   return SLUG_IMAGES[slug] ?? CATEGORY_IMAGES[category] ?? CATEGORY_IMAGES.default
 }
@@ -290,7 +361,25 @@ export default async function BlogPostPage({ params }: Params) {
                 </div>
               </div>
 
-              <div className="mt-8 pt-8 border-t border-slate-100">
+              {/* Related Services */}
+              {BLOG_SERVICE_LINKS[slug] && (
+                <div className="mt-8 pt-8 border-t border-slate-100">
+                  <h3 className="text-sm font-semibold text-slate-500 uppercase tracking-wide mb-4">Related Services</h3>
+                  <div className="flex flex-wrap gap-3">
+                    {BLOG_SERVICE_LINKS[slug].map(svc => (
+                      <Link
+                        key={svc.slug}
+                        href={`/services/${svc.slug}`}
+                        className="inline-flex items-center gap-1.5 bg-slate-50 border border-slate-200 hover:border-orange-300 hover:bg-orange-50 text-slate-700 hover:text-[#0f2442] text-sm font-medium px-4 py-2 rounded-lg transition-all"
+                      >
+                        {svc.title} →
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              <div className="mt-6 pt-6 border-t border-slate-100">
                 <Link href="/blog" className="flex items-center gap-2 text-orange-600 hover:text-orange-700 font-semibold transition-colors">
                   <ArrowLeft className="w-4 h-4" />
                   Back to Blog

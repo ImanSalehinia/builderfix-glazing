@@ -81,6 +81,47 @@ export default function HomePage() {
         </div>
       )}
 
+      {/* About section — real body text for SEO */}
+      <section className="section-padding bg-white">
+        <div className="container-custom">
+          <div className="max-w-3xl mx-auto">
+            <p className="badge-primary mb-4">London&apos;s Glazing Specialists</p>
+            <h2 className="text-3xl font-black text-[#0f2442] mb-6">
+              Professional Glazing Services Across London & Surrey
+            </h2>
+            <div className="prose prose-slate max-w-none space-y-4 text-slate-600 leading-relaxed">
+              <p>
+                BuilderFix Glazing is a specialist glazing and glass installation company based in
+                Brentford, West London. We serve homeowners, landlords, architects, and businesses
+                across all of Greater London and Surrey — from emergency broken window repairs in
+                Kensington to bespoke walk-on glass floor installations in Mayfair.
+              </p>
+              <p>
+                Our team of experienced, fully insured glaziers covers the complete spectrum of
+                residential and commercial glazing work: double glazing and window replacement,
+                aluminium and uPVC windows, bi-fold and patio doors, composite front doors,
+                frameless shower enclosures, glass balustrades, kitchen splashbacks, roof lanterns,
+                Velux windows, and structural walk-on glass floors. Every installation is completed
+                to current UK Building Regulations, and we provide all relevant compliance
+                documentation on completion.
+              </p>
+              <p>
+                We are particularly experienced with the glazing challenges of London&apos;s Victorian
+                and Edwardian housing stock — sash window restoration and draught-proofing,
+                secondary glazing for listed buildings and conservation areas, and sympathetic
+                replacements that satisfy local planning requirements. Our emergency glazing team
+                is available 24 hours a day, 7 days a week, aiming to be on-site within 2 hours
+                of your call across the whole of London.
+              </p>
+              <p>
+                All quotes are free, written, and fully fixed before we start — no surprises on
+                the invoice. Call us or request a quote online to arrange your free survey.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <TrustSection />
       <ProcessSection />
 

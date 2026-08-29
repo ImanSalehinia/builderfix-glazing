@@ -3,6 +3,11 @@ import { Service } from '@/types'
 import { Location } from '@/types'
 
 export function generateOrganizationSchema() {
+  const sameAs = [
+    ...Object.values(BUSINESS.social).filter(Boolean),
+    BUSINESS.googleReviews.url,
+  ].filter(Boolean)
+
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
@@ -20,7 +25,7 @@ export function generateOrganizationSchema() {
       postalCode: BUSINESS.address.postcode,
       addressCountry: 'GB',
     },
-    sameAs: Object.values(BUSINESS.social).filter(Boolean),
+    sameAs,
   }
 }
 
@@ -73,13 +78,18 @@ export function generateLocalBusinessSchema() {
     knowsAbout: ['Double Glazing', 'Glass Installation', 'Window Replacement', 'Bi-fold Doors', 'Emergency Glazing', 'Glass Balustrades', 'Walk-on Glass Floors'],
   }
 
-  // Only include aggregateRating if we have a real Google Business URL
   if (BUSINESS.googleReviews.url) {
     schema.aggregateRating = {
       '@type': 'AggregateRating',
       ratingValue: BUSINESS.googleReviews.rating,
       bestRating: 5,
+      worstRating: 1,
+      reviewCount: BUSINESS.googleReviews.reviewCount ?? 1,
     }
+  }
+
+  if (BUSINESS.googleReviews.mapsUrl) {
+    schema.hasMap = BUSINESS.googleReviews.mapsUrl
   }
 
   return schema

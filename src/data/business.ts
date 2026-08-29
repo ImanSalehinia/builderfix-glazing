@@ -24,7 +24,9 @@ export const BUSINESS = {
   },
   googleReviews: {
     rating: 5,
+    reviewCount: 0,
     url: 'https://g.page/r/CVH2b3VDUme7EBM/review',
+    mapsUrl: 'https://maps.google.com/?cid=CVH2b3VDUme7EBM',
   },
   accreditations: [],
   primaryAreas: [
