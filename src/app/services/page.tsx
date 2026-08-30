@@ -25,52 +25,52 @@ const CATEGORY_ICONS: Record<string, React.ReactNode> = {
 }
 
 const q = '?auto=format&fit=crop&w=600&q=70'
-const u = (id: string) => `https://images.unsplash.com/photo-${id}${q}`
+const u = (id: string) => `https://images.unsplash.com/${id}${q}`
 
 const SERVICE_IMAGES: Record<string, string> = {
-  // Window installation
-  'double-glazing':          u('1527352774566-e4916e36c645'), // window exterior
-  'upvc-windows':            u('1558618666-fcd25c85cd64'),    // white uPVC house
-  'aluminium-windows':       u('1486325212027-8081e485255e'), // slim frame modern window
-  'sash-windows':            u('1741947837536-9a8779380a2d'), // sash / period window
-  'secondary-glazing':       u('1493809842364-78817add7ffb'), // interior window light
-  'bay-windows':             u('1564013799919-ab600027ffc6'), // bay window exterior
-  // Glass repair
-  'broken-window-repair':    u('1564182842834-681b7be6de4b'), // glazier repairing
-  'sealed-unit-replacement': u('1584824486516-0f5d3a3f8e4a'), // misty sealed unit
-  'glass-replacement':       u('1600585152220-90363fe7e115'), // glass panel install
-  'window-repair':           u('1504307651254-35680f356dfd'), // tradesperson window
+  // Window Installation — real job photos where available
+  'double-glazing':          '/images/job-upvc-windows-london.jpg',
+  'upvc-windows':            u('photo-1610637988384-3154e5644f4b'),
+  'aluminium-windows':       u('photo-1571661683744-fef3696325d6'),
+  'sash-windows':            u('photo-1441105501384-23156f198d37'),
+  'secondary-glazing':       u('photo-1526324373519-cc874618aabd'),
+  'bay-windows':             u('photo-1547638600-6a225c984679'),
+  // Glass Repair
+  'broken-window-repair':    u('photo-1663045579290-4785a5c424fe'),
+  'sealed-unit-replacement': u('photo-1501186758051-167ca3c0fde8'),
+  'glass-replacement':       u('photo-1584257354413-32f8603c40fe'),
+  'window-repair':           u('photo-1585646578973-cbcf2dfd0c8c'),
   // Doors
-  'composite-doors':         u('1617307074423-6344f18d357f'), // composite front door
-  'bifold-doors':            u('1684831652490-77ba946774c0'), // bifold open to garden
-  'patio-doors':             u('1600596542815-0281ded34c24'), // patio sliding door
-  'french-doors':            u('1600607687939-ce8a6c25118c'), // french doors room
-  'door-glass-replacement':  u('1549517045-bc93de630367'), // door glass panel
-  // Roof glazing
-  'roof-lanterns':           u('1674752792204-5ac7f336b98d'), // roof lantern
-  'velux-windows':           u('1674752792204-5ac7f336b98d'), // velux / roof window
-  'conservatory':            u('1600566752355-35792bedcfea'), // conservatory interior
-  'flat-roof-lights':        u('1609214776366-38e385f6e265'), // flat glass roof light
-  // Walk-on glass
-  'walk-on-glass-floors':    u('1609214776366-38e385f6e265'), // structural glass floor
-  'glass-staircases':        u('1500213448252-2636420cec9a'), // glass staircase
-  'glass-mezzanine':         u('1486406146926-c627a92ad1ab'), // mezzanine glass level
-  'juliet-balcony':          u('1600585154340-be6161a56a0c'), // juliet balcony exterior
-  // Specialist glass
-  'shower-enclosures':       u('1771239048293-72abf673adb2'), // frameless shower
-  'glass-balustrades':       u('1573496799652-408c2ac9fe98'), // glass balustrade terrace
-  'glass-splashbacks':       u('1556909114-f6e7ad7d3136'),    // kitchen splashback
-  'mirror-installation':     u('1578662996442-48f60103fc96'), // large mirror interior
-  'frosted-glass':           u('1741947837536-9a8779380a2d'), // glazier / frosted window
+  'composite-doors':         u('photo-1510266988780-b681a96dca2a'),
+  'bifold-doors':            u('photo-1758998202918-d921125a700f'),
+  'patio-doors':             u('photo-1525570665650-76bb26af503d'),
+  'french-doors':            u('photo-1621215040051-a6fe2c73f1af'),
+  'door-glass-replacement':  u('photo-1493895565436-93db25637518'),
+  // Roof & Skylights — real job photos where available
+  'roof-lanterns':           u('photo-1775518799956-a01b2af318eb'),
+  'velux-windows':           '/images/job-velux-inside-sky.jpg',
+  'conservatory':            u('photo-1558455322-911adf441b5a'),
+  'flat-roof-lights':        '/images/job-flat-rooflights-rooftop.jpg',
+  // Walk-on Glass
+  'walk-on-glass-floors':    u('photo-1732408078286-3337c3471dd9'),
+  'glass-staircases':        u('photo-1662624915212-28c69aff68f3'),
+  'glass-mezzanine':         u('photo-1668015642434-a5d2c8ffb6f4'),
+  'juliet-balcony':          u('photo-1597663459867-9903bf92dcfd'),
+  // Specialist Glass
+  'shower-enclosures':       u('photo-1609280069904-ab36feb3f20c'),
+  'glass-balustrades':       u('photo-1598016894037-d316c9763027'),
+  'glass-splashbacks':       u('photo-1701421047804-956d0988a237'),
+  'mirror-installation':     u('photo-1617228206053-477863025d9c'),
+  'frosted-glass':           u('photo-1607355298884-7663019fa61e'),
   // Commercial
-  'shop-fronts':             u('1528698827591-e19ccd7bc23d'), // glass shop front
-  'office-glazing':          u('1574854986069-a8653af0944e'), // office glass partition
-  'curtain-walling':         u('1477959858617-67f85cf4f1df'), // curtain wall building
-  'commercial-glass-repair': u('1504307651254-35680f356dfd'), // commercial repair
+  'shop-fronts':             u('photo-1528698827591-e19ccd7bc23d'),
+  'office-glazing':          u('photo-1497366754035-f200968a6e72'),
+  'curtain-walling':         u('photo-1523477593243-78bbf626fd3b'),
+  'commercial-glass-repair': u('photo-1583922606661-0822ed0bd916'),
   // Emergency
-  'emergency-glazing':       u('1564182842834-681b7be6de4b'), // glazier emergency
-  'emergency-boarding':      u('1504307651254-35680f356dfd'), // boarding up
-  'break-in-repair':         u('1600585152220-90363fe7e115'), // glass repair after break-in
+  'emergency-glazing':       u('photo-1599700403969-f77b3aa74837'),
+  'emergency-boarding':      u('photo-1751486403820-7cf45ebec080'),
+  'break-in-repair':         u('photo-1441804238730-210ce1c2cc00'),
 }
 
 export default function ServicesPage() {
