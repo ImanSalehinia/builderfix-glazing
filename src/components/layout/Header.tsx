@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import { Phone, Menu, X, ChevronDown } from 'lucide-react'
 import { BUSINESS } from '@/data/business'
@@ -47,6 +47,7 @@ export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [openDropdown, setOpenDropdown] = useState<string | null>(null)
+  const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 20)
@@ -93,8 +94,13 @@ export default function Header() {
               <div
                 key={item.href}
                 className="relative group"
-                onMouseEnter={() => item.children && setOpenDropdown(item.label)}
-                onMouseLeave={() => setOpenDropdown(null)}
+                onMouseEnter={() => {
+                  if (closeTimer.current) clearTimeout(closeTimer.current)
+                  if (item.children) setOpenDropdown(item.label)
+                }}
+                onMouseLeave={() => {
+                  closeTimer.current = setTimeout(() => setOpenDropdown(null), 120)
+                }}
               >
                 <Link
                   href={item.href}

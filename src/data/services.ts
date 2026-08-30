@@ -116,7 +116,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £250 per window',
     duration: '1–2 days',
-    image: '/images/services/upvc-windows.jpg',
+    image: 'https://images.unsplash.com/photo-1610637988384-3154e5644f4b?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'How long do uPVC windows last?',
@@ -146,7 +146,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £500 per window',
     duration: '1–3 days',
-    image: '/images/services/aluminium-windows.jpg',
+    image: 'https://images.unsplash.com/photo-1571661683744-fef3696325d6?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'Are aluminium windows more expensive than uPVC?',
@@ -176,7 +176,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £400 per window',
     duration: '1–3 days',
-    image: '/images/services/sash-windows.jpg',
+    image: 'https://images.unsplash.com/photo-1441105501384-23156f198d37?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'Can sash windows be double glazed?',
@@ -206,7 +206,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £200 per window',
     duration: '1–2 days',
-    image: '/images/services/secondary-glazing.jpg',
+    image: 'https://images.unsplash.com/photo-1526324373519-cc874618aabd?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'Does secondary glazing reduce noise effectively?',
@@ -235,7 +235,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £900',
     duration: '2–3 days',
-    image: '/images/services/bay-windows.jpg',
+    image: 'https://images.unsplash.com/photo-1547638600-6a225c984679?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'Can you replace a bay window without scaffolding?',
@@ -263,7 +263,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £80',
     duration: '1–3 hours',
-    image: '/images/services/broken-window.jpg',
+    image: 'https://images.unsplash.com/photo-1663045579290-4785a5c424fe?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'How quickly can you repair a broken window?',
@@ -293,7 +293,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £60 per unit',
     duration: '1–2 hours',
-    image: '/images/services/sealed-unit.jpg',
+    image: 'https://images.unsplash.com/photo-1501186758051-167ca3c0fde8?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'Can a misted double glazed window be repaired without replacing the frame?',
@@ -327,7 +327,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £50',
     duration: '1–4 hours',
-    image: '/images/services/glass-replacement.jpg',
+    image: 'https://images.unsplash.com/photo-1584257354413-32f8603c40fe?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'What is the difference between toughened and laminated glass?',
@@ -353,7 +353,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £60',
     duration: '1–2 hours',
-    image: '/images/services/window-repair.jpg',
+    image: 'https://images.unsplash.com/photo-1585646578973-cbcf2dfd0c8c?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'Can a uPVC window frame be repaired?',
@@ -381,7 +381,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £900 fitted',
     duration: '1 day',
-    image: '/images/services/composite-doors.jpg',
+    image: 'https://images.unsplash.com/photo-1510266988780-b681a96dca2a?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'How long does it take to fit a composite door?',
@@ -411,7 +411,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £2,500 fitted',
     duration: '1–2 days',
-    image: '/images/services/bifold-doors.jpg',
+    image: 'https://images.unsplash.com/photo-1758998202918-d921125a700f?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'Do bi-fold doors need planning permission?',
@@ -441,7 +441,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £1,200 fitted',
     duration: '1 day',
-    image: '/images/services/patio-doors.jpg',
+    image: 'https://images.unsplash.com/photo-1525570665650-76bb26af503d?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'What is the difference between patio doors and bi-fold doors?',
@@ -467,7 +467,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £1,000 fitted',
     duration: '1 day',
-    image: '/images/services/french-doors.jpg',
+    image: 'https://images.unsplash.com/photo-1621215040051-a6fe2c73f1af?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'Can French doors open inward or outward?',
@@ -492,7 +492,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £80',
     duration: '1–3 hours',
-    image: '/images/services/door-glass.jpg',
+    image: 'https://images.unsplash.com/photo-1493895565436-93db25637518?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'Does door glass have to be toughened?',
@@ -520,7 +520,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £2,000 fitted',
     duration: '1–2 days',
-    image: '/images/services/roof-lantern.jpg',
+    image: 'https://images.unsplash.com/photo-1775518799956-a01b2af318eb?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'Do roof lanterns need planning permission?',
@@ -576,7 +576,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £1,500',
     duration: '2–5 days',
-    image: '/images/services/conservatory.jpg',
+    image: 'https://images.unsplash.com/photo-1558455322-911adf441b5a?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'Should I replace my conservatory roof with glass or a warm roof?',
@@ -632,7 +632,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £500 per m²',
     duration: '2–5 days',
-    image: '/images/services/walk-on-glass-floor.jpg',
+    image: 'https://images.unsplash.com/photo-1732408078286-3337c3471dd9?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'How strong is a walk-on glass floor?',
@@ -675,7 +675,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £300 per tread',
     duration: '1–4 days',
-    image: '/images/services/glass-staircases.jpg',
+    image: 'https://images.unsplash.com/photo-1662624915212-28c69aff68f3?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'Can glass stair treads be retrofitted to my existing staircase?',
@@ -710,7 +710,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £800 per m²',
     duration: '3–7 days',
-    image: '/images/services/glass-mezzanine.jpg',
+    image: 'https://images.unsplash.com/photo-1668015642434-a5d2c8ffb6f4?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'Do glass mezzanine floors need Building Regulations approval?',
@@ -741,7 +741,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £600 fitted',
     duration: '1 day',
-    image: '/images/services/juliet-balcony.jpg',
+    image: 'https://images.unsplash.com/photo-1597663459867-9903bf92dcfd?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'What is the difference between a Juliet balcony and a real balcony?',
@@ -777,7 +777,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £400 fitted',
     duration: '1 day',
-    image: '/images/services/shower-enclosure.jpg',
+    image: 'https://images.unsplash.com/photo-1609280069904-ab36feb3f20c?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'How thick should shower glass be?',
@@ -807,7 +807,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £300 per linear metre',
     duration: '1–3 days',
-    image: '/images/services/balustrade.jpg',
+    image: 'https://images.unsplash.com/photo-1598016894037-d316c9763027?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'What glass is used in balustrades?',
@@ -837,7 +837,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £300 fitted',
     duration: '1 day (after measuring)',
-    image: '/images/services/splashback.jpg',
+    image: 'https://images.unsplash.com/photo-1701421047804-956d0988a237?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'How do I choose a colour for my glass splashback?',
@@ -867,7 +867,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £150',
     duration: '2–4 hours',
-    image: '/images/services/mirrors.jpg',
+    image: 'https://images.unsplash.com/photo-1617228206053-477863025d9c?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'How are large mirrors fixed to walls safely?',
@@ -893,7 +893,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £100',
     duration: '2–4 hours',
-    image: '/images/services/frosted-glass.jpg',
+    image: 'https://images.unsplash.com/photo-1607355298884-7663019fa61e?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'What is the difference between frosted film and frosted glass?',
@@ -921,7 +921,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £1,500',
     duration: '1–3 days',
-    image: '/images/services/shopfront.jpg',
+    image: 'https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'How long does a shop front installation take?',
@@ -951,7 +951,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £200 per linear metre',
     duration: '1–5 days',
-    image: '/images/services/office-glazing.jpg',
+    image: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'Can glass partitions be soundproofed?',
@@ -977,7 +977,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'Project based',
     duration: 'Project based',
-    image: '/images/services/curtain-walling.jpg',
+    image: 'https://images.unsplash.com/photo-1523477593243-78bbf626fd3b?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'What is curtain walling?',
@@ -1003,7 +1003,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £150',
     duration: 'Same day in most cases',
-    image: '/images/services/commercial-repair.jpg',
+    image: 'https://images.unsplash.com/photo-1583922606661-0822ed0bd916?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'Can you repair commercial glass out of hours?',
@@ -1031,7 +1031,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £120',
     duration: 'Response within 2 hours',
-    image: '/images/services/emergency-glazing.jpg',
+    image: 'https://images.unsplash.com/photo-1599700403969-f77b3aa74837?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'How quickly can you respond to a broken window in London?',
@@ -1065,7 +1065,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £100',
     duration: 'Response within 2 hours',
-    image: '/images/services/boarding-up.jpg',
+    image: 'https://images.unsplash.com/photo-1751486403820-7cf45ebec080?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'How long does boarding up last?',
@@ -1091,7 +1091,7 @@ export const SERVICES: Service[] = [
     ],
     priceRange: 'From £150',
     duration: 'Response within 2 hours',
-    image: '/images/services/break-in-repair.jpg',
+    image: 'https://images.unsplash.com/photo-1441804238730-210ce1c2cc00?auto=format&fit=crop&w=1200&q=80',
     faqs: [
       {
         question: 'What should I do immediately after a break-in?',

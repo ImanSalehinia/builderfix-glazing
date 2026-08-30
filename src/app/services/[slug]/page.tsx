@@ -75,16 +75,8 @@ export default async function ServicePage({ params }: Params) {
       ]} />
 
       {/* Hero */}
-      <section className="relative overflow-hidden text-white py-16 lg:py-24">
-        <Image
-          src={CATEGORY_IMAGES[service.category] ?? CATEGORY_IMAGES['window-installation']}
-          alt={`${service.title} - BuilderFix Glazing`}
-          fill
-          priority
-          className="object-cover object-center"
-          sizes="100vw"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0f2442]/95 via-[#0f2442]/80 to-[#0f2442]/60" />
+      <section className="relative overflow-hidden text-white py-16 lg:py-24 bg-[#0f2442]">
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0f2442] via-[#0f2442]/95 to-[#0f2442]/80" />
         <div className="relative z-10 container-custom">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -160,6 +152,24 @@ export default async function ServicePage({ params }: Params) {
                   </div>
                 ))}
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Service photo */}
+      <section className="bg-slate-50 py-10">
+        <div className="container-custom">
+          <div className="relative h-[340px] md:h-[440px] rounded-2xl overflow-hidden shadow-xl">
+            <Image
+              src={service.image}
+              alt={`${service.title} — BuilderFix Glazing London`}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 90vw"
+            />
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#0f2442]/70 to-transparent p-6">
+              <p className="text-white font-semibold text-sm">{service.title} · London &amp; Surrey</p>
             </div>
           </div>
         </div>
