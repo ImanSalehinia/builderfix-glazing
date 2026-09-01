@@ -417,5 +417,332 @@ export const BLOG_META: Record<string, BlogMeta> = {
       'Full range: windows, doors, glass balustrades, roof lanterns and emergency repairs',
     ],
     locationNote: 'We serve Wimbledon (SW19, SW20), Wimbledon Village, Raynes Park (SW20), Morden (SM4), New Malden (KT3) and all surrounding South West London postcodes.',
+    body: [
+      'Wimbledon is one of South West London\'s most varied glazing markets — a postcode that ranges from the grand detached houses of Wimbledon Village and the Arthur Road area at the top of the hill, down through Edwardian semis and Victorian terraces towards Wimbledon town centre, and out to the 1930s housing of Raynes Park and Wimbledon Park. Each zone has its own glazing character, and our team works across all of them.',
+      'Wimbledon Village sits partly within a conservation area, and the larger detached houses on the roads around the Common — Parkside, Cannizaro Road, and Woodhayes Road — represent some of the most valuable property in South London. Glazing work here demands care: casement and sash replacements must respect the character of the property, and listed building consent is required for any changes to the exterior of listed houses. We carry out sympathetic sash window restorations and slim-profile double glazing across this premium zone of SW19.',
+      'Further down the hill, Wimbledon\'s large Edwardian semis along Worple Road, Pepys Road, and the streets between Wimbledon station and Wimbledon Park are prime territory for bifold door installations. Rear extensions are extremely common in these properties — the classic side-return or full-width extension opening up a kitchen-diner — and aluminium bifold or sliding door systems are the default glazing choice for the back wall. We install these systems regularly throughout SW19, typically in a single day.',
+      'Sealed unit failures are a frequent issue in Wimbledon\'s large stock of 1980s and 1990s replacement windows. Many SW19 homeowners discover misting or condensation between the panes and assume they need new windows. In most cases, the frame is sound and only the sealed unit needs replacing — a job that costs a fraction of full window replacement and can often be completed on the same day as our site visit. We carry a range of standard unit sizes in our vans.',
+      'Emergency glazing cover is available 24/7 across all Wimbledon postcodes. If you have a broken window — from a break-in, storm damage, or accidental impact — our glaziers can board up and make the opening safe on the same call, with a permanent glass replacement arranged as quickly as possible. Free written quotes are provided for all non-emergency work, with fixed prices agreed before we start.',
+    ],
+  },
+
+  'glazing-chelsea': {
+    description: 'Glazing in Chelsea SW3 and SW10: heritage sash windows, conservation area compliance, bifold doors, and walk-on glass floors for London\'s most prestigious postcode.',
+    intro: 'Chelsea\'s exceptional concentration of Grade II listed terraces, conservation areas, and high-value modernised properties makes it one of London\'s most demanding glazing markets. From Cheyne Walk to Sloane Square, our glaziers understand exactly what SW3 and SW10 require.',
+    keyPoints: [
+      'Much of Chelsea is in conservation areas — specialist glazing knowledge essential',
+      'Listed building consent required for most window changes in SW3',
+      'Slim-profile secondary glazing available where replacement is not permitted',
+      'Walk-on glass floors and basement light wells common in modernised Chelsea townhouses',
+      'Bifold doors for rear extensions rarely require planning in Chelsea',
+    ],
+    locationNote: 'We serve Chelsea (SW3, SW10), Knightsbridge (SW1X, SW7), Belgravia (SW1W), South Kensington (SW7), Fulham (SW6), and all surrounding postcodes.',
+    body: [
+      'Chelsea is unlike almost any other glazing market in London. The combination of a very high proportion of listed buildings, multiple overlapping conservation areas, an architecturally literate client base, and property values that make every glazing decision a significant financial choice means that the standard expected here is consistently higher than elsewhere. From Cheyne Walk — where many houses are individually listed and overlook the Thames — to the garden squares of Paultons Square and Markham Square, and the mews conversions tucked behind the King\'s Road, each part of Chelsea presents its own requirements.',
+      'Listed building work is a significant part of our Chelsea practice. Properties in SW3 that are listed — which covers a large proportion of the Victorian and Georgian terrace stock — require listed building consent for any alteration to windows that affects the character of the building. This typically means working within the existing frame, fitting slim double-glazed units that replicate the original glazing bar pattern, or installing high-performance secondary glazing internally. We have prepared listed building consent applications alongside our glazing proposals and can advise on the most likely outcome before you commit to a specification.',
+      'For Chelsea\'s modernised townhouses — many of which have been substantially reconfigured with open-plan lower ground floors and rear kitchen extensions — the glazing brief is very different. Walk-on glass floors over basement light wells, frameless glass balustrades on raised terraces, and large aluminium bifold systems spanning the rear elevation are all common projects in SW3 and SW10. These installations require a higher level of structural coordination — we work alongside architects and structural engineers where required to ensure the glass specification meets Building Regulations and the engineer\'s load calculations.',
+      'Sash window restoration is also central to our work in Chelsea. Many Victorian and Edwardian properties on streets like Limerston Street, Godfrey Street, and the quieter residential blocks between the Fulham Road and the Embankment still have their original timber box sash windows. Restoring these — rather than replacing them — is almost always the right decision: it preserves the value of the property, complies with conservation area and listed building guidance, and typically produces a window that will last another fifty years with minimal maintenance.',
+      'Emergency glazing cover is available 24/7 in Chelsea. Given the high incidence of burglary in central London postcodes, a fast response to broken glass is particularly important in SW3 and SW10. We carry stock glass and board-up materials and can typically be on-site within 60–90 minutes. Free written quotes are provided for all planned glazing work in Chelsea, with no call-out charge for our assessment visits.',
+    ],
+  },
+
+  'glazing-fulham': {
+    description: 'Glazing in Fulham SW6: double glazing, sash window restoration, bifold doors, and emergency glass repair. Local glaziers serving the full SW6 postcode.',
+    intro: 'Fulham\'s SW6 postcode contains one of South West London\'s most consistent stocks of Victorian and Edwardian terraced housing — a market that generates strong demand for glazing upgrades, bifold door installations, and sash window restorations. BuilderFix Glazing covers all of Fulham.',
+    keyPoints: [
+      'Victorian terraces dominate Fulham — sash window restoration and double glazing our core work',
+      'Bifold doors popular in SW6 for rear kitchen extensions onto south-facing gardens',
+      'Conservation area restrictions on Fulham\'s garden squares and historic streets',
+      'Sealed unit replacement available — often cheaper than full window replacement',
+      'Emergency glazing 24/7 across SW6, Parsons Green and Hammersmith borders',
+    ],
+    locationNote: 'We serve Fulham (SW6), Parsons Green (SW6), Munster Village (SW6), and neighbouring areas including Chelsea (SW3), Hammersmith (W6), Putney (SW15) and West Brompton (SW10).',
+    body: [
+      'Fulham is one of our most active SW London glazing areas — a postcode where Victorian terraces line street after street, from Munster Road and Fulham Palace Road in the north, through the quieter residential blocks around Parsons Green, to the larger houses on Hurlingham Road and the streets closest to Bishop\'s Park and the river. This concentration of period housing creates a steady and varied stream of glazing work: sealed unit replacements in misted double-glazed windows, sash window overhauls, full double glazing upgrades, and bifold door installations as homeowners extend into their rear gardens.',
+      'Sash windows are integral to Fulham\'s street character, and many SW6 properties still have original single-glazed box sash windows from the 1880s to 1910s. Where the frame is structurally sound, we strongly recommend restoration over replacement: new sash cords, draught-proofing brush seals, and slim double-glazed units fitted into the existing frame can produce a window that performs to a modern standard without changing the external appearance that gives Fulham its character. For frames that are beyond economic repair, we supply and install sympathetic timber or aluminium equivalents that match the original proportions.',
+      'Bifold doors are consistently among our most popular installations in Fulham. The typical SW6 Victorian terrace has a rear elevation that opens onto a garden, and as homeowners extend into the side-return or across the rear, the back wall becomes the focal point for a large glazed opening. Aluminium bifold systems — from manufacturers including Origin, Schüco, and Reynaers — are the dominant choice: slim sightlines, strong thermal performance, and a 25-year finish guarantee that suits the investment level of Fulham\'s property market. We complete these installations in a single day in most cases.',
+      'Conservation area guidance applies to several streets in Fulham, particularly around the garden squares and the older residential streets closest to Chelsea. On these streets, front elevation window changes are subject to planning scrutiny and must respect the character of the terrace. We are familiar with Hammersmith & Fulham Council\'s planning requirements and can advise on what is and is not likely to require permission before you invest in a new window specification.',
+      'Emergency glazing cover in Fulham is available 24 hours a day, seven days a week. Broken windows in SW6 — from break-ins, storm damage, or accidental impacts — can be boarded and made safe on our initial visit, with a permanent glass replacement fitted as quickly as possible. Free written quotes are provided for all planned work across Fulham.',
+    ],
+  },
+
+  'glazing-putney': {
+    description: 'Glazing in Putney SW15: double glazing, sash window restoration, bifold doors, glass balustrades and emergency glass repair for SW15 homeowners.',
+    intro: 'Putney\'s SW15 postcode spans one of South West London\'s most varied and desirable residential areas — Victorian terraces, Edwardian detached houses near the river, and 1930s semis towards Roehampton. BuilderFix Glazing covers the whole of Putney from our Brentford base.',
+    keyPoints: [
+      'Large Edwardian detached houses around the Thames embankment are prime glazing territory',
+      'Bifold doors popular in SW15 for rear extensions and terrace access',
+      'Sash window restoration common in Putney\'s Victorian terrace stock',
+      'Glass balustrades for riverside and elevated terrace properties',
+      'Fast response: Brentford to SW15 typically 45–60 minutes',
+    ],
+    locationNote: 'We serve Putney (SW15), East Putney (SW15), Roehampton (SW15), and neighbouring areas including Wandsworth (SW18), Barnes (SW13), Fulham (SW6) and Wimbledon (SW19).',
+    body: [
+      'Putney occupies a stretch of South West London that rises from the Thames riverbank — with its Victorian and Edwardian houses and mansion blocks along the Embankment and Lower Richmond Road — up through the denser Victorian terrace streets around East Putney station, and out to the larger semi-detached houses towards Roehampton and Putney Heath. This variety of property types means the glazing work we carry out in SW15 is correspondingly varied, from basic sealed unit replacements in 1980s windows to high-specification structural glass installations in riverside properties.',
+      'The larger Edwardian and early Victorian detached houses along the Thames Embankment and the roads immediately south of it — Deodar Road, Keswick Road, Ravenna Road — represent Putney\'s premium glazing market. These properties frequently undergo refurbishment, and our work here includes rear bifold door systems opening onto landscaped gardens, walk-on glass terrace floors, glass balustrades along raised side terraces, and sash window restoration. Where properties face the river, acoustic glazing is often a priority: traffic on the A316 and river noise can both be significantly reduced with the right glass specification.',
+      'Sash window work is central to our Putney practice. The Victorian terraces that line streets such as Felsham Road, Lacy Road, and the network of residential streets around East Putney Underground station have a high proportion of original single-glazed timber sash windows. Our approach is to restore where possible — refitting sash cords, installing draught-proofing brush seals, and fitting slim double-glazed units within the existing frame — and to replace where frames are beyond repair, using sympathetic timber or aluminium equivalents that maintain the street elevation character.',
+      'Bifold doors account for a significant proportion of new glazing installations we carry out in Putney. The typical SW15 extension — a rear or side-return addition to a Victorian or Edwardian terrace — almost always specifies a full-width bifold door system for the new rear wall. Aluminium systems are the preferred choice throughout SW15: they offer slim 40–60mm sightlines, high thermal performance, and a long service life that matches the investment level of Putney\'s property market. We supply and install these from 2.4m to 5m+ openings, completing most installations in a single day.',
+      'Emergency glazing cover is available 24/7 across all Putney postcodes. Whether you need emergency boarding after a break-in, a cracked window made safe after storm damage, or an urgent sealed unit replacement, our team typically reaches SW15 within 45–60 minutes from our Brentford base. Free written quotes for all planned glazing work in Putney, with no hidden charges.',
+    ],
+  },
+
+  'glazing-battersea': {
+    description: 'Glazing in Battersea SW11 and SW8: double glazing, bifold doors, glass balustrades and emergency glass repair. Specialist glaziers for Battersea\'s evolving property market.',
+    intro: 'Battersea\'s transformation from an industrial riverbank to one of London\'s most dynamic residential areas has created a highly varied glazing market — Victorian terraces, converted warehouses, luxury riverside apartments, and new-build towers. BuilderFix Glazing covers all of SW11 and SW8.',
+    keyPoints: [
+      'Battersea Power Station area drives demand for high-spec glazing in new and converted buildings',
+      'Victorian terraces around Battersea Park Road and Lavender Hill: sash and double glazing',
+      'River-facing balconies and terraces: frameless glass balustrades are the premium choice',
+      'Bifold doors popular in SW11 for rear extensions and ground-floor conversions',
+      'Emergency glazing 24/7 across SW11, SW8, Nine Elms and Clapham borders',
+    ],
+    locationNote: 'We serve Battersea (SW11, SW8), Nine Elms (SW8), and neighbouring areas including Clapham (SW4), Wandsworth (SW18), Pimlico (SW1V), Chelsea (SW3) and Vauxhall (SE11).',
+    body: [
+      'Battersea is one of London\'s most rapidly evolving residential areas — a postcode that has transformed over two decades from a working-class riverbank neighbourhood into one of the capital\'s most sought-after addresses. The result is an extraordinary mix of property types within a small geographic area: Victorian terraces and Edwardian mansion blocks on the inland streets around Lavender Hill and Battersea Park Road; converted former industrial and warehouse buildings closer to the river; luxury new-build apartment towers in the Nine Elms zone; and the extraordinary cultural centrepiece of the restored Battersea Power Station itself. Each property type generates different glazing requirements, and our team works across all of them.',
+      'For Battersea\'s Victorian terraces — particularly the streets around St John\'s Hill, Battersea Rise, and Abbeville Road in the Northcote area — glazing work is dominated by sealed unit replacements, sash window restorations, and bifold door installations for rear extensions. The terraces here follow a similar pattern to those across Clapham and Wandsworth: 1880s–1910s construction, original timber sash windows often replaced with uPVC at some point since the 1980s, and a new generation of owners who want to restore or upgrade to aluminium systems that perform better and look more appropriate on the original property.',
+      'Battersea\'s riverside properties and converted buildings represent the more premium end of our SW11 glazing work. Frameless glass balustrades on terraces and balconies that overlook the Thames are one of the most frequently requested products in this area — they preserve unobstructed river views while meeting Building Regulations requirements for edge protection. We also install walk-on glass floors in converted buildings where basement or lower-ground spaces have been opened up, and large aluminium sliding or bifold systems for ground-floor living spaces that open onto private terraces or communal riverside gardens.',
+      'The Nine Elms zone — centred on the Battersea Power Station development and extending along Albert Embankment — has created a new demand for specialist glazing services: new-build snagging and warranty repairs, aluminium sliding system replacements, frameless balustrade maintenance, and acoustic glazing upgrades for residents on the busiest riverside roads. We are experienced working in both managed apartment buildings and private freehold properties across SW8 and the northern end of SW11.',
+      'Emergency glazing is available 24 hours a day across all Battersea and Nine Elms postcodes. Response time from our Brentford base is typically 60–90 minutes for SW11 and SW8. We carry board-up materials and standard glass in our vans, so in most cases we can make the property secure and arrange a permanent glass replacement on a single visit. Free written quotes for all planned work across Battersea.',
+    ],
+  },
+
+  'glazing-barnes': {
+    description: 'Glazing in Barnes SW13: sash window restoration, double glazing, bifold doors and emergency glass repair. Trusted glaziers for Barnes\'s period homes and village properties.',
+    intro: 'Barnes combines the character of a self-contained village with some of South West London\'s most valuable residential property. Victorian terraces, Georgian riverside cottages, and large Edwardian detached houses make SW13 one of our most interesting glazing areas.',
+    keyPoints: [
+      'Barnes village character means period-sympathetic glazing is strongly preferred',
+      'Georgian cottages on the riverside and near Barnes Pond: sensitive restoration work',
+      'Large Edwardian detached houses off Castelnau: bifold doors and premium glazing',
+      'Conservation area restrictions on Barnes\'s key streets and the village centre',
+      'Emergency glazing 24/7 across SW13 and Barnes Bridge',
+    ],
+    locationNote: 'We serve Barnes (SW13), Barnes Village, Mortlake (SW14), and neighbouring areas including Hammersmith (W6), Chiswick (W4), Putney (SW15) and Richmond (TW9).',
+    body: [
+      'Barnes is one of the London postcodes where glazing decisions matter most — a self-contained village community with a strong sense of local character, a high proportion of period properties, and homeowners who invest significantly in getting the details right. The property stock in SW13 ranges from Georgian cottages around Barnes Pond and the riverside to Victorian terraces on Lonsdale Road and White Hart Lane, and large detached Edwardian houses on the roads closest to Castelnau and the river. Each category has its own glazing profile.',
+      'Georgian and early Victorian properties in Barnes — particularly those around Barnes Pond, Church Road, and the riverside stretch towards Hammersmith Bridge — represent the most sensitive glazing work we carry out in SW13. Many of these houses are individually listed or sit within conservation areas where changes to the external appearance of windows require planning consent. Our approach here is to work within the existing frame wherever possible: new sash cords, draught-proofing brush strips, and slim double-glazed units fitted into the original box sash frame. Where the frame is too far gone, we supply and install timber or aluminium equivalents that replicate the original proportions and detailing.',
+      'The large Edwardian detached and semi-detached houses off Castelnau and the streets immediately south of Hammersmith Bridge — Lonsdale Road, Nassau Road, Glentham Road — are well suited to rear glazing upgrades. Bifold door systems opening onto south or west-facing gardens, roof lanterns over single-storey rear extensions, and frameless glass balustrades on raised rear terraces are all common projects in this part of Barnes. We install aluminium bifold and sliding systems across SW13, typically completing a standard installation in a single day with no disruption to the rest of the property.',
+      'Barnes\'s proximity to the Thames means a number of SW13 properties have direct river frontage or views. For these, acoustic glazing is often a consideration — the combination of riverside road traffic and river noise can be significantly reduced with laminated acoustic glass or secondary glazing fitted to the primary windows. We carry out acoustic glazing assessments and installations throughout Barnes for homeowners on or near the A316 corridor and the river itself.',
+      'Emergency glazing cover is available 24/7 across Barnes and the SW13 postcode. Response time from our Brentford base is typically 30–50 minutes, and we carry standard glass sizes in our vans for immediate boarding and repair. Free written quotes are provided for all planned glazing work in Barnes, with fixed prices agreed before any work begins.',
+    ],
+  },
+
+  'glazing-notting-hill': {
+    description: 'Glazing in Notting Hill W11: conservation area window specialists, sash window restoration, bifold doors and walk-on glass floors for W11 and W10 properties.',
+    intro: 'Notting Hill\'s stucco-fronted terraces and the Ladbroke Conservation Area create one of London\'s most demanding glazing environments. Planning rules are strict, property values are high, and the standard expected from any glazier is correspondingly exacting.',
+    keyPoints: [
+      'Ladbroke Conservation Area covers much of W11 — specialist planning knowledge essential',
+      'Sash windows are dominant — restoration preferred and often required by planning',
+      'Bifold doors for lower-ground and rear extensions widely installed in W11',
+      'Walk-on glass floors for basement conversions increasingly popular in Notting Hill',
+      'Emergency glazing 24/7 — fast response from West London base',
+    ],
+    locationNote: 'We serve Notting Hill (W11), Holland Park (W11, W14), Ladbroke Grove (W10, W11), Westbourne Park (W2), and neighbouring areas including Kensington (W8) and Bayswater (W2).',
+    body: [
+      'Notting Hill occupies a unique position in London\'s glazing market. The combination of high property values, an architecturally cohesive building stock of stucco-fronted Victorian terraces, and a large and strictly enforced conservation area means that glazing decisions here carry real planning and financial weight. The Ladbroke Conservation Area — which covers the majority of the grid of streets between Ladbroke Grove, Holland Park Avenue, and Portobello Road — has a character appraisal that sets out in detail what is and is not acceptable in terms of window changes, frame materials, and glazing bar configurations.',
+      'Sash windows define the character of Notting Hill\'s streets, and planning guidance strongly favours restoration over replacement in the conservation area. For homeowners with original single-glazed timber box sash windows on street-facing elevations — which covers a significant proportion of W11 properties — the right approach is usually to restore the existing frame, fit draught-proofing brush seals, and either leave the window single-glazed (with secondary glazing added internally for thermal improvement) or fit slim double-glazed units that preserve the external profile. We carry out all of these options and can advise on what is most likely to satisfy planning requirements for your specific property and street.',
+      'Below and behind the street-facing conservation area requirements, Notting Hill\'s modernised properties tell a different story. Lower-ground floors — which in Notting Hill\'s stucco townhouses are often large, light-filled kitchen and dining spaces — frequently have bifold or sliding door systems opening onto rear gardens or lightwells. Basement conversions often incorporate walk-on glass floors beneath the hallway or entrance area, allowing natural light to reach below ground level. These are premium installations that require both structural coordination and high-specification glass: we carry out this work regularly in W11 and can provide a complete package from initial structural assessment to finished installation.',
+      'Emergency glazing cover is available 24 hours a day in Notting Hill. Given the high-value nature of W11 properties and the elevated security risk that comes with them, a fast response to broken or damaged glass is particularly important. Our glaziers can board up and make the opening secure on the initial visit, with a permanent glass replacement fitted as soon as possible. We also advise on security glazing upgrades — laminated glass to the lower floors and security-rated door panels — for homeowners who want to upgrade beyond standard float glass.',
+      'Free written quotes are provided for all planned glazing work in Notting Hill and the W11 postcode. We visit the site before submitting a quote, assess the planning position as part of our appraisal, and present a fixed price that covers all work from removal of the existing window to completion of the installation. No hidden charges, no surprises.',
+    ],
+  },
+
+  'glazing-mayfair': {
+    description: 'Glazing in Mayfair W1: heritage sash window restoration, listed building glazing, walk-on glass floors and premium bifold doors for London\'s most prestigious address.',
+    intro: 'Mayfair demands the highest standard of glazing in London — Georgian townhouses on the Grosvenor Estate, listed buildings across W1J and W1K, and fully modernised luxury apartments where precision and discretion are expected as standard. BuilderFix Glazing works throughout Mayfair.',
+    keyPoints: [
+      'Much of Mayfair is Conservation Area — listed building consent often required',
+      'Georgian townhouses: sash restoration, slim secondary glazing, heritage compliance',
+      'Modernised Mayfair properties: walk-on glass floors, frameless balustrades, bifolds',
+      'Grosvenor Estate properties have additional estate guidelines we are familiar with',
+      'Emergency glazing available 24/7 across W1, SW1 and central London postcodes',
+    ],
+    locationNote: 'We serve Mayfair (W1K, W1J, W1S), St James\'s (SW1A, SW1Y), Marylebone (W1U), Belgravia (SW1W), Knightsbridge (SW7) and all central London postcodes.',
+    body: [
+      'Mayfair is among the most demanding and rewarding glazing environments in London. The W1 postcode contains a concentration of Georgian architecture — Grosvenor Square, Berkeley Square, Curzon Street, Mount Street, and the Mayfair conservation area\'s network of elegant terraces — that sets a standard for glazing work that very few contractors can reliably meet. Every window change here requires either compliance with conservation area guidelines or, in the case of listed buildings (which cover a large proportion of the W1 residential stock), listed building consent from Westminster City Council.',
+      'Georgian townhouses on the Grosvenor Estate — which covers most of the streets between Park Lane and Bond Street — are characterised by their six-over-six sash windows, elegant proportions, and high-quality original joinery. Where these properties remain as single-family houses or embassy residences, glazing work typically involves full sash restoration: new sash cords, sash weight adjustment, draught-proofing brush seals, and (where listed building consent permits) slim double-glazed units fitted within the existing frame. Where listed building consent is required, we prepare the application documentation and can liaise with Westminster City Council\'s heritage officer on the proposed specification.',
+      'Mayfair\'s luxury apartment sector — which includes both historic conversions and purpose-built modern buildings — generates a different category of glazing work. Frameless glass staircases, walk-on glass floors spanning basement vaults, flush-fitting bi-fold systems that transform ground-floor reception areas, and structural glass balustrades on interior mezzanines are all projects we have completed in W1. These require the highest level of glass specification — typically laminated structural glass to SGP interlayer, supported by a structural engineer\'s calculations — and the precision that comes from experience in this market.',
+      'Discretion is a genuine requirement for many Mayfair glazing projects. High-net-worth homeowners, estate managers, and their interior design teams expect contractors who work quietly, keep to agreed schedules, protect finishes and furnishings as a matter of course, and communicate clearly throughout. We are accustomed to working within these expectations and treat every Mayfair project accordingly, regardless of its size.',
+      'Emergency glazing cover is available 24/7 in Mayfair and all W1 postcodes. Free written quotes are provided for all planned glazing work, with full heritage compliance documentation included as part of the service for listed buildings and conservation area properties.',
+    ],
+  },
+
+  'glazing-belgravia': {
+    description: 'Glazing in Belgravia SW1: listed building glazing, heritage sash restoration, walk-on glass floors and frameless balustrades for SW1W and SW1X properties.',
+    intro: 'Belgravia\'s white stucco squares and Grosvenor Estate streets represent the apex of London\'s residential property market. Glazing here requires both technical precision and an understanding of the heritage and estate restrictions that govern every visible change to SW1W and SW1X properties.',
+    keyPoints: [
+      'Most Belgravia properties are listed or in conservation areas — consent usually required',
+      'Grosvenor and Cadogan Estate guidelines must be observed alongside planning rules',
+      'Sash window restoration: slim secondary glazing for listed buildings',
+      'Basement glass floors and frameless balustrades for modernised Belgravia townhouses',
+      'Emergency glazing 24/7 — professional response for high-security requirements',
+    ],
+    locationNote: 'We serve Belgravia (SW1W, SW1X), Knightsbridge (SW7), Chelsea (SW3), Pimlico (SW1V), Victoria (SW1E) and all central London postcodes.',
+    body: [
+      'Belgravia is the most demanding glazing market in London — a neighbourhood where listed building consent is required for almost any change to the external appearance of windows, where the Grosvenor and Cadogan Estates have their own guidelines that sit above and alongside the planning system, and where the clients are among the most informed and exacting in the world. The white stucco-fronted houses on Eaton Square, Belgrave Square, Chester Square, Eaton Place, and Lyall Street represent some of the highest residential property values in the UK — and every glazing decision reflects that context.',
+      'Listed building consent is the primary planning requirement for most glazing work in Belgravia. The terraces and semi-detached villas of SW1W and SW1X are almost entirely Grade II listed, meaning that any alteration to a window that affects the external appearance — including replacing glass, changing frame materials, or altering glazing bars — requires an application to Westminster City Council. We prepare listed building consent applications as part of our service, including heritage impact statements where required, and can manage the application process through to consent on behalf of our clients.',
+      'For Belgravia properties where the interior has been fully modernised — a significant proportion of the stock has undergone comprehensive refurbishment over the past two decades — the glazing work takes on a very different character. Walk-on glass floors spanning basement vaults and lower-ground lightwell areas, frameless structural glass balustrades on interior gallery levels, and large aluminium sliding systems for lower-ground reception areas are all projects we carry out in SW1W and SW1X. These require the highest level of structural glass specification and coordination with the project architect and structural engineer.',
+      'Grosvenor Estate properties require particular awareness of the estate\'s own design guidelines, which specify materials, colours, and detailing for any changes visible from the street or from communal gardens. We are familiar with these requirements and factor them into every Belgravia quote. For Cadogan Estate properties — which cover the area around Cadogan Square and Pont Street — similar guidelines apply, and we have experience meeting both sets of estate requirements alongside the statutory planning process.',
+      'Emergency glazing cover is available 24/7 in Belgravia. Free written quotes are provided for all planned glazing work, including full listed building consent documentation. Initial site visits are no-obligation and free of charge.',
+    ],
+  },
+
+  'glazing-knightsbridge': {
+    description: 'Glazing in Knightsbridge SW7 and SW1X: premium sash windows, structural glass floors, frameless balustrades and listed building glazing for London\'s most exclusive postcode.',
+    intro: 'Knightsbridge combines London\'s highest residential property values with some of its most demanding architectural and planning requirements. From Montpelier Square to Brompton Road, BuilderFix Glazing provides the precision glazing service that SW7 and SW1X properties demand.',
+    keyPoints: [
+      'Montpelier Square, Brompton Square, and Ennismore Gardens: listed stucco terraces',
+      'Walk-on glass basement floors: our most popular premium installation in Knightsbridge',
+      'Frameless glass balustrades for raised terraces and interior gallery levels',
+      'Slim secondary glazing for listed buildings where replacement is not permitted',
+      'Discreet, professional service suited to Knightsbridge\'s premium property market',
+    ],
+    locationNote: 'We serve Knightsbridge (SW1X, SW7), South Kensington (SW7), Belgravia (SW1W), Chelsea (SW3), Kensington (W8) and all central and West London postcodes.',
+    body: [
+      'Knightsbridge presents glazing requirements that are as exacting as any in London. The neighbourhood is defined by its stucco-fronted mansion houses and garden square terraces — Montpelier Square, Brompton Square, Ennismore Gardens, and the streets between them — where individual houses regularly change hands at prices that make them among the most valuable private residences in Europe. Every glazing decision here is scrutinised carefully: by the homeowners, by estate and planning advisers, and by neighbours who take the maintenance of their street\'s character seriously.',
+      'Listed building consent is required for most window changes in Knightsbridge. The terraces and houses of SW1X and SW7 are extensively listed, and the Royal Borough of Kensington & Chelsea has a detailed conservation area appraisal that sets out the expected approach to any alteration of the historic building fabric. We prepare listed building consent applications as part of our service, including heritage impact assessments and material specifications that meet the planning authority\'s requirements. Our record of obtaining consent for glazing projects in Kensington & Chelsea means we can advise realistically on what will and will not be approved before you commit to a specification.',
+      'Walk-on glass floors are among the most requested premium glazing products in Knightsbridge. As these townhouses have been refurbished — often with extensive basement conversions beneath the existing property footprint — structural glass floors have become a standard feature of the most ambitious projects: a glass floor over the basement cinema or pool, a glass bridge spanning an internal lightwell, or a glass-topped opening in the hallway that draws light from a basement lantern to the ground floor above. We supply and install these using structural glass specified to meet both Building Regulations and the engineer\'s calculations.',
+      'Frameless glass balustrades are the other signature product of our Knightsbridge work. Raised terraces on the upper floors and rooflines of renovated townhouses, interior gallery levels in double-height reception areas, and glass-sided staircases are all installations we carry out regularly in SW7 and SW1X. The glass specification for structural balustrades in these applications is typically 21.5mm laminated toughened glass — the highest standard product for residential use — installed in a channel system or with frameless bolted fixings.',
+      'Emergency glazing cover is available 24/7 in Knightsbridge. Security glazing upgrades — laminated glass and security-rated door panels — are also available for homeowners who want to enhance protection. Free written quotes for all planned glazing work with no obligation.',
+    ],
+  },
+
+  'glazing-st-johns-wood': {
+    description: 'Glazing in St John\'s Wood NW8: premium windows, bifold doors, walk-on glass floors and bespoke structural glass for NW8\'s luxury villas and apartments.',
+    intro: 'St John\'s Wood is one of North London\'s most distinctive and affluent neighbourhoods — detached villas, stucco terraces, and luxury apartment buildings in NW8 generate a sustained demand for premium glazing that balances heritage requirements with contemporary ambition.',
+    keyPoints: [
+      'NW8 detached villas often require full glazing packages: bifolds, balustrades, glass floors',
+      'Conservation area restrictions around St John\'s Wood High Street and Lord\'s',
+      'Large-format bifold doors popular for rear and garden room extensions in NW8',
+      'Basement conversions: walk-on glass floors, lightwells and structural glass common',
+      'Fast response from West London — emergency glazing 24/7 across NW8',
+    ],
+    locationNote: 'We serve St John\'s Wood (NW8), Maida Vale (W9), Swiss Cottage (NW3), Primrose Hill (NW1), Regent\'s Park (NW1), and all North and North West London postcodes.',
+    body: [
+      'St John\'s Wood occupies a unique position in the London property market. It is one of the few parts of inner North London where large detached houses on generous plots are the norm rather than the exception — a legacy of its 19th-century development as a planned suburb of substantial villas. The combination of low density, high property values, and a predominantly owner-occupied housing stock creates a market where glazing investment per property is among the highest in London. NW8 homeowners regularly undertake full-property refurbishments, and glazing is a central part of those projects.',
+      'The detached and semi-detached Victorian and Edwardian villas that characterise St John\'s Wood — on streets such as Cavendish Avenue, Hamilton Terrace, Loudoun Road, and the roads around Lord\'s Cricket Ground — are large enough to accommodate the full range of premium glazing products. Walk-on glass floors over basement entertainment and gym spaces, full-width bifold door systems spanning the rear kitchen and living room elevation, frameless glass balustrades on first-floor terraces and internal gallery levels, and structural glazed extensions are all projects we have completed in NW8. These require careful coordination with the structural engineer, the architect, and Building Control — a process we manage as part of our service.',
+      'Conservation area guidelines apply to certain parts of St John\'s Wood, particularly the streets around the High Street and those closest to Regent\'s Park. On these streets, visible changes to front elevations must respect the character of the area, and planning advice is recommended before any external window changes are committed to. We carry out a planning assessment as part of our initial site visit for all NW8 properties and present our findings alongside the written quote.',
+      'Luxury apartment buildings in St John\'s Wood — including the several high-specification blocks that have been developed around the High Street and near Regent\'s Park — generate their own category of glazing work. Frameless balustrade maintenance, aluminium sliding system replacements, acoustic glazing upgrades, and emergency repairs are all common requirements in managed apartment buildings throughout NW8. We are experienced working within managed buildings and coordinating access and logistics with building managers.',
+      'Emergency glazing cover is available 24/7 in St John\'s Wood. Free written quotes are provided for all planned glazing work in NW8, with fixed prices agreed before any work begins. No call-out charge for initial assessment visits.',
+    ],
+  },
+
+  'glazing-islington': {
+    description: 'Glazing in Islington N1: sash window restoration, conservation area compliance, double glazing and bifold doors for Georgian and Victorian properties in N1 and EC1.',
+    intro: 'Islington\'s Georgian and Victorian terraces — across Canonbury, Barnsbury, and De Beauvoir Town — make N1 one of North London\'s most important glazing markets. Conservation area restrictions are significant, and period-appropriate glazing is expected as standard.',
+    keyPoints: [
+      'Conservation areas cover most of Islington\'s best streets — specialist planning knowledge vital',
+      'Georgian terraces: sash window restoration is usually required and preferred',
+      'Victorian properties: slim-profile double glazing available in appropriate frame styles',
+      'Bifold doors and roof lanterns popular in N1 rear extensions',
+      'Emergency glazing 24/7 across N1, EC1 and surrounding Islington postcodes',
+    ],
+    locationNote: 'We serve Islington (N1), Canonbury (N1), Barnsbury (N1), Angel (N1), Clerkenwell (EC1), and neighbouring areas including Hackney (E8), Finsbury Park (N4) and Holloway (N7).',
+    body: [
+      'Islington is defined by its Georgian and Victorian residential architecture — one of the largest concentrations of period housing in London, covering streets that range from the elegant garden squares of Canonbury and Barnsbury to the denser Victorian terraces of Highbury and the refurbished Georgian rows around the Angel. Conservation area designations cover most of the borough\'s most desirable streets, and the London Borough of Islington has detailed character appraisals for each area that set out exactly what is and is not acceptable in terms of glazing changes.',
+      'The Georgian terraces that line Canonbury Square, Canonbury Park North, Canonbury Place, and the streets of Barnsbury are among the finest 19th-century urban townhouses in London. Many are listed, and virtually all sit within conservation areas where planning consent is required for any external change to windows. Our approach to glazing in these properties begins with an assessment of the heritage status and planning requirements. For listed buildings, we prepare listed building consent applications. For conservation area properties where replacement is permitted, we specify slim-profile sash-style double glazing that matches the proportions and character of the original windows.',
+      'The Victorian terraces that make up the bulk of Islington\'s residential stock — on streets like Halliford Street, Furlong Road, and the extensive grid of two and three-storey terraces in the northern part of the borough — represent a different glazing challenge. Many of these houses still have original single-glazed timber sash windows that are draughty and energy-inefficient, but where the frame is structurally sound, restoration is the most cost-effective and planning-appropriate option. We carry out sash restoration throughout Islington — new cords, draught-proofing, and slim double-glazed units — as well as supplying and installing full sympathetic replacements where frames are beyond repair.',
+      'Bifold doors and rear roof lanterns are popular in Islington\'s extended Victorian terraces. The typical N1 rear extension — a ground-floor addition opening up the kitchen-dining space — invariably includes a full-width glazed opening to the garden. We install aluminium bifold and sliding systems across Islington, including on narrow terrace rears where access is difficult. Roof lanterns over single-storey extensions are equally common, and we supply and install these as part of extension glazing packages across the N1 and EC1 postcodes.',
+      'Emergency glazing cover is available 24/7 across Islington. We carry standard replacement glass in our vans and can board up and make safe on the initial visit. Free written quotes for all planned glazing work in Islington, with conservation area advice provided as standard.',
+    ],
+  },
+
+  'glazing-twickenham': {
+    description: 'Glazing in Twickenham TW1 and TW2: double glazing, sash window restoration, bifold doors and emergency glass repair. Local glaziers from nearby Brentford serving TW1 and TW2.',
+    intro: 'Twickenham\'s Georgian and Victorian terraces, Edwardian semis in Strawberry Hill, and modern riverside apartments give TW1 and TW2 a varied glazing market. BuilderFix Glazing reaches most of Twickenham within 20–30 minutes from our Brentford base.',
+    keyPoints: [
+      'Georgian terraces near Twickenham Green and St Margarets Road: sash restoration',
+      'Large Edwardian semis in Strawberry Hill: prime territory for bifold door installations',
+      'Modern riverside apartments near Marble Hill Park: sealed unit and balcony glazing',
+      'Conservation area guidance for Twickenham\'s historic riverside areas',
+      'Fast response: Brentford to TW1 typically 20–30 minutes',
+    ],
+    locationNote: 'We serve Twickenham (TW1, TW2), St Margarets (TW1), Strawberry Hill (TW1), Whitton (TW2), and neighbouring areas including Richmond (TW9), Hampton (TW12), Isleworth (TW7) and Brentford (TW8).',
+    body: [
+      'Twickenham is one of the most active glazing areas we serve in West London — a postcode with enough variety in its property stock to generate consistent demand for everything from basic sealed unit replacements to high-specification bifold door installations and sash window restorations. TW1 and TW2 span the full range of South West London\'s residential architecture: Georgian townhouses and terraces near the river and Twickenham Green, Edwardian semis throughout Strawberry Hill and St Margarets, Victorian terraces in the denser streets between the two stations, and modern apartment blocks along the Thames embankment.',
+      'Sash window work accounts for a significant proportion of our Twickenham glazing projects. The Georgian and early Victorian properties on St Margarets Road, Crown Road, and the streets around Orleans House and Marble Hill Park have a high proportion of original box sash windows — often still single-glazed, often with failing cord mechanisms, and frequently draughty enough to make winter comfort a real concern. We carry out full sash restorations in these properties: new sash cords, spiral balances, draught-proofing brush seals, and (where planning permits) slim double-glazed units within the existing frame.',
+      'Strawberry Hill is Twickenham\'s premium residential zone — a neighbourhood of large Edwardian semis on substantial plots, many with south or west-facing rear gardens. These properties are ideal for bifold door installations: a full-width aluminium bifold spanning the rear of a kitchen extension, or replacing tired French doors with a three or four-panel system that fully opens the interior to the garden. We complete several of these installations in TW1 each month, typically in a single day. The most popular finishes in this area are anthracite grey or cream, both of which complement the Edwardian brickwork well.',
+      'Modern riverside apartments near Marble Hill Park and along the Thames in TW1 generate a different type of glazing work: sealed unit replacements for failed double glazing, frameless balustrade maintenance, and aluminium sliding door repairs and replacements. We are experienced working within managed apartment buildings and carry relevant public liability insurance for working in communal areas. Response times from our Brentford base to TW1 are typically 20–30 minutes, making us one of the fastest-responding glaziers in Twickenham.',
+      'Emergency glazing cover is available 24/7 across TW1 and TW2. Free written quotes for all planned glazing work in Twickenham, with fixed prices agreed before any work begins and no hidden charges.',
+    ],
+  },
+
+  'glazing-kew': {
+    description: 'Glazing in Kew TW9: local glaziers for period terraces, sash windows, bifold doors and emergency glass repair. Fast response from our Brentford base to TW9.',
+    intro: 'Kew is one of our closest regular glazing areas — a village-within-London of Victorian terraces and large detached houses near the Royal Botanic Gardens, where the standard of glazing expected matches the quality of the properties. Fast response from Brentford.',
+    keyPoints: [
+      'Kew adjacent to our Brentford base — fastest response times in TW9',
+      'Victorian terraces near Kew Green: sash window restoration and double glazing',
+      'Large detached houses on Kew Green and the riverside: premium glazing work',
+      'Kew conservation area guidance familiar to our team',
+      'Emergency glazing typically under 30 minutes from Brentford TW8',
+    ],
+    locationNote: 'We serve Kew (TW9), Kew Gardens (TW9), North Sheen (TW9), and neighbouring areas including Richmond (TW9), Chiswick (W4), Brentford (TW8), Barnes (SW13) and Mortlake (SW14).',
+    body: [
+      'Kew is one of our most local and most active glazing areas — adjacent to our Brentford base and within 10–15 minutes of our workshop under most traffic conditions. The TW9 postcode spans a variety of property types: Victorian terraces on the streets between Kew Gardens station and the river, larger detached and semi-detached Edwardian properties on Kew Green and the roads closest to the Royal Botanic Gardens, and a smaller number of Georgian houses on Kew Green itself that are individually listed. Each property type has its own glazing requirements, and our team carries out all categories of glazing work across the postcode.',
+      'Kew Green is one of the most prestigious addresses in West London — a narrow strip of green flanked by some of the finest Georgian and Victorian houses in the borough, many of which are listed. Glazing work on these properties requires listed building consent where visible external changes are proposed, and our approach here is consistent with our work elsewhere in Westminster and Richmond: assessment of the planning position, preparation of listed building consent documentation where required, and specification of sympathetic glazing — slim secondary glazing or heritage-style double-glazed sash units — that preserves the character of the original window.',
+      'For Kew\'s Victorian terraces — the streets around Station Avenue, Sandycombe Road, and the residential grid between Kew Gardens station and Kew Road — the most common glazing projects we carry out are sash window restorations and sealed unit replacements. Many of these terraces still have original timber sash windows, and where the frame is structurally sound, restoration is invariably the better option. We carry out full sash restorations in Kew — new cords, draught-proofing, slim double-glazed units — as well as supplying replacements where the frame is beyond repair.',
+      'For Kew\'s larger detached and semi-detached properties — particularly those in the roads immediately around the Botanic Gardens — bifold door installations for rear extensions are among our most popular projects. These houses typically have generous rear gardens and rear elevations that are well suited to full-width bifold systems spanning 3m to 5m. Aluminium bifolds with slim sightlines are the standard choice in TW9: low maintenance, high thermal performance, and a 25+ year lifespan that makes sense for properties at this price level.',
+      'Emergency glazing in Kew is among our fastest responses of any postcode — typically under 30 minutes from our Brentford workshop. We carry standard glass sizes and board-up materials in our vans, so most emergency calls can be fully resolved on the initial visit. Free written quotes for all planned glazing work in Kew TW9.',
+    ],
+  },
+
+  'glazing-holland-park': {
+    description: 'Glazing in Holland Park W11 and W14: Victorian villa glazing, conservation area windows, walk-on glass floors, bifold doors and frameless balustrades.',
+    intro: 'Holland Park\'s grand Victorian villas on Holland Park Avenue and Addison Road, combined with the neighbourhood\'s strict conservation area, make W11 and W14 one of West London\'s most demanding — and rewarding — glazing markets.',
+    keyPoints: [
+      'Grand Victorian villas: full glazing packages including walk-on glass and bifolds',
+      'Holland Park Conservation Area: planning compliance for all visible external changes',
+      'Walk-on glass floors over basement lightwells — a signature Holland Park installation',
+      'Frameless glass balustrades on raised terraces common in W11 and W14',
+      'Heritage sash restoration for properties within the conservation area',
+    ],
+    locationNote: 'We serve Holland Park (W11, W14), Addison Road (W14), Kensington (W8), Notting Hill (W11), Shepherd\'s Bush (W12) and all surrounding West London postcodes.',
+    body: [
+      'Holland Park is one of West London\'s most exclusive residential addresses — a neighbourhood of grand Victorian villas and substantial townhouses on streets like Holland Park Avenue, Addison Road, Stafford Terrace, and Melbury Road that has housed artists, politicians, and wealthy families since the mid-19th century. The quality of the architecture, the large footprint of the houses, and the proximity to Kensington create a glazing market that demands both technical precision and an understanding of the planning environment. The Holland Park Conservation Area covers most of the neighbourhood and has a detailed character appraisal that governs visible changes to the housing stock.',
+      'Conservation area compliance is the starting point for any external glazing work in Holland Park. The Holland Park Conservation Area appraisal specifies that window replacements on street-facing elevations should match the original in terms of profile, material, and glazing bar configuration. For the Victorian and Edwardian villas that dominate the area, this typically means timber or slim aluminium sash windows with appropriate glazing bar proportions. Where properties are individually listed, listed building consent is required for any external change — a process we manage as part of our glazing service in W11 and W14.',
+      'Inside these properties, the glazing brief is very different from the conservation-area requirements on the front elevation. Holland Park\'s Victorian villas frequently have extensive basements — often converted into cinema rooms, gyms, pools, and large open-plan entertaining spaces — and the glazing products associated with these spaces are among the most technically demanding we install. Walk-on glass floors over basement lightwells, glass bridges spanning internal light voids, and structural glass balustrades on gallery levels are all installations we carry out regularly in W11 and W14. These require structural glass specified to the engineer\'s calculations and installed to Building Regulations standards.',
+      'Bifold door systems for rear kitchen and dining extensions are equally prevalent in Holland Park. The rear elevations of these large houses — which typically face south or west onto substantial gardens — are prime territory for full-width aluminium bifold systems that open the entire kitchen-diner to the garden in warmer months. We supply and install these from premium manufacturers including Schüco, Reynaers, and Origin, with slim sightlines that complement the scale of these properties. Roof lanterns over single-storey rear extensions are also common in W11 and W14, and we install these as part of a complete extension glazing package.',
+      'Emergency glazing cover is available 24/7 in Holland Park. Free written quotes — including conservation area assessment and planning advice — are provided for all planned glazing work in W11 and W14. No call-out charge for site visits.',
+    ],
+  },
+
+  'glazing-teddington': {
+    description: 'Glazing in Teddington TW11: double glazing, sash window restoration, bifold doors and emergency glass repair for TW11\'s riverside and period properties.',
+    intro: 'Teddington sits at the tidal limit of the Thames — a town of Victorian and Edwardian semis, riverside houses, and large detached properties near Bushy Park that represent some of the strongest residential values in the TW borough. BuilderFix Glazing serves the whole of TW11.',
+    keyPoints: [
+      'Large detached houses on Broad Lane and Park Road: prime glazing territory',
+      'Riverside and Bushy Park-facing properties: bifolds, balustrades and premium glass',
+      'Victorian and Edwardian semis: sash restoration and double glazing upgrades',
+      'Emergency glazing 24/7 — Brentford to TW11 typically 30–40 minutes',
+      'Free written quotes for all glazing work in Teddington and Hampton Wick',
+    ],
+    locationNote: 'We serve Teddington (TW11), Hampton Wick (KT1), and neighbouring areas including Twickenham (TW1), Kingston upon Thames (KT1), Hampton (TW12) and Richmond (TW9).',
+    body: [
+      'Teddington is one of the South West London postcodes where glazing investment per property is consistently high. The combination of large Edwardian and Victorian houses, strong family demand from buyers relocating from central London, and the prestige associated with Bushy Park and the Thames create a market where homeowners are prepared to invest in quality glazing solutions. We carry out a wide range of glazing work across TW11 — from basic sealed unit replacements in 1990s uPVC windows to full bifold door installations and sash window restorations in the area\'s best period properties.',
+      'The roads around Bushy Park — particularly Broad Lane, Park Road, Bushy Park Road, and the tree-lined residential streets between the park and Teddington High Street — contain Teddington\'s most valuable housing: large detached and semi-detached Edwardian houses with generous rear gardens, wide rear elevations, and the kind of open outlook that makes bifold door installations particularly effective. We complete several of these installations in TW11 each month, typically specifying aluminium slim-frame systems that maximise the glass area and deliver strong thermal performance to complement the Edwardian brickwork.',
+      'Teddington\'s Victorian terrace stock — which covers a large proportion of the residential streets between the High Street, the river, and Hampton Wick — generates consistent demand for sash window restoration and double glazing upgrades. Many of these terraces have original timber sash windows that are single-glazed, draughty, and in need of attention. Where the frame is structurally sound, we restore rather than replace: new sash cords, draught-proofing brush seals, and slim double-glazed units. Where replacement is necessary, we supply timber or aluminium sash-style replacements that are in keeping with the character of the original property and the street.',
+      'Riverside properties on the Teddington riverbank — and those on the streets closest to Teddington Lock — represent a premium sub-market within TW11. These properties frequently overlook the Thames or Bushy Park and are ideal for glazing upgrades that maximise the view: large-format fixed glass panels, full-width sliding door systems, frameless glass balustrades on raised terraces, and acoustic glazing for those on or near the busiest roads. We carry out all of these products in TW11 and can provide a free site assessment and written quote.',
+      'Emergency glazing cover is available 24/7 in Teddington. Our Brentford base puts us within 30–40 minutes of most TW11 postcodes, making us one of the fastest-responding glaziers in the area. Free written quotes for all planned glazing work in Teddington and Hampton Wick.',
+    ],
+  },
+
+  'glazing-dulwich': {
+    description: 'Glazing in Dulwich SE21 and SE22: conservation-compliant window restoration, bifold doors, roof lanterns and sash windows for Dulwich Estate and conservation area properties.',
+    intro: 'Dulwich Village\'s conservation area and the Dulwich Estate\'s freeholder restrictions create one of South London\'s most distinctive glazing environments. Period-appropriate glazing is not just preferred in SE21 — for many properties, it is required.',
+    keyPoints: [
+      'Dulwich Estate freeholder restrictions — all external changes must be approved',
+      'Dulwich Village Conservation Area: planning consent required for window changes',
+      'Georgian and Victorian houses: sash window restoration strongly favoured',
+      'Bifold doors and roof lanterns for rear extensions throughout SE21 and SE22',
+      'Emergency glazing 24/7 across Dulwich, Herne Hill and surrounding SE postcodes',
+    ],
+    locationNote: 'We serve Dulwich (SE21), Dulwich Village (SE21), West Dulwich (SE21), East Dulwich (SE22), and neighbouring areas including Herne Hill (SE24), Crystal Palace (SE19), Sydenham (SE26) and Forest Hill (SE23).',
+    body: [
+      'Dulwich is one of South London\'s most unusual residential environments — a semi-rural enclave within Zone 2 whose character is partly shaped by two overlapping sets of restrictions that most London postcodes do not have to contend with. The Dulwich Estate — a 1,500-acre historic estate managed by Dulwich College Estates — holds the freehold on a significant proportion of Dulwich\'s residential property, and its building regulations specify what changes may be made to the exterior of estate houses. Separately, the Dulwich Village Conservation Area imposes planning requirements that apply to window and door changes on street-facing elevations. Understanding both systems is essential before any external glazing work in SE21.',
+      'Dulwich Village itself — the cluster of Georgian and early Victorian houses fronting the Village and the roads immediately around Dulwich Park — represents the most sensitive glazing environment in the postcode. Many of these properties are individually listed, and the Dulwich Estate imposes its own material and design requirements on top of listed building consent. Our approach to glazing in Dulwich Village is to assess both the statutory planning position and the estate\'s requirements before proposing any specification, and to prepare the necessary applications as part of our service. Slim secondary glazing and sympathetic sash restoration are the most common outcomes in this part of SE21.',
+      'Away from the Village centre, Dulwich\'s large Victorian and Edwardian houses — on Alleyn Road, Turney Road, Burbage Road, and the roads radiating from Herne Hill — present a broader range of glazing opportunities. Rear extensions with bifold door systems, kitchen roof lanterns, sash window restorations, and sealed unit replacements are all common projects in this part of SE21 and SE22. The Dulwich Estate\'s requirements apply to properties on estate land throughout the area, and we flag this as part of our initial assessment for all SE21 properties.',
+      'East Dulwich\'s Lordship Lane corridor and the streets of SE22 generate a more straightforward glazing market — Victorian and Edwardian terraces where bifold doors, double glazing upgrades, and sealed unit replacements are the most common projects, and where planning requirements are somewhat less complex than in the Village and conservation areas. We carry out all categories of glazing work across SE22, including emergency repairs and rapid sealed unit replacements for misted or failed double-glazed units.',
+      'Emergency glazing cover is available 24/7 across Dulwich. Free written quotes are provided for all planned glazing work in SE21 and SE22, including an assessment of Dulwich Estate and conservation area requirements as part of every site visit. No call-out charge for assessment visits.',
+    ],
   },
 }
