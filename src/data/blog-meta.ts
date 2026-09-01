@@ -3,6 +3,7 @@ export interface BlogMeta {
   intro: string
   keyPoints: string[]
   locationNote?: string
+  body?: string[]
 }
 
 export const BLOG_META: Record<string, BlogMeta> = {
@@ -316,6 +317,13 @@ export const BLOG_META: Record<string, BlogMeta> = {
       'Free written quotes — no obligation, no call-out charge',
     ],
     locationNote: 'We cover all Brentford postcodes: TW8, and neighbouring areas including Ealing (W5), Chiswick (W4), Hounslow (TW3/TW4), Kew (TW9) and Isleworth (TW7).',
+    body: [
+      'Brentford is a rapidly evolving area of West London — one that sits at the intersection of Victorian terraced streets, modern riverside apartments along the Thames, and a growing cluster of new-build developments around the Brentford FC stadium. Each property type presents its own glazing requirements, and our team has experience across all of them.',
+      'For Victorian and Edwardian terraces — common along streets such as Albany Road, Windmill Road, and Clifden Road — the most frequent jobs we complete in Brentford are sealed unit replacements, sash window overhauls, and uPVC double glazing upgrades. Many of these homes still have single-glazed original timber frames that lose significant heat in winter. Replacing the sealed unit alone, without touching the frame, is often the most cost-effective solution when the frame itself is still sound.',
+      'Brentford\'s newer apartment developments — particularly those around Brentford Dock, the waterside quarter, and the developments near Kew Bridge — tend to require a different kind of glazing work: frameless shower enclosures, glass balustrades for terraces and mezzanine levels, and bifold door replacements or repairs for living spaces that open onto private terraces or communal gardens.',
+      'Emergency glazing is one of our most active service areas in TW8. Brentford\'s combination of residential streets and commercial premises means break-ins and accidental glass damage are regular occurrences, and our 24/7 emergency response ensures we can board up, make safe, and carry out a permanent repair with minimal disruption. Because we are based in Brentford itself, our response time is genuinely fast — not a national operator dispatching from across London.',
+      'If you are planning a rear extension — something that has become very popular in Brentford\'s semi-detached and terraced stock over the past decade — bi-fold doors are consistently the most requested glazing product. We supply and install aluminium bi-fold systems that span openings from 2.4m to 6m+, all fitted to Building Regulations standards and backed by a 10-year manufacturer\'s guarantee. We can also advise on whether planning permission is needed for your specific property and road within the TW8 postcode.',
+    ],
   },
 
   'glazing-richmond': {
@@ -329,6 +337,13 @@ export const BLOG_META: Record<string, BlogMeta> = {
       'Response time to Richmond TW9: typically 30–50 minutes from our Brentford base',
     ],
     locationNote: 'We cover Richmond (TW9, TW10), Kew (TW9), Twickenham (TW1, TW2), Teddington (TW11) and all surrounding Richmond Borough postcodes.',
+    body: [
+      'Richmond upon Thames is one of the most sought-after postcodes in West London — and with that comes a property stock that demands a higher standard of glazing work than most areas. The borough contains a wide range of architectural styles: Georgian townhouses on Richmond Hill, Victorian terraces around Richmond station, and large detached Edwardian properties throughout the TW10 postcode. Each category requires a tailored approach.',
+      'A significant proportion of glazing work in Richmond involves conservation area compliance. Richmond Green, The Vineyard, and several streets around Richmond Hill are designated conservation areas where any changes to windows visible from the street must respect the character of the original property. This typically means timber or slim-profile aluminium frames rather than standard uPVC, and in some cases secondary glazing is the only permitted route to improved thermal performance.',
+      'Sash window restoration is among our most common jobs in Richmond. Many Victorian and Edwardian properties still have their original single-glazed box sash windows, and owners face a choice between full replacement, sympathetic double-glazed sash units, or secondary glazing fitted internally. We carry out all three types of work and can advise which is most appropriate — and most likely to pass planning scrutiny — for your specific property and street.',
+      'For modern extensions — which are common in Richmond\'s larger semi-detached and detached properties — bifold and patio door systems are consistently popular. Aluminium slim-frame bifolds from brands such as Origin, Reynaers, and Schüco are particularly well suited to Richmond\'s aesthetic because they combine minimal sight lines with exceptional thermal performance. We supply and install these systems across TW9 and TW10, typically completing an installation in a single day.',
+      'Richmond\'s riverside properties along the Thames — particularly in the areas around Petersham Meadows and the towpath — also generate demand for specialist glazing: Juliet balconies, structural glass balustrades, and frameless sliding systems that maximise river views without compromising thermal or acoustic performance. If you have a riverside property in Richmond, contact us for a free site visit and written quote.',
+    ],
   },
 
   'glazing-ealing': {
@@ -342,6 +357,13 @@ export const BLOG_META: Record<string, BlogMeta> = {
       'Fast response from Brentford TW8 — typically 20–40 minutes to W5',
     ],
     locationNote: 'We cover all Ealing postcodes including W5, W13, and nearby areas: Southall (UB1/UB2), Hanwell (W7), Greenford (UB6), Northolt (UB5) and Acton (W3).',
+    body: [
+      'Ealing is one of West London\'s largest residential boroughs, with a housing stock that spans almost every era of British construction — from late-Victorian terraces in south Ealing to 1930s Art Deco and semi-detached homes throughout W13, and newer apartment developments around Ealing Broadway station. This diversity means we complete a wide variety of glazing work across the W5 and W13 postcodes every week.',
+      'The 1930s semi-detached houses that dominate large parts of Ealing — particularly in areas like Northfields, Pitshanger Lane, and West Ealing — typically have steel or timber Crittall-style windows that are original to the property. These narrow-section metal frames are increasingly popular to restore or sympathetically replace with slim-profile aluminium equivalents that match the original proportions while delivering modern thermal performance. We carry out both restoration and replacement across these property types.',
+      'Ealing has several conservation areas where window design is subject to planning scrutiny. The Pitshanger Lane Conservation Area, the Haven Green Conservation Area around Ealing Broadway, and parts of south Ealing near Lammas Park all have character appraisals that restrict the type of window permitted. We are familiar with Ealing Council\'s planning requirements and can advise on which approach — replacement, secondary glazing, or slim-profile double glazing — is most likely to be approved for your property.',
+      'For newer properties and those with rear extensions — which are common throughout Ealing — bifold doors and large glass roof lanterns are among our most popular installations. Many Ealing homeowners are extending into the rear garden and opening up kitchen-dining spaces, and aluminium bifold systems are the most effective way to blur the line between inside and outside. We typically complete a bifold door installation in a single day, with no disruption to the rest of the property.',
+      'Emergency glazing is also a significant part of our work in Ealing W5 and W13. Being based in nearby Brentford means our response to emergency calls in Ealing is genuinely fast — usually 20–40 minutes. We carry standard glass sizes in our vans, so in most cases we can board up, remove damaged glass, and fit a replacement on the same visit, without a second call-out.',
+    ],
   },
 
   'glazing-hampstead': {
@@ -355,6 +377,13 @@ export const BLOG_META: Record<string, BlogMeta> = {
       'Discreet, quality-focused service suited to Hampstead\'s premium property market',
     ],
     locationNote: 'We cover Hampstead (NW3), Belsize Park (NW3), Golders Green (NW11), Highgate (N6), Primrose Hill (NW1), St John\'s Wood (NW8) and surrounding North London postcodes.',
+    body: [
+      'Hampstead presents some of the most demanding glazing work in London. The combination of a very high concentration of listed buildings, a large and strictly enforced conservation area, a discerning and architecturally aware client base, and some of the most complex period window configurations found anywhere in the capital means that glazing in NW3 is not a job for generalists.',
+      'The Hampstead Conservation Area covers the vast majority of the village and much of the surrounding streets — including the Heath Extension, Well Walk, Flask Walk, and Holly Hill. Within this area, any change to the external appearance of a window — including replacing frames or altering glazing bars — requires either permitted development compliance or, for listed buildings, listed building consent. We prepare the necessary documentation and can liaise with Camden Council\'s planning department on your behalf.',
+      'Sash window work is at the core of what we do in Hampstead. The Georgian and early Victorian properties in the NW3 conservation area typically have six-over-six or eight-over-eight box sash windows — elegant, well-proportioned, and often in poor repair after decades of repainting and swelling. We carry out full sash window restorations, including new sash cords, draught stripping, spiral balances, and slim double-glazed units, all maintaining the external profile and appearance required by conservation area guidance.',
+      'For those Hampstead properties that have been extended or modernised — particularly the large detached homes on the roads north of the village — the glazing brief is very different. Structural glass floors over basement light wells, frameless glass balustrades on roof terraces, and ultra-slim aluminium bifold doors that open entire rear elevations are all projects we have completed in the NW3 area. These require a higher specification of glass and more precise structural planning, which we coordinate alongside structural engineers where required.',
+      'If you own a property in Hampstead or Belsize Park and are planning any glazing work — from a single sash repair to a full basement glass floor — we recommend beginning with a free site visit. Hampstead properties vary significantly in their heritage status, and understanding the planning position before you commit to a specification will save time and cost.',
+    ],
   },
 
   'glazing-chiswick': {
@@ -368,6 +397,13 @@ export const BLOG_META: Record<string, BlogMeta> = {
       'Regular work in Strand-on-the-Green, Turnham Green and Bedford Park',
     ],
     locationNote: 'We serve Chiswick (W4), Gunnersbury, and neighbouring areas including Brentford (TW8), Acton (W3), Hammersmith (W6), Barnes (SW13) and Kew (TW9).',
+    body: [
+      'Chiswick is one of our busiest areas — not surprising given its proximity to our Brentford base and the sheer volume of period housing stock in W4. The streets around Turnham Green, Bedford Park, and Strand-on-the-Green contain some of the finest Victorian and Edwardian terraces in West London, and their owners consistently invest in high-quality glazing upgrades.',
+      'Bedford Park is worth mentioning specifically. As one of the UK\'s earliest planned garden suburbs — developed from 1875 — it has a strong conservation area designation and an active residents\' society that takes a keen interest in the appearance of properties. Any window changes in Bedford Park need to respect the original Queen Anne Revival style of the houses, which typically means timber frames, traditional sash configurations, and — where double glazing is fitted — slim units with authentic-looking glazing bars. We have completed numerous projects in Bedford Park and are familiar with the planning expectations for the area.',
+      'Strand-on-the-Green, the riverside section of W4 along the north bank of the Thames, presents a different set of requirements. The cottages and Georgian houses here are individually charming and often listed. Window repairs in this area require careful material matching — lime-based putty, timber species selection, and hardware that is sympathetic to the period. We carry out full sash window restorations and sensitive repairs that conserve what is there, rather than replacing it unnecessarily.',
+      'Away from the conservation areas, Chiswick\'s large Edwardian semi-detached houses — particularly those off Devonshire Road, Barrowgate Road, and around Chiswick Common — are well suited to bifold door installations as part of rear extensions. The typical Edwardian rear elevation, with its original single-glazed French doors opening onto a small terrace, is an ideal candidate for a full-width aluminium bifold that spans the kitchen-diner opening. We complete several of these installations in W4 each month.',
+      'Emergency glazing cover in Chiswick is available 24 hours a day, seven days a week. Given the volume of work we carry out in W4, our response time is typically 15–30 minutes from our Brentford workshop — significantly faster than most national operators who log Chiswick calls and dispatch from further afield. We carry standard replacement glass in our vans and can carry out permanent repairs on a single visit in most cases.',
+    ],
   },
 
   'glazing-wimbledon': {

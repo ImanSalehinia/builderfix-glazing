@@ -330,6 +330,15 @@ export default async function BlogPostPage({ params }: Params) {
                   </div>
                 )}
 
+                {meta?.body && meta.body.length > 0 && (
+                  <>
+                    <h2>In Depth</h2>
+                    {meta.body.map((paragraph, i) => (
+                      <p key={i}>{paragraph}</p>
+                    ))}
+                  </>
+                )}
+
                 <h2>What Does This Typically Cost in London?</h2>
                 <p>
                   Costs vary depending on the type and size of work, the glass specification,
