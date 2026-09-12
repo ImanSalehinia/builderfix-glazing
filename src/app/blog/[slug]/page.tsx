@@ -4,9 +4,11 @@ import Image from 'next/image'
 import { Clock, Tag, ArrowLeft, CheckCircle, Phone } from 'lucide-react'
 import { BLOG_IDEAS } from '@/data/faqs'
 import { BLOG_META } from '@/data/blog-meta'
+import { getJobPhotosForPage } from '@/data/job-photos'
 import { BUSINESS, SITE_CONFIG } from '@/data/business'
 import Breadcrumbs from '@/components/seo/Breadcrumbs'
 import CTASection from '@/components/sections/CTASection'
+import JobPhotosSection from '@/components/sections/JobPhotosSection'
 import SchemaMarkup from '@/components/seo/SchemaMarkup'
 import { generateBreadcrumbSchema } from '@/lib/schema'
 import { formatPhoneForHref } from '@/lib/utils'
@@ -219,6 +221,7 @@ export default async function BlogPostPage({ params }: Params) {
   if (!article) notFound()
 
   const meta = BLOG_META[slug]
+  const jobPhotos = getJobPhotosForPage(slug)
   const relatedArticles = BLOG_IDEAS.filter(b => b.category === article.category && b.slug !== slug).slice(0, 3)
   const heroImage = getBlogImage(slug, article.category)
   const readTime = READ_TIMES[article.category] ?? READ_TIMES.default
@@ -338,6 +341,8 @@ export default async function BlogPostPage({ params }: Params) {
                     ))}
                   </>
                 )}
+
+                <JobPhotosSection photos={jobPhotos} heading="Photos From the Job" />
 
                 <h2>What Does This Typically Cost in London?</h2>
                 <p>

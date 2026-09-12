@@ -726,6 +726,513 @@ export const BLOG_META: Record<string, BlogMeta> = {
     ],
   },
 
+  'composite-door-cost': {
+    description: 'Composite door cost UK 2025: prices from £800 to £2,500 installed. What affects the cost, which brands are best, and why composite beats uPVC for front doors.',
+    intro: 'Composite doors have overtaken uPVC as the most popular front door choice in the UK — and it is easy to see why. They combine the look of timber with the security, insulation, and durability of modern engineered materials. Here is what they really cost in 2025.',
+    keyPoints: [
+      'Composite door cost installed: £800–£2,500 depending on style and specification',
+      'Typically 3–4x more secure than standard uPVC doors',
+      'Thermal performance: U-value of 1.0–1.5 W/m²K — significantly better than timber',
+      'Low maintenance: no painting, no warping, no swelling in wet weather',
+      'Most popular colours in London: Anthracite Grey, Black, and Chartwell Green',
+    ],
+    locationNote: 'We supply and install composite doors across London and Surrey — from Richmond and Wimbledon to Chelsea, Kensington, Chiswick, and all surrounding areas.',
+  },
+
+  'upvc-vs-aluminium-windows': {
+    description: 'uPVC vs aluminium windows 2025: honest comparison of cost, lifespan, performance and aesthetics. Which is the better choice for your London home?',
+    intro: 'The choice between uPVC and aluminium windows divides London homeowners more than almost any other glazing decision. Both are excellent products — but they suit different properties, different budgets, and different aesthetic ambitions. Here is a straightforward comparison.',
+    keyPoints: [
+      'Aluminium costs 40–60% more than uPVC but lasts twice as long (50+ years vs 25)',
+      'Aluminium offers slimmer sightlines — up to 40% more glass area per window',
+      'uPVC has better thermal performance out of the box; aluminium needs thermal breaks',
+      'Aluminium is the dominant choice in West and Central London\'s premium properties',
+      'uPVC offers better value in less affluent areas and rental properties',
+    ],
+    locationNote: 'We supply and install both uPVC and aluminium windows across Greater London and Surrey. Free written quote with honest product recommendations for your property.',
+  },
+
+  'signs-need-new-windows': {
+    description: '7 signs it is time to replace your windows — from draughts and condensation to rising energy bills. A glazier\'s honest guide for London homeowners.',
+    intro: 'Most London homeowners replace their windows reactively — after a seal fails, a frame warps, or an energy bill shocks them into action. These are the seven signs that tell you replacement is the right move, and not just an unnecessary expense.',
+    keyPoints: [
+      'Persistent condensation between the panes means the sealed unit has failed',
+      'Draughts around the frame suggest the seal or frame itself has deteriorated',
+      'Difficulty opening or closing — frames have warped or hardware has worn out',
+      'Rising heating bills with single or old double glazing — time for an upgrade',
+      'Visible damage, rot, or discolouration that cannot be repaired economically',
+    ],
+    locationNote: 'We assess and replace windows across London and Surrey. Free written quote — we only recommend replacement when it is genuinely the right option.',
+  },
+
+  'bifold-vs-patio-doors': {
+    description: 'Bi-fold doors vs patio doors 2025: cost, performance, and which is right for your garden opening. An honest comparison for UK homeowners.',
+    intro: 'Bi-fold doors and patio doors are the two most popular choices for rear garden openings in London homes — and the right answer depends on your opening width, budget, and how you want to use the space. Here is a direct comparison.',
+    keyPoints: [
+      'Bi-fold doors: fold flat against the frame, creating a full-width opening — best for 2.4m+',
+      'Patio doors: slide on a track, offer easier operation and lower cost — best for narrower openings',
+      'Cost: bi-fold doors typically cost 30–50% more than equivalent patio doors',
+      'Bi-fold doors dominate in W and SW London extensions; patio doors more common in SE and suburbs',
+      'Both require Building Regulations sign-off — we handle this as part of our service',
+    ],
+    locationNote: 'We supply and install bi-fold and patio door systems across London and Surrey. Free quote with size-specific recommendations for your garden opening.',
+  },
+
+  'energy-efficient-windows-guide': {
+    description: 'Energy-efficient windows 2025: A-rated vs C-rated, U-values explained, and which window specification will save the most on heating bills in a London home.',
+    intro: 'Energy-efficient windows can reduce heat loss through glazing by up to 60% compared with old single-glazed frames — and the savings compound over the life of the installation. Here is what the energy ratings actually mean and which specification is worth buying.',
+    keyPoints: [
+      'Window Energy Rating (WER) runs from A++ to E — look for A-rated or better',
+      'U-value measures heat loss: the lower the better — aim for below 1.4 W/m²K',
+      'Argon-filled cavities improve thermal performance by 15–20% vs air-filled units',
+      'Low-E glass coating reflects heat back into the room — standard on A-rated windows',
+      'Payback period for A-rated double glazing: typically 7–12 years in London',
+    ],
+    locationNote: 'We install A-rated double and triple glazing across London and Surrey. All our windows are independently tested and certified to current Building Regulations.',
+  },
+
+  'planning-permission-windows': {
+    description: 'Do you need planning permission to replace windows in the UK? A clear guide for conservation areas, listed buildings, and standard residential properties.',
+    intro: 'Most window replacements in England do not need planning permission — but the exceptions matter enormously, particularly in London where conservation areas cover a significant proportion of the most desirable postcodes. Here is what the rules actually say.',
+    keyPoints: [
+      'Standard residential properties: no planning permission needed for like-for-like replacement',
+      'Conservation areas: planning consent may be required — check with your local council',
+      'Listed buildings: listed building consent is always required for window changes',
+      'Article 4 Directions can remove permitted development rights in some London streets',
+      'Getting it wrong can result in enforcement action — always check before you install',
+    ],
+    locationNote: 'We advise on planning requirements as part of every quote. We are familiar with conservation area rules across all London boroughs, including RBKC, Westminster, Camden, and Islington.',
+  },
+
+  'window-condensation-causes': {
+    description: 'Window condensation: what causes it, when it is a problem, and how to fix it. The difference between internal, external, and between-pane condensation explained.',
+    intro: 'Not all window condensation is a problem — but some of it definitely is. Understanding where the condensation is forming tells you exactly what is wrong and what to do about it. Here is a clear explanation.',
+    keyPoints: [
+      'Internal condensation: caused by high humidity — improve ventilation, not the windows',
+      'Between the panes: sealed unit has failed — unit replacement needed, not full window',
+      'External condensation: a sign your glazing is working well (low U-value) — not a problem',
+      'Sealed unit replacement cost: £60–£250 per unit — much cheaper than full window replacement',
+      'Persistent internal condensation can cause mould — address the source, not just the symptom',
+    ],
+    locationNote: 'We diagnose and fix window condensation across London and Surrey. Sealed unit replacements completed in one visit — free written quote before any work begins.',
+  },
+
+  'toughened-vs-laminated-glass': {
+    description: 'Toughened vs laminated glass: what is the difference, which is safer, and which does Building Regulations require? A clear guide for UK homeowners.',
+    intro: 'Toughened and laminated glass are both safety glass products — but they behave very differently when they break, and the rules about which one is required in which location are specific. Here is what you need to know.',
+    keyPoints: [
+      'Toughened glass breaks into small, blunt pieces — safer for doors and low-level glazing',
+      'Laminated glass holds together when broken — required for overhead glazing and walk-on floors',
+      'Building Regulations require safety glass in critical locations (within 800mm of floor or door)',
+      'Laminated glass provides better acoustic insulation — popular in London\'s busiest streets',
+      'Structural applications (balustrades, walk-on floors) always require laminated glass',
+    ],
+    locationNote: 'We supply and install toughened and laminated glass across London and Surrey — always to Building Regulations and BS 6206 safety standards.',
+  },
+
+  'window-fensa-certificate': {
+    description: 'FENSA certificates: what they are, why you need one, and what happens if your windows were installed without one. Essential reading for London homeowners.',
+    intro: 'A FENSA certificate is not just a piece of paper — it is your legal proof that your replacement windows comply with Building Regulations. Without one, you may struggle to sell your property and could face costly remediation. Here is everything you need to know.',
+    keyPoints: [
+      'FENSA is a government-authorised competent persons scheme for window installation',
+      'All replacement double glazing in England and Wales requires Building Regulations compliance',
+      'FENSA registration covers the compliance certificate — saving you a separate Building Control application',
+      'Lost FENSA certificate? You can apply for a replacement through the FENSA archive',
+      'Windows installed without compliance certification must be retrospectively approved before sale',
+    ],
+    locationNote: 'All BuilderFix Glazing window installations are FENSA-registered and fully Building Regulations compliant. Certificates issued within 30 days of installation across London and Surrey.',
+  },
+
+  'secondary-glazing-noise-reduction': {
+    description: 'How much noise does secondary glazing reduce? Test results, dB ratings, and honest comparisons with acoustic double glazing for London homes on busy roads.',
+    intro: 'Secondary glazing is the most effective noise-reduction glazing solution available for existing windows — and the gap between secondary glazing and replacement double glazing on noise performance is larger than most people expect. Here are the real numbers.',
+    keyPoints: [
+      'Secondary glazing with 100mm+ air gap: can reduce noise by 45–54dB',
+      'Standard double glazing replacement: typically reduces noise by 26–32dB',
+      'Acoustic laminated double glazing: 35–42dB — still below secondary glazing',
+      'The air gap is the most important factor — wider gap means better acoustic performance',
+      'Secondary glazing is fully reversible and preserves original windows — ideal for listed buildings',
+    ],
+    locationNote: 'We install acoustic secondary glazing across London and Surrey, including conservation areas where replacement windows are restricted. Free written quote and site assessment.',
+  },
+
+  'window-security-guide': {
+    description: 'How secure are your windows? A glazier\'s guide to window security ratings, laminated glass upgrades, and the changes that make the most difference in London.',
+    intro: 'Window security is often overlooked until a break-in makes it urgently relevant. The good news is that upgrading the security of your windows rarely means replacing them entirely — targeted improvements to glass and locking hardware can dramatically reduce your vulnerability.',
+    keyPoints: [
+      'BS 7950 is the UK standard for enhanced window security — look for this on replacement frames',
+      'Laminated glass is significantly harder to break through than standard float or toughened glass',
+      'Multi-point locking systems on uPVC and aluminium frames are standard — check yours work correctly',
+      'Sash windows are particularly vulnerable — security restrictors and sash locks are cheap and effective',
+      'Ground-floor windows and those accessed from flat roofs are highest priority for upgrades',
+    ],
+    locationNote: 'We carry out window security assessments and upgrades across London and Surrey. Laminated glass upgrades, locking hardware replacement, and security film available.',
+  },
+
+  'velux-window-guide': {
+    description: 'Velux windows guide 2025: sizes, costs, types and installation. Everything you need to know before buying a roof window for your London loft or extension.',
+    intro: 'Velux is the market-leading brand for roof windows, and it has become a generic term for what is technically called a roof light or roof window. Whether you are converting a loft, extending a kitchen, or replacing an existing roof window, this guide covers what you need to know.',
+    keyPoints: [
+      'Standard Velux window (GGL range) costs £250–£600 for the unit; installation adds £150–£350',
+      'Centre-pivot windows (most common) vs top-hung (open wider, better for low-pitch roofs)',
+      'Electrically operated and solar-powered options available — popular in hard-to-reach positions',
+      'Triple-glazed Velux units available — worth considering for north-facing or cold-climate roofs',
+      'Building Regulations approval required for new roof openings — we handle this as part of our service',
+    ],
+    locationNote: 'We supply and install Velux and equivalent roof windows across London and Surrey. Free site visit to assess pitch, size, and structural requirements.',
+  },
+
+  'roof-lantern-buying-guide': {
+    description: 'Roof lanterns: the complete buying guide for 2025. Materials, sizes, thermal performance, and what to ask your installer before signing anything.',
+    intro: 'A well-specified roof lantern is one of the most dramatic improvements you can make to a single-storey kitchen extension — adding natural light, ceiling height, and architectural character that an opaque roof simply cannot provide. Here is how to choose the right one.',
+    keyPoints: [
+      'Aluminium roof lanterns: the dominant choice — slim sightlines, 40+ year lifespan, any RAL colour',
+      'Self-cleaning glass: adds £150–£300 but eliminates maintenance on hard-to-reach lanterns',
+      'Thermal performance: look for a Uw value below 1.5 W/m²K for Building Regulations compliance',
+      'Internal blind systems: can be fitted within the sealed unit — eliminates external mechanism',
+      'Most popular sizes for London kitchen extensions: 1.5m×2m to 3m×4m',
+    ],
+    locationNote: 'We supply and install aluminium roof lanterns across London and Surrey. Free written quote including size recommendation and Building Regulations compliance advice.',
+  },
+
+  'landlord-window-obligations': {
+    description: 'Landlord window obligations UK: what the law requires for windows and glazing in rental properties — from safety glass to energy efficiency and emergency repairs.',
+    intro: 'As a landlord in England, your obligations around windows and glazing are more specific than many property managers realise. Getting them wrong can lead to enforcement action, rent repayment orders, and liability for injury. Here is what the law actually requires.',
+    keyPoints: [
+      'Safety glass is legally required in critical locations — landlords must ensure compliance',
+      'Windows must open adequately for ventilation and emergency escape in habitable rooms',
+      'EPC requirements: from 2025, minimum E rating required — poor glazing frequently fails this',
+      'Repair obligations: windows are a landlord\'s responsibility under Section 11 of the Landlord and Tenant Act',
+      'Emergency boarding after break-in is a landlord\'s responsibility — not the tenant\'s',
+    ],
+    locationNote: 'We work with landlords and letting agents across London and Surrey for regular glazing maintenance, emergency repairs, and compliance upgrades. Portfolio pricing available.',
+  },
+
+  'triple-glazing-worth-it': {
+    description: 'Is triple glazing worth it in the UK 2025? An honest comparison of thermal performance, cost, and ROI versus high-performance double glazing for London homes.',
+    intro: 'Triple glazing searches have surged following energy price increases — but the honest answer is that it is not always the right choice. Whether triple glazing makes financial sense depends heavily on the specification of the double glazing it is replacing. Here is the real comparison.',
+    keyPoints: [
+      'Triple glazing U-value: typically 0.6–0.8 W/m²K vs 1.0–1.2 for A-rated double glazing',
+      'Cost premium over double: typically 15–25% — rarely recovered in energy savings alone',
+      'Triple glazing is most beneficial in new-build, Passivhaus-standard, or heavily insulated homes',
+      'For most London refurbishments: upgrading to A++ double glazing offers better ROI',
+      'Triple glazing is heavier — older frames may not support the weight without replacement',
+    ],
+    locationNote: 'We install A-rated double and triple glazing across London and Surrey. Free honest advice on which specification makes sense for your property — no upselling.',
+  },
+
+  'shop-front-glazing-guide': {
+    description: 'Shop front glazing options, costs and security 2025: toughened glass, aluminium framing, roller shutters and anti-ram protection for London retail premises.',
+    intro: 'A shop front is your most important marketing asset and your most significant security vulnerability. Getting the glazing specification right means balancing visibility, branding, insulation, and protection against break-in. Here is what to consider.',
+    keyPoints: [
+      'Toughened glass is the minimum standard for shop fronts — 6mm or 10mm depending on exposure',
+      'Aluminium framing dominates — powder-coated in any RAL colour, low maintenance, strong',
+      'Laminated glass adds break-in resistance — important in higher-crime areas',
+      'Anti-ram bollards or barriers recommended for ground-floor retail on busy streets',
+      'Planning consent may be required for shop front changes in conservation areas',
+    ],
+    locationNote: 'We design, supply, and install shop fronts across London and Surrey — including conservation area-compliant timber and aluminium systems. Emergency boarding available 24/7.',
+  },
+
+  'office-glass-partitions-guide': {
+    description: 'Glass office partitions 2025: frameless and framed systems, acoustic options, and costs for London office fit-outs. From £200/m² for framed to £600/m² for frameless.',
+    intro: 'Glass office partitions have transformed modern workplace design — replacing solid walls with systems that maintain acoustic privacy while preserving the open, light-filled character of contemporary offices. Here is what they cost and how to choose the right system.',
+    keyPoints: [
+      'Framed glass partition systems: from £200/m² — fast to install, demountable',
+      'Frameless glass partitions: from £400/m² — premium appearance, higher acoustic performance',
+      'Acoustic performance: look for Rw ratings of 38–45dB for private meeting rooms',
+      'Manifestation (frosted banding): required by Building Regulations at set heights on glass walls',
+      'Moveable and demountable partition systems available — useful for flexible office spaces',
+    ],
+    locationNote: 'We design and install glass office partition systems across London and Surrey — from single meeting rooms to full floor-plate fit-outs. Free site survey and layout advice.',
+  },
+
+  'frameless-shower-enclosure-guide': {
+    description: 'Frameless shower enclosures: costs, glass options, and installation guide. From £800 to £3,000 installed in London. Why frameless is worth the premium.',
+    intro: 'Frameless shower enclosures have moved from a luxury feature to a standard expectation in bathroom refurbishments across London\'s premium postcodes. Here is why they are worth the premium over framed alternatives — and what they really cost.',
+    keyPoints: [
+      'Frameless shower enclosure cost installed: £800–£3,000 depending on size and configuration',
+      '10mm toughened glass is standard for frameless enclosures — structural without a frame',
+      'Hinged door vs sliding: hinged opens fully, requires clearance; sliding suits smaller bathrooms',
+      'Easy-clean coatings significantly reduce limescale build-up — worth adding in hard water areas',
+      'Walk-in wet room configurations are the most popular premium option in London bathrooms',
+    ],
+    locationNote: 'We supply and install frameless shower enclosures and wet room glass across London and Surrey. Free site visit and written quote — no obligation.',
+  },
+
+  'glass-splashback-guide': {
+    description: 'Glass kitchen splashbacks: costs, colours, and installation guide 2025. Why toughened glass splashbacks are replacing tiles in London kitchens.',
+    intro: 'Glass splashbacks have steadily replaced ceramic tiles as the preferred kitchen and bathroom wall treatment in London\'s most design-conscious homes. They are seamless, easy to clean, and available in any colour. Here is everything you need to know before ordering.',
+    keyPoints: [
+      'Glass splashback cost installed: £150–£500 per panel depending on size and colour',
+      'Toughened glass (6mm minimum) is required behind hobs and cookers — never standard glass',
+      'Painted glass (colour applied to back of clear glass) is the most popular type in UK kitchens',
+      'RAL colour matching available — match any kitchen colour scheme exactly',
+      'Single seamless panels eliminate grout lines — the main advantage over tiles',
+    ],
+    locationNote: 'We supply and install toughened glass splashbacks across London and Surrey. Colour matching available — free quote with sample service.',
+  },
+
+  'sash-window-draught-proofing': {
+    description: 'Sash window draught proofing: how it works, what it costs, and whether it is better than replacement. The most cost-effective upgrade for London period properties.',
+    intro: 'Sash window draught proofing is one of the most cost-effective home improvements available to London homeowners with period properties. It reduces heat loss by up to 86% through the window, costs a fraction of replacement, and preserves original windows that add value to the property.',
+    keyPoints: [
+      'Sash window draught proofing cost: £150–£300 per window installed',
+      'Reduces draughts and heat loss by up to 86% through the sash gaps',
+      'Brush pile pile seals fitted to all four edges of each sash — virtually invisible',
+      'Does not change the external appearance — important for conservation areas',
+      'Can be combined with slim double-glazed unit replacement for maximum performance',
+    ],
+    locationNote: 'We carry out sash window draught proofing across London and Surrey — particularly in conservation areas including Kensington, Chelsea, Islington, Hampstead, and Marylebone.',
+  },
+
+  'window-draught-proofing': {
+    description: 'Window draught proofing guide 2025: how to identify draughty windows, the best products, and when draught proofing is a better option than full replacement.',
+    intro: 'Draughty windows are one of the most common causes of heat loss in older London homes — and in many cases, draught proofing is a smarter investment than full replacement. Here is how to identify the problem and choose the right fix.',
+    keyPoints: [
+      'Draught proofing cost: £80–£200 per window — a fraction of full replacement cost',
+      'Suitable for uPVC, timber, and aluminium frames where seals or hardware have failed',
+      'Self-adhesive foam strips: cheapest option — but brush pile pile seals are more durable',
+      'Window handles and hinges: worn or misaligned hardware is often the primary draught source',
+      'When to replace vs draught proof: if the frame is rotting or glass is misted, replacement is better',
+    ],
+    locationNote: 'We draught proof and reseal windows across London and Surrey. Free assessment on whether draught proofing or replacement is the right investment for your property.',
+  },
+
+  'aluminium-bifold-doors-maintenance': {
+    description: 'Aluminium bi-fold door maintenance guide: how to clean, lubricate, and adjust your bi-fold doors to keep them operating smoothly for decades.',
+    intro: 'Aluminium bi-fold doors require very little maintenance compared with timber alternatives — but the small amount they do need makes a significant difference to their lifespan and operation. Here is the annual maintenance routine that keeps them working perfectly.',
+    keyPoints: [
+      'Clean tracks and rollers every 6 months — debris is the primary cause of operation problems',
+      'Lubricate rollers, hinges, and locking mechanisms with silicone spray — never oil-based products',
+      'Check and tighten all visible screws and bolts annually — vibration loosens them over time',
+      'Inspect and replace weather seals every 5–7 years — this restores draught and weather performance',
+      'Adjust threshold seals seasonally — frames can move slightly with temperature changes',
+    ],
+    locationNote: 'We service and repair aluminium bi-fold doors across London and Surrey. Annual maintenance contracts available for residential and commercial properties.',
+  },
+
+  'bifold-door-ideas': {
+    description: 'Bi-fold door ideas for UK homes: designs, materials, and configurations that work best for rear extensions, side returns, and garden rooms.',
+    intro: 'Bi-fold doors are one of the most transformative glazing upgrades available to a UK home — but the configurations, materials, and frame colours that suit one property can look wrong on another. Here are the ideas that consistently work best in London homes.',
+    keyPoints: [
+      'Full-width bi-fold spanning the entire rear wall is the most dramatic and popular choice',
+      'Anthracite grey (RAL 7016) exterior remains the most popular colour across London',
+      'Corner bi-fold systems — folding around an external corner — create an extraordinary garden connection',
+      'Inline handle design gives a cleaner look than traditional bar handles for contemporary extensions',
+      'Low threshold options are worth the additional cost for level access to garden terraces',
+    ],
+    locationNote: 'We supply and install bi-fold doors across London and Surrey. Showroom visits available by appointment — see the systems in action before you commit.',
+  },
+
+  'glass-staircase-ideas': {
+    description: 'Glass staircase balustrade ideas for modern London homes: frameless, post-supported, and structural glass options with costs and installation details.',
+    intro: 'Glass staircase balustrades have become one of the most requested interior glazing products in London\'s refurbished homes — particularly in open-plan Victorian and Edwardian conversions where replacing timber spindles with glass transforms the feel of the entire ground floor.',
+    keyPoints: [
+      'Frameless structural glass balustrade: £350–£600 per linear metre — the most striking option',
+      'Post-supported glass balustrade: £250–£450 per linear metre — easier to install, more economical',
+      'Glass specification: minimum 10mm toughened or 17.5mm laminated for staircases',
+      'Handrail options: stainless steel, brushed aluminium, or timber cap rail on post-supported systems',
+      'Building Regulations require balustrades to resist a 0.74kN/m horizontal load',
+    ],
+    locationNote: 'We install glass staircase balustrades across London and Surrey — from Victorian terrace conversions to new-build houses. Free structural assessment included with quote.',
+  },
+
+  'best-glass-bathroom': {
+    description: 'Best type of glass for bathroom windows 2025: privacy options, obscure patterns, and the right specification for ventilation and moisture resistance.',
+    intro: 'Bathroom windows need to deliver privacy without sacrificing natural light — and in many London bathrooms, the right glass choice also needs to comply with planning requirements. Here is a guide to the options that work best.',
+    keyPoints: [
+      'Obscure (frosted) glass is the standard choice — available in levels 1 (light frosting) to 5 (opaque)',
+      'Sandblasted glass gives the most elegant appearance but is harder to clean than standard obscure',
+      'Toughened glass is required in bathrooms where the window is within 1,500mm of the bath or shower',
+      'Reeded and patterned glass is increasingly popular as a design feature in premium bathrooms',
+      'Double-glazed obscure units are now standard — single-glazed obscure glass is not energy compliant',
+    ],
+    locationNote: 'We supply and install all types of bathroom glass across London and Surrey — from standard obscure sealed units to bespoke patterned glass in heritage properties.',
+  },
+
+  'window-replacement-process': {
+    description: 'What happens when you get new windows? The complete window replacement process from survey to sign-off — and what to expect on installation day.',
+    intro: 'Many homeowners are surprised by how fast a professional window replacement actually is. Understanding the process in advance helps you prepare your home and make informed decisions at each stage. Here is exactly what happens from first contact to completion.',
+    keyPoints: [
+      'Stage 1: Site survey — accurate measurements and planning assessment (usually free)',
+      'Stage 2: Written quote — fixed price agreed before any commitment',
+      'Stage 3: Manufacturing — typically 2–4 weeks for bespoke sizes',
+      'Stage 4: Installation — most windows replaced in a single day per room',
+      'Stage 5: FENSA certificate issued within 30 days of completion',
+    ],
+    locationNote: 'We complete window replacements across London and Surrey. Most installations are completed in a single day with minimal disruption.',
+  },
+
+  'break-in-glass-repair': {
+    description: 'Glass repair after a break-in: what to do first, how to secure your property, and what your insurance will cover. A step-by-step guide for London homeowners.',
+    intro: 'A break-in is stressful enough without the confusion of not knowing what to do about the glass. Acting quickly and in the right order protects you, secures your property, and gives your insurance claim the best chance of success.',
+    keyPoints: [
+      'Step 1: Call the police — you need a crime reference number for your insurance claim',
+      'Step 2: Call your insurer — report the break-in before arranging any repairs',
+      'Step 3: Call an emergency glazier — boarding up is covered by most home insurance policies',
+      'Do not disturb the scene before police attend — photograph everything first',
+      'Permanent glass replacement should be arranged within 24–48 hours of boarding up',
+    ],
+    locationNote: 'Our 24/7 emergency glaziers cover all London postcodes — typically on-site within 60–90 minutes of your call. Crime reference number not required for emergency boarding.',
+  },
+
+  'how-long-double-glazing-lasts': {
+    description: 'How long does double glazing last? Realistic lifespan figures for uPVC, aluminium, and timber-framed double glazing — and what affects how long yours will last.',
+    intro: 'The lifespan of double glazing varies significantly by frame material, glass specification, and installation quality. Here are realistic figures — and the signs that tell you whether your existing windows are worth keeping or due for replacement.',
+    keyPoints: [
+      'uPVC double glazing: 20–25 years for the frame; sealed units may fail at 15–20 years',
+      'Aluminium double glazing: 40–60 years for the frame; sealed units as above',
+      'Timber double glazing: 30–40 years with proper maintenance; can last longer with refurbishment',
+      'Sealed unit failure (misting) is not frame failure — units can be replaced without new frames',
+      'Quality of original installation matters as much as material — poor fitting shortens lifespan significantly',
+    ],
+    locationNote: 'We assess and replace windows and sealed units across London and Surrey. Free honest assessment of whether repair or replacement is the right decision for your windows.',
+  },
+
+  'glazing-bars-guide': {
+    description: 'Glazing bars and Georgian windows: styles, costs, and whether authentic divided lights or decorative bars are right for your property.',
+    intro: 'Georgian and Victorian windows are defined by their glazing bars — the narrow timber or lead profiles that divide the sash or casement into multiple smaller panes. Getting them right on a period property makes a significant difference to both the appearance and the planning compliance of your windows.',
+    keyPoints: [
+      'Authentic divided lights: individual small panes of glass — original to pre-1900 windows',
+      'Decorative glazing bars: applied to the inside or outside of a single large pane — cheaper',
+      'Cottage bar vs Georgian bar: Georgian is slimmer and more refined; cottage bar is wider',
+      'Conservation areas: many require authentic slim-section bars rather than applied decorative bars',
+      'Modern slim double-glazed sash units can be specified with internal bars that look authentic',
+    ],
+    locationNote: 'We supply and install period-appropriate glazing bars across London and Surrey, including conservation area-compliant slim-section bars for listed and heritage properties.',
+  },
+
+  'anti-snap-locks-guide': {
+    description: 'Anti-snap cylinder locks for windows and doors: why standard euro cylinders are vulnerable, what anti-snap means, and which locks to buy in 2025.',
+    intro: 'Cylinder snapping is the most common method used by burglars to bypass uPVC and aluminium door and window locks in the UK. The fix is straightforward and inexpensive — but millions of London homes still have vulnerable standard cylinders installed.',
+    keyPoints: [
+      'Cylinder snapping takes less than 60 seconds — standard euro cylinders offer almost no resistance',
+      'Anti-snap cylinders have a sacrificial section that breaks away before the mechanism is compromised',
+      'Look for TS007 3-star rating — the highest UK security standard for cylinder locks',
+      'Replacement cost: £30–£80 per cylinder including fitting — one of the best security investments available',
+      'Also check for anti-pick and anti-drill features on any replacement cylinder',
+    ],
+    locationNote: 'We supply and fit TS007 3-star anti-snap cylinders across London and Surrey — for uPVC, aluminium, and composite doors. Usually completed in under 30 minutes per lock.',
+  },
+
+  'flat-roof-light-guide': {
+    description: 'Flat roof lights 2025: walk-on rooflights, domed skylights, and aluminium-framed options. Costs, planning rules, and installation guide for London extensions.',
+    intro: 'Flat roof lights are the standard way to bring natural light into a single-storey rear extension in London — and the range of products available in 2025, from basic domed skylights to frameless flush-fitted walk-on glass, has never been wider. Here is a guide to the main options.',
+    keyPoints: [
+      'Fixed aluminium-framed rooflight: the most popular and cost-effective option — from £800 fitted',
+      'Walk-on rooflight: structurally glazed for roof terraces above ground floor spaces — from £1,800/m²',
+      'Hinged access hatch rooflight: combines a roof light with loft or roof terrace access',
+      'Dome skylights: lowest cost option but poorest thermal performance and aesthetics',
+      'Building Regulations require minimum thermal performance (Uw below 1.6 W/m²K) for new rooflights',
+    ],
+    locationNote: 'We supply and install flat rooflights across London and Surrey — from standard opening frames to bespoke walk-on units. Free written quote with planning advice.',
+  },
+
+  'new-build-windows': {
+    description: 'Windows for new build extensions 2025: planning rules, material choices, and how to specify glazing that passes Building Regulations first time.',
+    intro: 'Specifying windows for a new extension is different from replacing existing windows — the planning and Building Regulations requirements are applied from scratch, and getting the specification wrong at the start costs significantly more to correct later.',
+    keyPoints: [
+      'Building Regulations Part L requires minimum Uw of 1.4 W/m²K for replacement and new windows',
+      'Aluminium is now the dominant choice for extension glazing in London — slim lines, low maintenance',
+      'Window-to-wall ratio matters: excessive glazing in an extension can fail Part L thermal compliance',
+      'Conservation areas: material and style requirements can significantly constrain extension glazing',
+      'FENSA registration covers replacement windows only — new extension glazing needs Building Control sign-off',
+    ],
+    locationNote: 'We supply and install windows for new build extensions across London and Surrey, managing the Building Regulations process as part of our service.',
+  },
+
+  'window-energy-ratings': {
+    description: 'Window energy ratings explained: what A++, A+, A, B, C mean for your energy bills, and which rating is worth buying for a London home.',
+    intro: 'Window Energy Ratings were introduced to help homeowners make sense of glazing performance — in the same way appliance ratings help with fridges and washing machines. But the WER scale has quirks that are worth understanding before you buy.',
+    keyPoints: [
+      'WER runs from A++ (best) to E — all replacement windows must be C-rated or better under Building Regs',
+      'The rating combines solar gain, thermal transmittance, and air leakage into a single score',
+      'A-rated windows are the sweet spot for most London homes — the cost premium over B is small',
+      'A++ and A+ deliver marginal improvement over A for most homes — rarely worth the added cost',
+      'The WER is for the whole window (frame + glass) — a cheap frame can pull down an otherwise good unit',
+    ],
+    locationNote: 'All BuilderFix Glazing window installations meet or exceed Building Regulations energy requirements. We recommend the right specification for your property and budget.',
+  },
+
+  'obscure-glass-bathroom': {
+    description: 'Obscure glass patterns for bathrooms 2025: privacy levels, styles, and which patterns work best for different bathroom window sizes and exposures.',
+    intro: 'Obscure glass is available in dozens of patterns and privacy levels — from barely-there frosting to almost complete opacity. Choosing the right pattern for your bathroom window depends on how much privacy you need and how much light you want to preserve.',
+    keyPoints: [
+      'Obscure glass privacy levels: 1 (light texture, minimal privacy) to 5 (near-opaque)',
+      'Satin/acid-etched glass: smooth, elegant, good privacy — popular in premium bathrooms',
+      'Reeded glass: vertical lines, period-appropriate — often required in conservation areas',
+      'Patterned glass (flemish, baroque): decorative and private — popular in Victorian properties',
+      'The closer you are to a window, the more privacy any given obscure level provides',
+    ],
+    locationNote: 'We supply and fit all types of obscure and patterned glass across London and Surrey — including period-appropriate patterns for conservation area and listed building properties.',
+  },
+
+  'skylight-installation-guide': {
+    description: 'Skylight installation guide 2025: from survey to completion — what to expect, how long it takes, and what could go wrong without proper installation.',
+    intro: 'Skylights — whether roof windows, flat rooflights, or lanterns — are among the most transformative glazing installations available to London homeowners. But a poorly specified or badly installed skylight is one of the most common causes of roof leaks. Here is how to get it right.',
+    keyPoints: [
+      'Accurate measurement of the roof structure is essential — timber rafters must not be cut without engineering sign-off',
+      'Flashing kit specification must match the roof material — tile, slate, and felt each require different flashings',
+      'Vapour control layer continuity around the skylight is the most commonly missed detail — causes condensation',
+      'Building Regulations approval required for new roof openings in most circumstances',
+      'Lead flashing should be used on all permanent installations — no plastic or foam alternatives',
+    ],
+    locationNote: 'We install skylights and roof windows across London and Surrey with full Building Regulations compliance and waterproofing guarantees. Free site survey before any commitment.',
+  },
+
+  'glass-splashback-colours': {
+    description: 'How to choose the right colour for a glass kitchen splashback: which shades work best under LED lighting, and how to match your kitchen colour scheme.',
+    intro: 'Colour selection is the most consequential decision when ordering a glass splashback — and it is the one homeowners most commonly get wrong. Glass colour shifts dramatically under different light sources, and what looks right in a showroom can disappoint in an installed kitchen. Here is how to choose confidently.',
+    keyPoints: [
+      'Order a sample panel and view it in your kitchen under your actual lighting before committing',
+      'Warm white LED lighting makes cool colours (blues, greens) appear warmer in situ',
+      'White painted glass is the most popular choice — works with almost every kitchen scheme',
+      'Strong colours (cobalt, emerald, deep grey) can be striking but are harder to live with long-term',
+      'RAL colour matching lets you specify any exact shade from a paint or cabinet colour swatch',
+    ],
+    locationNote: 'We offer a glass splashback colour sample service across London and Surrey. Order a physical sample panel before you commit — free with every written quote.',
+  },
+
+  'conservatory-roof-replacement-guide': {
+    description: 'Conservatory roof replacement guide 2025: glass vs solid roof, costs, planning rules, and what actually makes the biggest difference to temperature and usability.',
+    intro: 'Replacing a conservatory roof is one of the most popular home improvement projects in the UK — and one of the most frequently misunderstood. The choice between glass, polycarbonate, and solid roof conversions involves tradeoffs that vary significantly depending on your conservatory\'s orientation, size, and how you want to use the space.',
+    keyPoints: [
+      'Polycarbonate roofs: cheapest replacement option but worst thermal and acoustic performance',
+      'Self-cleaning solar-control glass: the most popular upgrade — dramatically reduces overheating',
+      'Solid (tiled) roof conversion: best thermal performance but requires planning advice in some areas',
+      'Most conservatory roof replacements do not require planning permission — but check your local rules',
+      'A like-for-like glass replacement typically costs £1,800–£4,500 depending on conservatory size',
+    ],
+    locationNote: 'We replace and upgrade conservatory roofs across London and Surrey. Free structural assessment to confirm what your existing frame will support — important before committing to a solid roof.',
+  },
+
+  'window-handles-locks-upgrade': {
+    description: 'Window handle and lock upgrades: how to improve security without replacing your windows. The changes that make the most difference on uPVC and aluminium frames.',
+    intro: 'You do not need new windows to significantly improve the security of your existing frames. In most cases, upgrading the locking hardware is a fraction of the cost of replacement and delivers meaningful improvements in break-in resistance. Here is what actually makes a difference.',
+    keyPoints: [
+      'Multi-point locking espagnolette bolts are standard on uPVC — ensure all shoot bolts are engaging',
+      'Window restrictors prevent windows being opened from outside beyond 100mm — cheap and effective',
+      'Locking window handles replace standard handles and require a key to open — from £15–£35 each',
+      'For sash windows: sash stops and dual screws are the most effective low-cost security upgrades',
+      'Anti-snap cylinders on locking handles provide the same protection as door cylinder upgrades',
+    ],
+    locationNote: 'We supply and fit window security upgrades across London and Surrey — handles, restrictors, and secondary locking hardware. Usually completed in a single half-day visit.',
+  },
+
+  'automatic-doors-guide': {
+    description: 'Automatic sliding and swing doors for shops and offices 2025: systems, costs, safety standards, and what commercial premises in London need to know.',
+    intro: 'Automatic doors are now standard in commercial premises across London — from retail units and offices to medical facilities and leisure centres. Choosing the right system involves balancing opening width, traffic volume, safety compliance, and energy efficiency. Here is a practical overview.',
+    keyPoints: [
+      'Automatic sliding doors: most popular for high-traffic retail — low maintenance, quiet operation',
+      'Automatic swing doors: better for narrower openings and compliance with DDA accessibility requirements',
+      'Safety standards: EN 16005 governs automatic pedestrian door safety in the UK and EU',
+      'Servicing requirement: twice-yearly service recommended under HSE and EN 16005 guidance',
+      'Cost: automatic sliding door installation starts from approximately £3,500 for a single-leaf system',
+    ],
+    locationNote: 'We install, service, and repair automatic door systems across London and Surrey. Planned maintenance contracts available for retail, office, and healthcare premises.',
+  },
+
   'glazing-dulwich': {
     description: 'Glazing in Dulwich SE21 and SE22: conservation-compliant window restoration, bifold doors, roof lanterns and sash windows for Dulwich Estate and conservation area properties.',
     intro: 'Dulwich Village\'s conservation area and the Dulwich Estate\'s freeholder restrictions create one of South London\'s most distinctive glazing environments. Period-appropriate glazing is not just preferred in SE21 — for many properties, it is required.',

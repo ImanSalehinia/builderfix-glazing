@@ -95,6 +95,39 @@ const GALLERY_ITEMS = [
     service: 'conservatory',
     serviceLabel: 'Glass Roofs',
   },
+  {
+    src: '/images/main/balustrade-stairs-after.jpg',
+    alt: 'Frameless glass balustrade installed on dark stone staircase — elegant post-supported system with sash windows above',
+    title: 'Glass Staircase Balustrade',
+    location: 'London',
+    service: 'glass-balustrades',
+    serviceLabel: 'Glass Balustrades',
+    wide: true,
+  },
+  {
+    src: '/images/main/balustrade-stairs-after1.jpg',
+    alt: 'Glass balustrade viewed from upper landing — full multi-level installation with period sash windows',
+    title: 'Balustrade — Upper Landing',
+    location: 'London',
+    service: 'glass-balustrades',
+    serviceLabel: 'Glass Balustrades',
+  },
+  {
+    src: '/images/main/balustrade-Iman-working.jpg',
+    alt: 'Glazier measuring and fitting laminated glass panels for staircase balustrade installation',
+    title: 'Glass Balustrade Installation',
+    location: 'London',
+    service: 'glass-balustrades',
+    serviceLabel: 'Glass Balustrades',
+  },
+  {
+    src: '/images/main/glazing-factory.jpg',
+    alt: 'BuilderFix team handling large structural glass panel in glazing workshop',
+    title: 'Specialist Glass Preparation',
+    location: 'Workshop',
+    service: 'glass-balustrades',
+    serviceLabel: 'Bespoke Glazing',
+  },
 ]
 
 export default function GalleryPage() {

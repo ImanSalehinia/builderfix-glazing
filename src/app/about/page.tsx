@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { CheckCircle, Award, Users, Star, ArrowRight } from 'lucide-react'
 import { BUSINESS, SITE_CONFIG } from '@/data/business'
 import CTASection from '@/components/sections/CTASection'
@@ -104,6 +105,40 @@ export default function AboutPage() {
                 </div>
                 <h3 className="font-bold text-[#0f2442] text-lg mb-3">{value.title}</h3>
                 <p className="text-slate-500 text-sm leading-relaxed">{value.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Workshop & Team */}
+      <section className="section-padding bg-white">
+        <div className="container-custom">
+          <div className="text-center max-w-2xl mx-auto mb-10">
+            <p className="badge-primary mb-4">Behind the Scenes</p>
+            <h2 className="text-4xl font-black text-[#0f2442] mb-4">Our Workshop & Team</h2>
+            <p className="text-slate-500 text-lg">
+              Every piece of glass we install is prepared in our own workshop — cut, drilled,
+              polished, and quality-checked before it reaches your home.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { src: '/images/main/Factory-cut_polish-glasses.jpg', alt: 'BuilderFix glazing team at the glass cutting machine in our workshop' },
+              { src: '/images/main/glazing-factory.jpg', alt: 'Team handling a large structural glass panel in our glazing workshop' },
+              { src: '/images/main/Factory-make-holes-OnGlass.jpg', alt: 'Specialist drilling precise holes in tinted glass for balustrade fixings' },
+              { src: '/images/main/Factory-make-holes-OnGlass1.jpg', alt: 'Close-up of precision glass drilling — bespoke balustrade glass preparation' },
+              { src: '/images/main/Factory-wash-dry-glass-glasses.jpg', alt: 'Quality checking glass panels on the inspection light table before dispatch' },
+              { src: '/images/main/balustrade-Iman-working1.jpg', alt: 'Glazier fitting and marking glass balustrade panels on site during installation' },
+            ].map((photo) => (
+              <div key={photo.src} className="relative aspect-[3/4] rounded-xl overflow-hidden bg-slate-100">
+                <Image
+                  src={photo.src}
+                  alt={photo.alt}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 640px) 50vw, 33vw"
+                />
               </div>
             ))}
           </div>
