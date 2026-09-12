@@ -112,6 +112,24 @@ export const JOB_PHOTOS: JobPhoto[] = [
     tags: ['glass-balustrades', 'glass-staircase-ideas', 'toughened-vs-laminated-glass'],
   },
 
+  // ─── uPVC DOOR REPLACEMENT — TIMELAPSE VIDEOS ────────────────────────
+  {
+    src: '',
+    alt: 'uPVC back door replacement timelapse — full installation from removal to completion',
+    caption: 'Full uPVC door replacement — from old door removal to new installation.',
+    tags: ['window-replacement-process', 'signs-need-new-windows', 'upvc-vs-aluminium-windows', 'repairs'],
+    type: 'video',
+    youtubeId: 'n8Nzdq8HTHs',
+  },
+  {
+    src: '',
+    alt: 'uPVC door installation timelapse — fitting and finishing a new back door',
+    caption: 'New uPVC door fitted and finished — complete installation timelapse.',
+    tags: ['window-replacement-process', 'how-long-double-glazing-lasts', 'repairs'],
+    type: 'video',
+    youtubeId: 'Hl7EDskpZYE',
+  },
+
   // ─── ADD MORE PHOTOS BELOW AS YOU TAKE THEM ───────────────────────────
   // Copy a block above and paste it here with your new photo details.
 ]
