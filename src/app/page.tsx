@@ -186,6 +186,40 @@ export default function HomePage() {
       </section>
 
       <FAQSection faqs={GENERAL_FAQS.slice(0, 8)} />
+
+      {/* Videos section */}
+      <section className="section-padding bg-slate-50">
+        <div className="container-custom">
+          <div className="text-center max-w-2xl mx-auto mb-10">
+            <p className="badge-primary mb-4">Our Work</p>
+            <h2 className="text-4xl font-black text-[#0f2442] mb-4">Watch Us in Action</h2>
+            <p className="text-slate-500 text-lg">
+              Real jobs, real results — see how our glazing specialists work across London and Surrey.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            {[
+              { id: 'Hl7EDskpZYE', title: 'uPVC Door Replacement Timelapse' },
+              // Add more videos here: { id: 'YOUTUBE_ID', title: 'Video title' },
+            ].map((video) => (
+              <div key={video.id} className="rounded-2xl overflow-hidden shadow-sm bg-white">
+                <div className="relative w-full" style={{ paddingBottom: '177.78%' }}>
+                  <iframe
+                    src={`https://www.youtube-nocookie.com/embed/${video.id}`}
+                    title={video.title}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="absolute inset-0 w-full h-full border-0"
+                    loading="lazy"
+                  />
+                </div>
+                <p className="px-4 py-3 text-sm font-semibold text-[#0f2442]">{video.title}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <CTASection />
     </>
   )
