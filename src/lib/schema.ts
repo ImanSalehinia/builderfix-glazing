@@ -78,13 +78,13 @@ export function generateLocalBusinessSchema() {
     knowsAbout: ['Double Glazing', 'Glass Installation', 'Window Replacement', 'Bi-fold Doors', 'Emergency Glazing', 'Glass Balustrades', 'Walk-on Glass Floors'],
   }
 
-  if (BUSINESS.googleReviews.url) {
+  if (BUSINESS.googleReviews.url && (BUSINESS.googleReviews.reviewCount ?? 0) > 0) {
     schema.aggregateRating = {
       '@type': 'AggregateRating',
       ratingValue: BUSINESS.googleReviews.rating,
       bestRating: 5,
       worstRating: 1,
-      reviewCount: BUSINESS.googleReviews.reviewCount ?? 1,
+      reviewCount: BUSINESS.googleReviews.reviewCount,
     }
   }
 
