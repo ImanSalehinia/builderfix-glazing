@@ -13,7 +13,7 @@ export function generateOrganizationSchema() {
     '@type': 'Organization',
     name: BUSINESS.name,
     url: SITE_CONFIG.url,
-    logo: `${SITE_CONFIG.url}/images/logo.png`,
+    logo: `${SITE_CONFIG.url}/images/logo-bf-large.svg`,
     description: SITE_CONFIG.description,
     telephone: BUSINESS.phone,
     email: BUSINESS.email,
